@@ -3,6 +3,12 @@
     background-color: #ddd !important;
 }
 
+/* Search Bar */
+._5iwm ._58al {
+    background-color: #0a0908 !important;
+    color: #bfc3c8 !important;
+}
+
 /* Borders */
 ._673w, ._36ic {
     border-bottom: 1px solid rgba(255, 255, 255, .10) !important;
@@ -18,4 +24,13 @@
 
 ._4rv3, ._1li- {
     border-top: 1px solid rgba(255, 255, 255, .10) !important;
+}
+
+/* Text */
+h1, h2, h3, h4, h5, h6 {
+    color: #e2ded6 !important;
+}
+
+input, textarea, keygen, select, button, {
+    color: #bfc3c8 !important;
 }
