@@ -51,10 +51,19 @@ input, textarea, keygen, select, button, {
     color: rgba(102, 102, 102, 1) !important;
 }
 
-._2v6o, ._5eu7, ._3eus, ._5uh, ._3x6v, ._5rh4, ._5qsj {
+._2v6o, ._5eu7, ._3eus, ._5uh, ._3x6v, ._5rh4, ._5qsj, ._497p, ._5i_d .__6m {
     color: rgba(255, 255, 255, .40) !important;
 }
 
-._3szq, ._4rph ._4rpj, ._364g, ._2jnv, ._2jnx, ._2jnz, ._2jnx ._30e7 ._5j5f {
+._3szq, ._4rph ._4rpj, ._364g, ._2jnv, ._2jnx, ._2jnz, ._2jnx ._30e7 ._5j5f, ._5i_d .__6k, ._5i_d .__6l {
     color: white !important;
+}
+
+._225b {
+    background-color: rgba(255, 255, 255, .03) !important;
+    color: rgba(255, 255, 255, .40) !important;
+}
+
+label {
+    color: #999999 !important;
 }
