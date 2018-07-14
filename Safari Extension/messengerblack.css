@@ -1,12 +1,9 @@
-/* Background */
-._4sp8 {
-    background-color: #000 !important;
+body, ._4sp8, ._4eby, ._59s7, ._3s-4 {
+    background: black !important;
 }
 
-/* Search Bar */
-._5iwm ._58al {
-    background-color: #0a0908 !important;
-    color: #bfc3c8 !important;
+._4eby {
+    border: 1px solid rgba(255, 255, 255, .60) !important;
 }
 
 /* Borders */
@@ -39,11 +36,11 @@ input, textarea, keygen, select, button, {
     color: rgba(102, 102, 102, 1) !important;
 }
 
-::placeholder, ._1ht7, ._2v6o, ._5eu7, ._3eus, ._5uh, ._3x6v, ._5rh4, ._5qsj, ._497p, ._5i_d .__6m {
+._1ht7, ._2v6o, ._5eu7, ._3eus, ._5uh, ._3x6v, ._5rh4, ._5qsj, ._497p, ._5i_d .__6m, ._1r3o {
     color: rgba(255, 255, 255, .40) !important;
 }
 
-body, ._1ht6, ._3szq, ._4rph ._4rpj, ._364g, ._2jnv, ._2jnx, ._2jnz, ._2jnx ._30e7 ._5j5f, ._5i_d .__6k, ._5i_d .__6l, ._1ht3 ._1htf {
+body, ._1ht6, ._3szq, ._4rph ._4rpj, ._364g, ._2jnv, ._2jnx, ._2jnz, ._2jnx ._30e7 ._5j5f, ._5i_d .__6k, ._5i_d .__6l, ._1ht3 ._1htf, ._3wa-, ._3wb0, ._2c9i ._19jt {
     color: white !important;
 }
 
@@ -59,3 +56,46 @@ label {
 ._1ht3 ._1ht7 {
     color: #0084ff !important;
 }
+
+._5i_d {
+    border: 1px solid rgba(255, 255, 255, .1) !important;
+}
+
+._618l {
+    color: rgba(255, 255, 255, .75) !important;
+}
+
+._618n {
+    color: rgba(255, 255, 255, .60) !important;
+}
+
+hr {
+    background: #262626 !important;
+    color: #262626 !important;
+}
+
+._2c9i ._4ebz {
+    border-bottom: 1px solid rgba(255, 255, 255, .10) !important;
+}
+
+._koh {
+    border-bottom: 1px solid #171717 !important;
+}
+
+._koh li:not(.selected) {
+    color: rgba(255, 255, 255, .5) !important;
+}
+
+._3m31:nth-of-type(3n+1) {
+    border-right: 2px solid black !important;
+}
+
+._3m31:nth-of-type(3n+2) {
+    border-left: 1px solid black !important;
+    border-right: 1px solid black !important;
+}
+
+._3m31:nth-of-type(3n+3) {
+    border-left: 2px solid black !important;
+}
+
