@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Safari Extension</string>
+	<string>Messenger Black for Safari</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -57,8 +57,8 @@
 		<dict>
 			<key>Allowed Domains</key>
 			<array>
+				<string>*.messenger.com</string>
 				<string>*.facebook.com/messages</string>
-				<string>*.webkit.org</string>
 			</array>
 			<key>Level</key>
 			<string>Some</string>

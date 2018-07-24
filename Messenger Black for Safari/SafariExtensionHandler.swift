@@ -1,8 +1,8 @@
 //
 //  SafariExtensionHandler.swift
-//  Safari Extension
+//  Messenger Black for Safari
 //
-//  Created by Ryan Mohta on 7/11/18.
+//  Created by Ryan Mohta on 7/23/18.
 //  Copyright © 2018 Ryan Mohta. All rights reserved.
 //
 

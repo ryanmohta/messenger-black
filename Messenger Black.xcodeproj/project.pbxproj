@@ -11,23 +11,23 @@
 		11C639C720F5FE3C0020D4A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C639C620F5FE3C0020D4A3 /* ViewController.swift */; };
 		11C639C920F5FE3E0020D4A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11C639C820F5FE3E0020D4A3 /* Assets.xcassets */; };
 		11C639CC20F5FE3E0020D4A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11C639CA20F5FE3E0020D4A3 /* Main.storyboard */; };
-		11C639DB20F5FF4F0020D4A3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C639DA20F5FF4F0020D4A3 /* Cocoa.framework */; };
-		11C639DE20F5FF4F0020D4A3 /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C639DD20F5FF4F0020D4A3 /* SafariExtensionHandler.swift */; };
-		11C639E020F5FF4F0020D4A3 /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C639DF20F5FF4F0020D4A3 /* SafariExtensionViewController.swift */; };
-		11C639E320F5FF4F0020D4A3 /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11C639E120F5FF4F0020D4A3 /* SafariExtensionViewController.xib */; };
-		11C639E620F5FF4F0020D4A3 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 11C639E520F5FF4F0020D4A3 /* script.js */; };
-		11C639E820F5FF4F0020D4A3 /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 11C639E720F5FF4F0020D4A3 /* ToolbarItemIcon.pdf */; };
-		11C639EC20F5FF4F0020D4A3 /* Safari Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 11C639D820F5FF4F0020D4A3 /* Safari Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		11C639F220F6014E0020D4A3 /* messengerblack.css in Resources */ = {isa = PBXBuildFile; fileRef = 11C639F120F6014E0020D4A3 /* messengerblack.css */; };
+		11C63A302106E7860020D4A3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C639DA20F5FF4F0020D4A3 /* Cocoa.framework */; };
+		11C63A332106E7860020D4A3 /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C63A322106E7860020D4A3 /* SafariExtensionHandler.swift */; };
+		11C63A352106E7860020D4A3 /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C63A342106E7860020D4A3 /* SafariExtensionViewController.swift */; };
+		11C63A382106E7860020D4A3 /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11C63A362106E7860020D4A3 /* SafariExtensionViewController.xib */; };
+		11C63A3B2106E7860020D4A3 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 11C63A3A2106E7860020D4A3 /* script.js */; };
+		11C63A3D2106E7860020D4A3 /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 11C63A3C2106E7860020D4A3 /* ToolbarItemIcon.pdf */; };
+		11C63A412106E7860020D4A3 /* Messenger Black for Safari.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 11C63A2F2106E7860020D4A3 /* Messenger Black for Safari.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		11C63A462106E8060020D4A3 /* messengerblack.css in Resources */ = {isa = PBXBuildFile; fileRef = 11C63A452106E8060020D4A3 /* messengerblack.css */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		11C639EA20F5FF4F0020D4A3 /* PBXContainerItemProxy */ = {
+		11C63A3F2106E7860020D4A3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 11C639B920F5FE3C0020D4A3 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 11C639D720F5FF4F0020D4A3;
-			remoteInfo = "Safari Extension";
+			remoteGlobalIDString = 11C63A2E2106E7860020D4A3;
+			remoteInfo = "Messenger Black for Safari";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -38,7 +38,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				11C639EC20F5FF4F0020D4A3 /* Safari Extension.appex in Embed App Extensions */,
+				11C63A412106E7860020D4A3 /* Messenger Black for Safari.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -53,16 +53,16 @@
 		11C639CB20F5FE3E0020D4A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		11C639CD20F5FE3E0020D4A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11C639CE20F5FE3E0020D4A3 /* Messenger_Black.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Messenger_Black.entitlements; sourceTree = "<group>"; };
-		11C639D820F5FF4F0020D4A3 /* Safari Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Safari Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11C639DA20F5FF4F0020D4A3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		11C639DD20F5FF4F0020D4A3 /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
-		11C639DF20F5FF4F0020D4A3 /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
-		11C639E220F5FF4F0020D4A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
-		11C639E420F5FF4F0020D4A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		11C639E520F5FF4F0020D4A3 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
-		11C639E720F5FF4F0020D4A3 /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
-		11C639E920F5FF4F0020D4A3 /* Safari_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Safari_Extension.entitlements; sourceTree = "<group>"; };
-		11C639F120F6014E0020D4A3 /* messengerblack.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = messengerblack.css; sourceTree = "<group>"; };
+		11C63A2F2106E7860020D4A3 /* Messenger Black for Safari.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Messenger Black for Safari.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11C63A322106E7860020D4A3 /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
+		11C63A342106E7860020D4A3 /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
+		11C63A372106E7860020D4A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
+		11C63A392106E7860020D4A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11C63A3A2106E7860020D4A3 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		11C63A3C2106E7860020D4A3 /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
+		11C63A3E2106E7860020D4A3 /* Messenger_Black_for_Safari.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Messenger_Black_for_Safari.entitlements; sourceTree = "<group>"; };
+		11C63A452106E8060020D4A3 /* messengerblack.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = messengerblack.css; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,11 +73,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		11C639D520F5FF4F0020D4A3 /* Frameworks */ = {
+		11C63A2C2106E7860020D4A3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11C639DB20F5FF4F0020D4A3 /* Cocoa.framework in Frameworks */,
+				11C63A302106E7860020D4A3 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				11C639C320F5FE3C0020D4A3 /* Messenger Black */,
-				11C639DC20F5FF4F0020D4A3 /* Safari Extension */,
+				11C63A312106E7860020D4A3 /* Messenger Black for Safari */,
 				11C639D920F5FF4F0020D4A3 /* Frameworks */,
 				11C639C220F5FE3C0020D4A3 /* Products */,
 			);
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				11C639C120F5FE3C0020D4A3 /* Messenger Black.app */,
-				11C639D820F5FF4F0020D4A3 /* Safari Extension.appex */,
+				11C63A2F2106E7860020D4A3 /* Messenger Black for Safari.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -124,19 +124,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		11C639DC20F5FF4F0020D4A3 /* Safari Extension */ = {
+		11C63A312106E7860020D4A3 /* Messenger Black for Safari */ = {
 			isa = PBXGroup;
 			children = (
-				11C639F120F6014E0020D4A3 /* messengerblack.css */,
-				11C639DD20F5FF4F0020D4A3 /* SafariExtensionHandler.swift */,
-				11C639DF20F5FF4F0020D4A3 /* SafariExtensionViewController.swift */,
-				11C639E120F5FF4F0020D4A3 /* SafariExtensionViewController.xib */,
-				11C639E420F5FF4F0020D4A3 /* Info.plist */,
-				11C639E520F5FF4F0020D4A3 /* script.js */,
-				11C639E720F5FF4F0020D4A3 /* ToolbarItemIcon.pdf */,
-				11C639E920F5FF4F0020D4A3 /* Safari_Extension.entitlements */,
+				11C63A452106E8060020D4A3 /* messengerblack.css */,
+				11C63A322106E7860020D4A3 /* SafariExtensionHandler.swift */,
+				11C63A342106E7860020D4A3 /* SafariExtensionViewController.swift */,
+				11C63A362106E7860020D4A3 /* SafariExtensionViewController.xib */,
+				11C63A392106E7860020D4A3 /* Info.plist */,
+				11C63A3A2106E7860020D4A3 /* script.js */,
+				11C63A3C2106E7860020D4A3 /* ToolbarItemIcon.pdf */,
+				11C63A3E2106E7860020D4A3 /* Messenger_Black_for_Safari.entitlements */,
 			);
-			path = "Safari Extension";
+			path = "Messenger Black for Safari";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,28 +154,28 @@
 			buildRules = (
 			);
 			dependencies = (
-				11C639EB20F5FF4F0020D4A3 /* PBXTargetDependency */,
+				11C63A402106E7860020D4A3 /* PBXTargetDependency */,
 			);
 			name = "Messenger Black";
 			productName = "Messenger Black";
 			productReference = 11C639C120F5FE3C0020D4A3 /* Messenger Black.app */;
 			productType = "com.apple.product-type.application";
 		};
-		11C639D720F5FF4F0020D4A3 /* Safari Extension */ = {
+		11C63A2E2106E7860020D4A3 /* Messenger Black for Safari */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 11C639ED20F5FF4F0020D4A3 /* Build configuration list for PBXNativeTarget "Safari Extension" */;
+			buildConfigurationList = 11C63A442106E7870020D4A3 /* Build configuration list for PBXNativeTarget "Messenger Black for Safari" */;
 			buildPhases = (
-				11C639D420F5FF4F0020D4A3 /* Sources */,
-				11C639D520F5FF4F0020D4A3 /* Frameworks */,
-				11C639D620F5FF4F0020D4A3 /* Resources */,
+				11C63A2B2106E7860020D4A3 /* Sources */,
+				11C63A2C2106E7860020D4A3 /* Frameworks */,
+				11C63A2D2106E7860020D4A3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Safari Extension";
-			productName = "Safari Extension";
-			productReference = 11C639D820F5FF4F0020D4A3 /* Safari Extension.appex */;
+			name = "Messenger Black for Safari";
+			productName = "Messenger Black for Safari";
+			productReference = 11C63A2F2106E7860020D4A3 /* Messenger Black for Safari.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -191,7 +191,7 @@
 					11C639C020F5FE3C0020D4A3 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
-					11C639D720F5FF4F0020D4A3 = {
+					11C63A2E2106E7860020D4A3 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
 				};
@@ -210,7 +210,7 @@
 			projectRoot = "";
 			targets = (
 				11C639C020F5FE3C0020D4A3 /* Messenger Black */,
-				11C639D720F5FF4F0020D4A3 /* Safari Extension */,
+				11C63A2E2106E7860020D4A3 /* Messenger Black for Safari */,
 			);
 		};
 /* End PBXProject section */
@@ -225,14 +225,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		11C639D620F5FF4F0020D4A3 /* Resources */ = {
+		11C63A2D2106E7860020D4A3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11C639E820F5FF4F0020D4A3 /* ToolbarItemIcon.pdf in Resources */,
-				11C639E320F5FF4F0020D4A3 /* SafariExtensionViewController.xib in Resources */,
-				11C639E620F5FF4F0020D4A3 /* script.js in Resources */,
-				11C639F220F6014E0020D4A3 /* messengerblack.css in Resources */,
+				11C63A3D2106E7860020D4A3 /* ToolbarItemIcon.pdf in Resources */,
+				11C63A382106E7860020D4A3 /* SafariExtensionViewController.xib in Resources */,
+				11C63A3B2106E7860020D4A3 /* script.js in Resources */,
+				11C63A462106E8060020D4A3 /* messengerblack.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,22 +248,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		11C639D420F5FF4F0020D4A3 /* Sources */ = {
+		11C63A2B2106E7860020D4A3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11C639E020F5FF4F0020D4A3 /* SafariExtensionViewController.swift in Sources */,
-				11C639DE20F5FF4F0020D4A3 /* SafariExtensionHandler.swift in Sources */,
+				11C63A352106E7860020D4A3 /* SafariExtensionViewController.swift in Sources */,
+				11C63A332106E7860020D4A3 /* SafariExtensionHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		11C639EB20F5FF4F0020D4A3 /* PBXTargetDependency */ = {
+		11C63A402106E7860020D4A3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 11C639D720F5FF4F0020D4A3 /* Safari Extension */;
-			targetProxy = 11C639EA20F5FF4F0020D4A3 /* PBXContainerItemProxy */;
+			target = 11C63A2E2106E7860020D4A3 /* Messenger Black for Safari */;
+			targetProxy = 11C63A3F2106E7860020D4A3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -276,10 +276,10 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		11C639E120F5FF4F0020D4A3 /* SafariExtensionViewController.xib */ = {
+		11C63A362106E7860020D4A3 /* SafariExtensionViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				11C639E220F5FF4F0020D4A3 /* Base */,
+				11C63A372106E7860020D4A3 /* Base */,
 			);
 			name = SafariExtensionViewController.xib;
 			sourceTree = "<group>";
@@ -440,38 +440,38 @@
 			};
 			name = Release;
 		};
-		11C639EE20F5FF4F0020D4A3 /* Debug */ = {
+		11C63A422106E7870020D4A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "Safari Extension/Safari_Extension.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Messenger Black for Safari/Messenger_Black_for_Safari.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XX2UC95MTQ;
-				INFOPLIST_FILE = "Safari Extension/Info.plist";
+				INFOPLIST_FILE = "Messenger Black for Safari/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ryanmohta.Messenger-Black.Safari-Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ryanmohta.Messenger-Black.Messenger-Black-for-Safari";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
-		11C639EF20F5FF4F0020D4A3 /* Release */ = {
+		11C63A432106E7870020D4A3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "Safari Extension/Safari_Extension.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Messenger Black for Safari/Messenger_Black_for_Safari.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XX2UC95MTQ;
-				INFOPLIST_FILE = "Safari Extension/Info.plist";
+				INFOPLIST_FILE = "Messenger Black for Safari/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ryanmohta.Messenger-Black.Safari-Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ryanmohta.Messenger-Black.Messenger-Black-for-Safari";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -499,11 +499,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		11C639ED20F5FF4F0020D4A3 /* Build configuration list for PBXNativeTarget "Safari Extension" */ = {
+		11C63A442106E7870020D4A3 /* Build configuration list for PBXNativeTarget "Messenger Black for Safari" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				11C639EE20F5FF4F0020D4A3 /* Debug */,
-				11C639EF20F5FF4F0020D4A3 /* Release */,
+				11C63A422106E7870020D4A3 /* Debug */,
+				11C63A432106E7870020D4A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
