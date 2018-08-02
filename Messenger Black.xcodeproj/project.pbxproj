@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1137503721128E6800B37B0C /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1137503621128E6800B37B0C /* ToolbarItemIcon.pdf */; };
+		11C4662E210D925A003D3CA2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C4662D210D925A003D3CA2 /* SecondViewController.swift */; };
+		11C46630210D988F003D3CA2 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C4662F210D988F003D3CA2 /* SecondView.swift */; };
+		11C46632210E7971003D3CA2 /* MyCustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C46631210E7971003D3CA2 /* MyCustomSegue.swift */; };
+		11C46634210E7A7F003D3CA2 /* MyCustomAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C46633210E7A7F003D3CA2 /* MyCustomAnimator.swift */; };
 		11C639C520F5FE3C0020D4A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C639C420F5FE3C0020D4A3 /* AppDelegate.swift */; };
-		11C639C720F5FE3C0020D4A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C639C620F5FE3C0020D4A3 /* ViewController.swift */; };
+		11C639C720F5FE3C0020D4A3 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C639C620F5FE3C0020D4A3 /* FirstViewController.swift */; };
 		11C639C920F5FE3E0020D4A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11C639C820F5FE3E0020D4A3 /* Assets.xcassets */; };
 		11C639CC20F5FE3E0020D4A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11C639CA20F5FE3E0020D4A3 /* Main.storyboard */; };
 		11C63A302106E7860020D4A3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C639DA20F5FF4F0020D4A3 /* Cocoa.framework */; };
@@ -16,7 +21,6 @@
 		11C63A352106E7860020D4A3 /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C63A342106E7860020D4A3 /* SafariExtensionViewController.swift */; };
 		11C63A382106E7860020D4A3 /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11C63A362106E7860020D4A3 /* SafariExtensionViewController.xib */; };
 		11C63A3B2106E7860020D4A3 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 11C63A3A2106E7860020D4A3 /* script.js */; };
-		11C63A3D2106E7860020D4A3 /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 11C63A3C2106E7860020D4A3 /* ToolbarItemIcon.pdf */; };
 		11C63A412106E7860020D4A3 /* Messenger Black for Safari.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 11C63A2F2106E7860020D4A3 /* Messenger Black for Safari.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		11C63A462106E8060020D4A3 /* messengerblack.css in Resources */ = {isa = PBXBuildFile; fileRef = 11C63A452106E8060020D4A3 /* messengerblack.css */; };
 /* End PBXBuildFile section */
@@ -46,9 +50,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1137503621128E6800B37B0C /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
+		11C4662D210D925A003D3CA2 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		11C4662F210D988F003D3CA2 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		11C46631210E7971003D3CA2 /* MyCustomSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomSegue.swift; sourceTree = "<group>"; };
+		11C46633210E7A7F003D3CA2 /* MyCustomAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomAnimator.swift; sourceTree = "<group>"; };
 		11C639C120F5FE3C0020D4A3 /* Messenger Black.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Messenger Black.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11C639C420F5FE3C0020D4A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		11C639C620F5FE3C0020D4A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		11C639C620F5FE3C0020D4A3 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		11C639C820F5FE3E0020D4A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11C639CB20F5FE3E0020D4A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		11C639CD20F5FE3E0020D4A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -60,7 +69,6 @@
 		11C63A372106E7860020D4A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
 		11C63A392106E7860020D4A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11C63A3A2106E7860020D4A3 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
-		11C63A3C2106E7860020D4A3 /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
 		11C63A3E2106E7860020D4A3 /* Messenger_Black_for_Safari.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Messenger_Black_for_Safari.entitlements; sourceTree = "<group>"; };
 		11C63A452106E8060020D4A3 /* messengerblack.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = messengerblack.css; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -107,11 +115,15 @@
 			isa = PBXGroup;
 			children = (
 				11C639C420F5FE3C0020D4A3 /* AppDelegate.swift */,
-				11C639C620F5FE3C0020D4A3 /* ViewController.swift */,
+				11C639C620F5FE3C0020D4A3 /* FirstViewController.swift */,
 				11C639C820F5FE3E0020D4A3 /* Assets.xcassets */,
 				11C639CA20F5FE3E0020D4A3 /* Main.storyboard */,
 				11C639CD20F5FE3E0020D4A3 /* Info.plist */,
 				11C639CE20F5FE3E0020D4A3 /* Messenger_Black.entitlements */,
+				11C4662D210D925A003D3CA2 /* SecondViewController.swift */,
+				11C4662F210D988F003D3CA2 /* SecondView.swift */,
+				11C46631210E7971003D3CA2 /* MyCustomSegue.swift */,
+				11C46633210E7A7F003D3CA2 /* MyCustomAnimator.swift */,
 			);
 			path = "Messenger Black";
 			sourceTree = "<group>";
@@ -131,9 +143,9 @@
 				11C63A322106E7860020D4A3 /* SafariExtensionHandler.swift */,
 				11C63A342106E7860020D4A3 /* SafariExtensionViewController.swift */,
 				11C63A362106E7860020D4A3 /* SafariExtensionViewController.xib */,
+				1137503621128E6800B37B0C /* ToolbarItemIcon.pdf */,
 				11C63A392106E7860020D4A3 /* Info.plist */,
 				11C63A3A2106E7860020D4A3 /* script.js */,
-				11C63A3C2106E7860020D4A3 /* ToolbarItemIcon.pdf */,
 				11C63A3E2106E7860020D4A3 /* Messenger_Black_for_Safari.entitlements */,
 			);
 			path = "Messenger Black for Safari";
@@ -229,9 +241,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11C63A3D2106E7860020D4A3 /* ToolbarItemIcon.pdf in Resources */,
 				11C63A382106E7860020D4A3 /* SafariExtensionViewController.xib in Resources */,
 				11C63A3B2106E7860020D4A3 /* script.js in Resources */,
+				1137503721128E6800B37B0C /* ToolbarItemIcon.pdf in Resources */,
 				11C63A462106E8060020D4A3 /* messengerblack.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -243,8 +255,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11C639C720F5FE3C0020D4A3 /* ViewController.swift in Sources */,
+				11C4662E210D925A003D3CA2 /* SecondViewController.swift in Sources */,
+				11C46634210E7A7F003D3CA2 /* MyCustomAnimator.swift in Sources */,
+				11C639C720F5FE3C0020D4A3 /* FirstViewController.swift in Sources */,
+				11C46630210D988F003D3CA2 /* SecondView.swift in Sources */,
 				11C639C520F5FE3C0020D4A3 /* AppDelegate.swift in Sources */,
+				11C46632210E7971003D3CA2 /* MyCustomSegue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

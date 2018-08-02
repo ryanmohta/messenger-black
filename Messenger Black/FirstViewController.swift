@@ -8,12 +8,14 @@
 
 import Cocoa
 
-class ViewController: NSViewController {
-
+class FirstViewController: NSViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        //self.view.wantsLayer = true
 
         // Do any additional setup after loading the view.
+        
     }
 
     override var representedObject: Any? {
@@ -21,7 +23,6 @@ class ViewController: NSViewController {
         // Update the view, if already loaded.
         }
     }
-
 
 }
 
