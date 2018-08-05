@@ -23,6 +23,7 @@
 		11C63A3B2106E7860020D4A3 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 11C63A3A2106E7860020D4A3 /* script.js */; };
 		11C63A412106E7860020D4A3 /* Messenger Black for Safari.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 11C63A2F2106E7860020D4A3 /* Messenger Black for Safari.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		11C63A462106E8060020D4A3 /* messengerblack.css in Resources */ = {isa = PBXBuildFile; fileRef = 11C63A452106E8060020D4A3 /* messengerblack.css */; };
+		11F68866211691C900D85A88 /* ToolbarItemIcon_Off.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 11F68865211691C900D85A88 /* ToolbarItemIcon_Off.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		11C63A3A2106E7860020D4A3 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
 		11C63A3E2106E7860020D4A3 /* Messenger_Black_for_Safari.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Messenger_Black_for_Safari.entitlements; sourceTree = "<group>"; };
 		11C63A452106E8060020D4A3 /* messengerblack.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = messengerblack.css; sourceTree = "<group>"; };
+		11F68865211691C900D85A88 /* ToolbarItemIcon_Off.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon_Off.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 				11C63A342106E7860020D4A3 /* SafariExtensionViewController.swift */,
 				11C63A362106E7860020D4A3 /* SafariExtensionViewController.xib */,
 				1137503621128E6800B37B0C /* ToolbarItemIcon.pdf */,
+				11F68865211691C900D85A88 /* ToolbarItemIcon_Off.pdf */,
 				11C63A392106E7860020D4A3 /* Info.plist */,
 				11C63A3A2106E7860020D4A3 /* script.js */,
 				11C63A3E2106E7860020D4A3 /* Messenger_Black_for_Safari.entitlements */,
@@ -242,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11C63A382106E7860020D4A3 /* SafariExtensionViewController.xib in Resources */,
+				11F68866211691C900D85A88 /* ToolbarItemIcon_Off.pdf in Resources */,
 				11C63A3B2106E7860020D4A3 /* script.js in Resources */,
 				1137503721128E6800B37B0C /* ToolbarItemIcon.pdf in Resources */,
 				11C63A462106E8060020D4A3 /* messengerblack.css in Resources */,

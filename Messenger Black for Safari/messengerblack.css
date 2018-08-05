@@ -1,101 +1,121 @@
-body, ._4sp8, ._4eby, ._59s7, ._3s-4 {
+body.blackMode, body.blackMode ._4sp8, body.blackMode ._4eby, body.blackMode ._59s7, body.blackMode ._3s-4, body.blackMode ._2y8_, body.blackMode ._3nta, body.blackMode ._53ij {
     background: black !important;
 }
 
-._4eby {
+body.blackMode ._4eby, body.blackMode ._2y8_, body.blackMode ._53ij {
     border: 1px solid rgba(255, 255, 255, .60) !important;
 }
 
 /* Borders */
-._673w, ._36ic {
+body.blackMode ._673w, body.blackMode ._36ic, body.blackMode ._374b, body.blackMode ._2y8y, body.blackMode ._3nta {
     border-bottom: 1px solid rgba(255, 255, 255, .10) !important;
 }
 
-._1t2u {
+body.blackMode ._llj {
+    border-bottom: 1px solid rgba(255, 255, 255, .05) !important;
+}
+
+body.blackMode ._1t2u {
     border-left: 1px solid rgba(255, 255, 255, .20) !important;
 }
 
-._4_j5 {
+body.blackMode ._4_j5 {
     border-left: 1px solid rgba(255, 255, 255, .10) !important;
 }
 
-._4rv3, ._1li- {
+body.blackMode ._4rv3, body.blackMode ._1li-, body.blackMode ._3war, body.blackMode ._3wax {
     border-top: 1px solid rgba(255, 255, 255, .10) !important;
 }
 
 /* Text */
-h1, h2, h3, h4, h5, h6 {
+body.blackMode h1, body.blackMode h2, body.blackMode h3, body.blackMode h4, body.blackMode h5, body.blackMode h6 {
     color: #e2ded6 !important;
 }
 
-input, textarea, keygen, select, button, {
+body.blackMode input, body.blackMode textarea, body.blackMode keygen, body.blackMode select, body.blackMode button {
     color: #bfc3c8 !important;
 }
 
-._1htf { /* Message */
+body.blackMode ._1htf { /* Message */
     color: rgba(102, 102, 102, 1) !important;
 }
 
-._1ht7, ._2v6o, ._5eu7, ._3eus, ._5uh, ._3x6v, ._5rh4, ._5qsj, ._497p, ._5i_d .__6m, ._1r3o {
+body.blackMode ._1ht7, body.blackMode ._2v6o, body.blackMode ._5eu7, body.blackMode ._3eus, body.blackMode ._5uh, body.blackMode ._3x6v, body.blackMode ._5rh4, body.blackMode ._5qsj, body.blackMode ._497p, body.blackMode ._5i_d .__6m, body.blackMode ._1r3o, body.blackMode ._374c, body.blackMode ._3q35, body.blackMode ._2y8z, body.blackMode ._2mjl, body.blackMode ._1n-e {
     color: rgba(255, 255, 255, .40) !important;
 }
 
-body, ._1ht6, ._3szq, ._4rph ._4rpj, ._364g, ._2jnv, ._2jnx, ._2jnz, ._2jnx ._30e7 ._5j5f, ._5i_d .__6k, ._5i_d .__6l, ._1ht3 ._1htf, ._3wa-, ._3wb0, ._2c9i ._19jt {
+body.blackMode, body.blackMode ._1ht6, body.blackMode ._3szq, body.blackMode ._4rph ._4rpj, body.blackMode ._364g, body.blackMode ._2jnv, body.blackMode ._2jnx, body.blackMode ._2jnz, body.blackMode ._2jnx ._30e7 ._5j5f, body.blackMode ._5i_d .__6k, body.blackMode ._5i_d .__6l, body.blackMode ._1ht3 ._1htf, body.blackMode ._3wa-, body.blackMode ._3wb0, body.blackMode ._2c9i ._19jt, body.blackMode ._4ng2, body.blackMode ._3q34, body.blackMode ._36zg {
     color: white !important;
 }
 
-._225b {
+body.blackMode ._225b {
     background-color: rgba(255, 255, 255, .03) !important;
     color: rgba(255, 255, 255, .40) !important;
 }
 
-label {
+body.blackMode label {
     color: #999999 !important;
 }
 
-._1ht3 ._1ht7 {
+body.blackMode ._1ht3 ._1ht7 {
     color: #0084ff !important;
 }
 
-._5i_d {
+body.blackMode ._5i_d {
     border: 1px solid rgba(255, 255, 255, .1) !important;
 }
 
-._618l {
+body.blackMode ._618l {
     color: rgba(255, 255, 255, .75) !important;
 }
 
-._618n {
+body.blackMode ._618n, body.blackMode ._6cs7 {
     color: rgba(255, 255, 255, .60) !important;
 }
 
-hr {
+body.blackMode hr {
     background: #262626 !important;
     color: #262626 !important;
 }
 
-._2c9i ._4ebz {
+body.blackMode ._2c9i ._4ebz {
     border-bottom: 1px solid rgba(255, 255, 255, .10) !important;
 }
 
-._koh {
+body.blackMode ._koh {
     border-bottom: 1px solid #171717 !important;
 }
 
-._koh li:not(.selected) {
+body.blackMode ._koh li:not(.selected) {
     color: rgba(255, 255, 255, .5) !important;
 }
 
-._3m31:nth-of-type(3n+1) {
+body.blackMode ._3m31:nth-of-type(3n+1) {
     border-right: 2px solid black !important;
 }
 
-._3m31:nth-of-type(3n+2) {
+body.blackMode ._3m31:nth-of-type(3n+2) {
     border-left: 1px solid black !important;
     border-right: 1px solid black !important;
 }
 
-._3m31:nth-of-type(3n+3) {
+body.blackMode ._3m31:nth-of-type(3n+3) {
     border-left: 2px solid black !important;
 }
 
+body.blackMode ._4eb- {
+    margin-bottom: 0px !important;
+}
+
+body.blackMode ._33p7 {
+    background-color: rgba(0, 0, 0, .95) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, .10) !important;
+}
+
+body.blackMode ._2615 {
+    background-color: rgba(255, 255, 255, .10) !important;
+}
+
+body.blackMode ._517h {
+    color: #b4b0a9 !important;
+}

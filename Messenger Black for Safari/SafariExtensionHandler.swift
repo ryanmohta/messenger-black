@@ -10,6 +10,8 @@ import SafariServices
 
 class SafariExtensionHandler: SFSafariExtensionHandler {
     
+    var activated = false
+    
     override func messageReceived(withName messageName: String, from page: SFSafariPage, userInfo: [String : Any]?) {
         // This method will be called when a content script provided by your extension calls safari.extension.dispatchMessage("message").
         page.getPropertiesWithCompletionHandler { properties in
@@ -20,6 +22,22 @@ class SafariExtensionHandler: SFSafariExtensionHandler {
     override func toolbarItemClicked(in window: SFSafariWindow) {
         // This method will be called when your toolbar item is clicked.
         NSLog("The extension's toolbar item was clicked")
+        window.getToolbarItem { (toolbarItem) in
+            if self.activated {
+                toolbarItem?.setImage(NSImage(named: NSImage.Name(rawValue: "ToolbarItemIcon_Off.pdf")))
+                self.activated = false
+            }
+            else {
+                toolbarItem?.setImage(nil)
+                self.activated = true
+            }
+        }
+        window.getActiveTab { (activeTab) in
+            activeTab?.getActivePage { (activePage) in
+                activePage?.dispatchMessageToScript(withName: "DoSomethingInteresting", userInfo: nil)
+            }
+        }
+        
     }
     
     override func validateToolbarItem(in window: SFSafariWindow, validationHandler: @escaping ((Bool, String) -> Void)) {
