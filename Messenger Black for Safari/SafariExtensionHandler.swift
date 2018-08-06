@@ -10,7 +10,9 @@ import SafariServices
 
 class SafariExtensionHandler: SFSafariExtensionHandler {
     
-    var activated = false
+    static var activated = true
+    let userDefaults = UserDefaults.standard
+    
     
     override func messageReceived(withName messageName: String, from page: SFSafariPage, userInfo: [String : Any]?) {
         // This method will be called when a content script provided by your extension calls safari.extension.dispatchMessage("message").
@@ -23,18 +25,27 @@ class SafariExtensionHandler: SFSafariExtensionHandler {
         // This method will be called when your toolbar item is clicked.
         NSLog("The extension's toolbar item was clicked")
         window.getToolbarItem { (toolbarItem) in
-            if self.activated {
+            if SafariExtensionHandler.activated {
                 toolbarItem?.setImage(NSImage(named: NSImage.Name(rawValue: "ToolbarItemIcon_Off.pdf")))
-                self.activated = false
+                
+                window.getActiveTab { (activeTab) in
+                    activeTab?.getActivePage { (activePage) in
+                        activePage?.dispatchMessageToScript(withName: "ExtensionOff", userInfo: nil)
+                    }
+                }
+                
+                SafariExtensionHandler.activated = false
             }
             else {
                 toolbarItem?.setImage(nil)
-                self.activated = true
-            }
-        }
-        window.getActiveTab { (activeTab) in
-            activeTab?.getActivePage { (activePage) in
-                activePage?.dispatchMessageToScript(withName: "DoSomethingInteresting", userInfo: nil)
+                
+                window.getActiveTab { (activeTab) in
+                    activeTab?.getActivePage { (activePage) in
+                        activePage?.dispatchMessageToScript(withName: "ExtensionOn", userInfo: nil)
+                    }
+                }
+                
+                SafariExtensionHandler.activated = true
             }
         }
         
