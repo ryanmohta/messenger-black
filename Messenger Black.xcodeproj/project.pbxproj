@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		112F5D1D21293B9600CA0603 /* earth-large.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 112F5D1C21293B9600CA0603 /* earth-large.jpg */; };
+		112F5D272129416D00CA0603 /* earth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 112F5D262129416D00CA0603 /* earth.jpg */; };
+		112F5D2921294BF300CA0603 /* pattern.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 112F5D2821294BF200CA0603 /* pattern.jpg */; };
 		1137503721128E6800B37B0C /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1137503621128E6800B37B0C /* ToolbarItemIcon.pdf */; };
 		11C4662E210D925A003D3CA2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C4662D210D925A003D3CA2 /* SecondViewController.swift */; };
 		11C46630210D988F003D3CA2 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C4662F210D988F003D3CA2 /* SecondView.swift */; };
@@ -51,6 +54,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		112F5D1C21293B9600CA0603 /* earth-large.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "earth-large.jpg"; sourceTree = "<group>"; };
+		112F5D262129416D00CA0603 /* earth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = earth.jpg; sourceTree = "<group>"; };
+		112F5D2821294BF200CA0603 /* pattern.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pattern.jpg; sourceTree = "<group>"; };
 		1137503621128E6800B37B0C /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
 		11C4662D210D925A003D3CA2 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		11C4662F210D988F003D3CA2 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
@@ -142,6 +148,9 @@
 			isa = PBXGroup;
 			children = (
 				11C63A452106E8060020D4A3 /* messengerblack.css */,
+				112F5D1C21293B9600CA0603 /* earth-large.jpg */,
+				112F5D262129416D00CA0603 /* earth.jpg */,
+				112F5D2821294BF200CA0603 /* pattern.jpg */,
 				11C63A322106E7860020D4A3 /* SafariExtensionHandler.swift */,
 				11C63A342106E7860020D4A3 /* SafariExtensionViewController.swift */,
 				11C63A362106E7860020D4A3 /* SafariExtensionViewController.xib */,
@@ -246,9 +255,12 @@
 			files = (
 				11C63A382106E7860020D4A3 /* SafariExtensionViewController.xib in Resources */,
 				11F68866211691C900D85A88 /* ToolbarItemIcon_Off.pdf in Resources */,
+				112F5D272129416D00CA0603 /* earth.jpg in Resources */,
 				11C63A3B2106E7860020D4A3 /* script.js in Resources */,
 				1137503721128E6800B37B0C /* ToolbarItemIcon.pdf in Resources */,
+				112F5D2921294BF300CA0603 /* pattern.jpg in Resources */,
 				11C63A462106E8060020D4A3 /* messengerblack.css in Resources */,
+				112F5D1D21293B9600CA0603 /* earth-large.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
