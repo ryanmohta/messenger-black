@@ -11,8 +11,6 @@ import SafariServices
 class SafariExtensionHandler: SFSafariExtensionHandler {
     
     static var activated = true
-    let userDefaults = UserDefaults.standard
-    
     
     override func messageReceived(withName messageName: String, from page: SFSafariPage, userInfo: [String : Any]?) {
         // This method will be called when a content script provided by your extension calls safari.extension.dispatchMessage("message").
@@ -30,6 +28,18 @@ class SafariExtensionHandler: SFSafariExtensionHandler {
     override func toolbarItemClicked(in window: SFSafariWindow) {
         // This method will be called when your toolbar item is clicked.
         NSLog("The extension's toolbar item was clicked")
+        
+        do {
+            let path = URL(fileURLWithPath: "/Users/ryanmohta/Documents/XCode apps/Messenger Black/Messenger Black for Safari/data.txt")
+            
+            //let path = Bundle.main.path(forResource: "data", ofType: "txt")
+            let text = "It worked!!"
+            try text.write(to: path, atomically: false, encoding: .utf8)
+        }
+        catch {
+            print(error)
+        }
+        
         window.getToolbarItem { (toolbarItem) in
             if SafariExtensionHandler.activated {
                 toolbarItem?.setImage(NSImage(named: NSImage.Name(rawValue: "ToolbarItemIcon_Off.pdf")))
