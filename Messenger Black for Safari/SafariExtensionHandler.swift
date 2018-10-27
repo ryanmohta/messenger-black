@@ -42,7 +42,7 @@ class SafariExtensionHandler: SFSafariExtensionHandler {
         
         window.getToolbarItem { (toolbarItem) in
             if SafariExtensionHandler.activated {
-                toolbarItem?.setImage(NSImage(named: NSImage.Name(rawValue: "ToolbarItemIcon_Off.pdf")))
+                toolbarItem?.setImage(NSImage(named: "ToolbarItemIcon_Off.pdf"))
                 
                 window.getActiveTab { (activeTab) in
                     activeTab?.getActivePage { (activePage) in
