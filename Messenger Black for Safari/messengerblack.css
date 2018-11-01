@@ -2,11 +2,10 @@ body.blackMode, body.blackMode ._4sp8, body.blackMode ._4eby, body.blackMode ._5
     background: black !important;
 }
 
-body.blackMode ._4sp8 {
-    /*background-image: linear-gradient(black, white) !important;*/
+/*body.blackMode ._4sp8 {
     background-image: url("pattern.jpg") !important;
     background-size: cover !important;
-}
+}*/
 
 body.blackMode ._4eby, body.blackMode ._2y8_, body.blackMode ._53ij, body.blackMode ._5iwm ._58al {
     border: 1px solid rgba(255, 255, 255, .60) !important;
@@ -128,4 +127,17 @@ body.blackMode ._517h {
 
 body.blackMode ._5iwm ._58al {
     background-color: #0a0908 !important;
+}
+
+body.blackMode ._jf4 ._jf3 {
+    background-color: rgba(255, 255, 255, .10) !important;
+    color: rgba(255, 255, 255, .40) !important;
+}
+
+body.blackMode ._1ht1._1ht2 {
+    background-color: rgba(255, 255, 255, .07) !important;
+}
+
+body.blackMode ._1ht1:hover {
+    background-color: rgba(255, 255, 255, .07) !important;
 }

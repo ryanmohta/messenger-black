@@ -51,7 +51,7 @@
 			<key>Image</key>
 			<string>ToolbarItemIcon.pdf</string>
 			<key>Action</key>
-			<string>Command</string>
+			<string>Popover</string>
 		</dict>
 		<key>SFSafariWebsiteAccess</key>
 		<dict>
