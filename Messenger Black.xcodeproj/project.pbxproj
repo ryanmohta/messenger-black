@@ -10,10 +10,10 @@
 		112F5D1D21293B9600CA0603 /* earth-large.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 112F5D1C21293B9600CA0603 /* earth-large.jpg */; };
 		112F5D272129416D00CA0603 /* earth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 112F5D262129416D00CA0603 /* earth.jpg */; };
 		112F5D2921294BF300CA0603 /* pattern.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 112F5D2821294BF200CA0603 /* pattern.jpg */; };
-		112F5D3121324ECF00CA0603 /* data.txt in Resources */ = {isa = PBXBuildFile; fileRef = 112F5D3021324ECF00CA0603 /* data.txt */; };
 		1137503721128E6800B37B0C /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1137503621128E6800B37B0C /* ToolbarItemIcon.pdf */; };
 		1178A6F7218AEB0C004936DA /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1178A6F6218AEB0C004936DA /* SafariExtensionViewController.xib */; };
 		11A0A6FB218D6A4B00E79DAF /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11A0A6FA218D6A4B00E79DAF /* Media.xcassets */; };
+		11A0A6FF218D723C00E79DAF /* BlackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A0A6FE218D723C00E79DAF /* BlackView.swift */; };
 		11C4662E210D925A003D3CA2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C4662D210D925A003D3CA2 /* SecondViewController.swift */; };
 		11C46630210D988F003D3CA2 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C4662F210D988F003D3CA2 /* SecondView.swift */; };
 		11C46632210E7971003D3CA2 /* MyCustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C46631210E7971003D3CA2 /* MyCustomSegue.swift */; };
@@ -59,10 +59,10 @@
 		112F5D1C21293B9600CA0603 /* earth-large.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "earth-large.jpg"; sourceTree = "<group>"; };
 		112F5D262129416D00CA0603 /* earth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = earth.jpg; sourceTree = "<group>"; };
 		112F5D2821294BF200CA0603 /* pattern.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pattern.jpg; sourceTree = "<group>"; };
-		112F5D3021324ECF00CA0603 /* data.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = data.txt; sourceTree = "<group>"; };
 		1137503621128E6800B37B0C /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
 		1178A6F6218AEB0C004936DA /* SafariExtensionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SafariExtensionViewController.xib; sourceTree = "<group>"; };
 		11A0A6FA218D6A4B00E79DAF /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		11A0A6FE218D723C00E79DAF /* BlackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackView.swift; sourceTree = "<group>"; };
 		11C4662D210D925A003D3CA2 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		11C4662F210D988F003D3CA2 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 		11C46631210E7971003D3CA2 /* MyCustomSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomSegue.swift; sourceTree = "<group>"; };
@@ -163,8 +163,8 @@
 				11C63A392106E7860020D4A3 /* Info.plist */,
 				11C63A3A2106E7860020D4A3 /* script.js */,
 				11C63A3E2106E7860020D4A3 /* Messenger_Black_for_Safari.entitlements */,
-				112F5D3021324ECF00CA0603 /* data.txt */,
 				11A0A6FA218D6A4B00E79DAF /* Media.xcassets */,
+				11A0A6FE218D723C00E79DAF /* BlackView.swift */,
 			);
 			path = "Messenger Black for Safari";
 			sourceTree = "<group>";
@@ -268,7 +268,6 @@
 				1137503721128E6800B37B0C /* ToolbarItemIcon.pdf in Resources */,
 				112F5D2921294BF300CA0603 /* pattern.jpg in Resources */,
 				11C63A462106E8060020D4A3 /* messengerblack.css in Resources */,
-				112F5D3121324ECF00CA0603 /* data.txt in Resources */,
 				1178A6F7218AEB0C004936DA /* SafariExtensionViewController.xib in Resources */,
 				112F5D1D21293B9600CA0603 /* earth-large.jpg in Resources */,
 			);
@@ -296,6 +295,7 @@
 			files = (
 				11C63A352106E7860020D4A3 /* SafariExtensionViewController.swift in Sources */,
 				11C63A332106E7860020D4A3 /* SafariExtensionHandler.swift in Sources */,
+				11A0A6FF218D723C00E79DAF /* BlackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
