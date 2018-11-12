@@ -1,16 +1,19 @@
 var body = document.getElementsByTagName("BODY")[0];
 
-document.addEventListener("DOMContentLoaded", function(event) {
-                          var date = new Date();
-                          var hours = date.getHours();
-                          if(hours < 7 || hours > 17) {
-                            document.getElementsByTagName("BODY")[0].classList.add("blackMode");
-                          }
-                          else {
-                            document.getElementsByTagName("BODY")[0].classList.remove("blackMode");
-                          }
-                          //safari.extension.dispatchMessage("Hello World!");
-});
+document.addEventListener("DOMContentLoaded", myTimer);
+
+var timerVariable = setInterval(myTimer, 1000);
+
+function myTimer() {
+    var date = new Date();
+    var hours = date.getHours();
+    if(hours < 7 || hours > 17) {
+        document.getElementsByTagName("BODY")[0].classList.add("blackMode");
+    }
+    else {
+        document.getElementsByTagName("BODY")[0].classList.remove("blackMode");
+    }
+}
 
 //safari.self.addEventListener("message", handleMessage);
 
