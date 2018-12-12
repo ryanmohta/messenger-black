@@ -13,7 +13,7 @@ class BlackView: NSView {
     override func draw(_ dirtyRect: NSRect) {
         super.draw(dirtyRect)
         
-        NSColor(white: 0, alpha: 0.95).setFill()
+        NSColor(white: 0, alpha: 0.5).setFill()
         dirtyRect.fill()
     }
     
