@@ -1,4 +1,4 @@
-body.blackMode, body.blackMode ._4sp8, body.blackMode ._4eby, body.blackMode ._59s7, body.blackMode ._3s-4, body.blackMode ._2y8_, body.blackMode ._3nta, body.blackMode ._53ij {
+body.blackMode, body.blackMode ._4sp8, body.blackMode ._4eby, body.blackMode ._59s7, body.blackMode ._3s-4, body.blackMode ._2y8_, body.blackMode ._3nta, body.blackMode ._53ij, body.blackMode ._1sk6 {
     background: black !important;
 }
 
@@ -140,4 +140,12 @@ body.blackMode ._1ht1._1ht2 {
 
 body.blackMode ._1ht1:hover {
     background-color: rgba(255, 255, 255, .07) !important;
+}
+
+body.blackMode ._1suj {
+    color: rgb(0, 132, 255) !important;
+}
+
+body.blackMode ._1suk {
+    color: rgba(255, 255, 255, .20) !important;
 }
