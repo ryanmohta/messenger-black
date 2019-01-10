@@ -6,8 +6,9 @@ var timerVariable = setInterval(myTimer, 1000);
 
 function myTimer() {
     var date = new Date();
-    var hours = date.getHours();
-    if(hours < 7 || hours > 16) {
+    var hour = date.getHours();
+    var minute = date.getMinutes();
+    if(hour < 7 || (hour > 16 && minute > 29) || hour > 17) {
         document.getElementsByTagName("BODY")[0].classList.add("blackMode");
     }
     else {
