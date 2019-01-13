@@ -15,14 +15,3 @@ function myTimer() {
         document.getElementsByTagName("BODY")[0].classList.remove("blackMode");
     }
 }
-
-//safari.self.addEventListener("message", handleMessage);
-
-/*function handleMessage(event) {
-    if(event.name == "ExtensionOff") {
-        document.getElementsByTagName("BODY")[0].classList.remove("blackMode");
-    }
-    else {
-        document.getElementsByTagName("BODY")[0].classList.add("blackMode");
-    }
-}*/
