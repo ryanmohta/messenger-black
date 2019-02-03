@@ -1,4 +1,4 @@
-body.blackMode, body.blackMode ._4sp8, body.blackMode ._4eby, body.blackMode ._59s7, body.blackMode ._3s-4, body.blackMode ._2y8_, body.blackMode ._3nta, body.blackMode ._53ij, body.blackMode ._1sk6 {
+body.blackMode, body.blackMode ._4sp8, body.blackMode ._4eby, body.blackMode ._59s7, body.blackMode ._3s-4, body.blackMode ._2y8_, body.blackMode ._3nta, body.blackMode ._53ij, body.blackMode ._1sk6, body.blackMode ._4gd0 {
     background: black !important;
     -webkit-transition: background 0.5s !important;
 }
@@ -82,7 +82,7 @@ body.blackMode, body.blackMode ._3szq, body.blackMode ._4rph ._4rpj, body.blackM
 
 body.blackMode ._1ht6 {
     color: white !important;
-    -webkit-transition: font-weight 0.5s !important;
+    -webkit-transition: color 0.5s, font-weight 0.5s !important;
 }
 
 body.blackMode ._1ht1:active ._1ht6 {
