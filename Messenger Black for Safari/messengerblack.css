@@ -177,10 +177,10 @@ body.blackMode ._3m31:nth-of-type(3n+3) {
     -webkit-transition: border-left 0.5s !important;
 }
 
-body.blackMode ._4eb- {
+/*body.blackMode ._4eb- {
     margin-bottom: 0px !important;
     -webkit-transition: margin-bottom 0.5s !important;
-}
+}*/
 
 body.blackMode ._33p7 {
     background-color: rgba(0, 0, 0, .95) !important;
@@ -229,5 +229,15 @@ body.blackMode ._1suj {
 
 body.blackMode ._1suk {
     color: rgba(255, 255, 255, .20) !important;
+    -webkit-transition: color 0.5s !important;
+}
+
+body.blackMode .uiInputLabel .__rm+.uiInputLabelLabel {
+    color: rgba(255, 255, 255, .88) !important;
+    -webkit-transition: color 0.5s !important;
+}
+
+body.blackMode ._7492 {
+    color: rgba(255, 255, 255, .5) !important;
     -webkit-transition: color 0.5s !important;
 }
