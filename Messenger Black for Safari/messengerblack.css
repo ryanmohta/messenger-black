@@ -1,4 +1,4 @@
-body.blackMode, body.blackMode ._4sp8, body.blackMode ._4eby, body.blackMode ._59s7, body.blackMode ._3s-4, body.blackMode ._2y8_, body.blackMode ._3nta, body.blackMode ._53ij, body.blackMode ._1sk6, body.blackMode ._4gd0 {
+body.blackMode, body.blackMode ._4sp8, body.blackMode ._4eby, body.blackMode ._59s7, body.blackMode ._3s-4, body.blackMode ._2y8_, body.blackMode ._53ij, body.blackMode ._1sk6, body.blackMode ._4gd0, /*body.blackMode input, */body.blackMode ._5pw9, body.blackMode ._58ahm {
     background: black !important;
     -webkit-transition: background 0.5s !important;
 }
@@ -14,7 +14,7 @@ body.blackMode ._2y8_, body.blackMode ._53ij {
 }
 
 /* Borders */
-body.blackMode ._673w, body.blackMode ._36ic, body.blackMode ._374b, body.blackMode ._2y8y, body.blackMode ._3nta {
+body.blackMode ._673w, body.blackMode ._36ic, body.blackMode ._374b, body.blackMode ._2y8y {
     border-bottom: 1px solid rgba(255, 255, 255, .10) !important;
     -webkit-transition: border-bottom 0.5s !important;
 }
@@ -50,27 +50,7 @@ body.blackMode textarea, body.blackMode keygen, body.blackMode select {
     -webkit-transition: color 0.5s !important;
 }
 
-body.blackMode ._1htf { /* Message */
-    color: rgba(102, 102, 102, 1) !important;
-    -webkit-transition: color 0.5s, font-weight 0.5s !important;
-}
-
-body.blackMode ._1ht1:active ._1htf { /* Message */
-    color: rgba(102, 102, 102, 1) !important;
-    -webkit-transition: color 0.0s !important;
-}
-
-body.blackMode ._1ht3 ._1htf {
-    color: white !important;
-    -webkit-transition: color 0.5s, font-weight 0.5s !important;
-}
-
-body.blackMode ._1ht3:active ._1htf {
-    color: white !important;
-    -webkit-transition: color 0.0s !important;
-}
-
-body.blackMode ._2v6o, body.blackMode ._5eu7, body.blackMode ._3eus, body.blackMode ._5uh, body.blackMode ._3x6v, body.blackMode ._5rh4, body.blackMode ._5qsj, body.blackMode ._497p, body.blackMode ._5i_d .__6m, body.blackMode ._1r3o, body.blackMode ._374c, body.blackMode ._3q35, body.blackMode ._2y8z, body.blackMode ._2mjl, body.blackMode ._1n-e {
+body.blackMode ._2v6o, body.blackMode ._5eu7, body.blackMode ._3eus, body.blackMode ._5uh, body.blackMode ._3x6v, body.blackMode ._5rh4, body.blackMode ._5qsj, body.blackMode ._497p, body.blackMode ._5i_d .__6m, body.blackMode ._1r3o, body.blackMode ._374c, body.blackMode ._3q35, body.blackMode ._2y8z, body.blackMode ._2mjl, body.blackMode ._1n-e, body.blackMode ._4dx5, body.blackMode ._38wl, body.blackMode ._4x7m, body.blackMode ._4x79, body.blackMode ._4x7b {
     color: rgba(255, 255, 255, .40) !important;
     -webkit-transition: color 0.5s !important;
 }
@@ -80,19 +60,41 @@ body.blackMode, body.blackMode ._3szq, body.blackMode ._4rph ._4rpj, body.blackM
     -webkit-transition: color 0.5s !important;
 }
 
-body.blackMode ._1ht6 {
-    color: white !important;
+/* --------------------------------------------------------------------------- */
+
+/* Transition from unread to read */
+
+/* ._1ht6 = name, ._1ht7 = time, ._1htf = message, ._1ht3 = unread */
+
+._1ht6, ._1ht7, ._1htf {
     -webkit-transition: color 0.5s, font-weight 0.5s !important;
 }
 
-body.blackMode ._1ht1:active ._1ht6 {
-    color: white !important;
+._1ht1:active ._1ht6, ._1ht1:active ._1ht7, ._1ht1:active ._1htf {
     -webkit-transition: color 0.0s !important;
 }
 
-body.blackMode ._1ht3 ._1ht6 {
-    -webkit-transition: font-weight 0.5s !important;
+body.blackMode ._1ht6, body.blackMode ._1ht1:active ._1ht6 {
+    color: white !important;
 }
+
+body.blackMode ._1ht7, body.blackMode ._1ht1:active ._1ht7 {
+    color: rgba(255, 255, 255, .40) !important;
+}
+
+body.blackMode ._1ht3 ._1ht7, body.blackMode ._1ht3:active ._1ht7 {
+    color: #0084ff !important;
+}
+
+body.blackMode ._1htf, body.blackMode ._1ht1:active ._1htf {
+    color: rgba(102, 102, 102, 1) !important;
+}
+
+body.blackMode ._1ht3 ._1htf, body.blackMode ._1ht3:active ._1htf {
+    color: white !important;
+}
+
+/* --------------------------------------------------------------------------- */
 
 body.blackMode ._225b {
     background-color: rgba(255, 255, 255, .03) !important;
@@ -103,26 +105,6 @@ body.blackMode ._225b {
 body.blackMode label {
     color: #999999 !important;
     -webkit-transition: color 0.5s !important;
-}
-
-body.blackMode ._1ht7 {
-    color: rgba(255, 255, 255, .40) !important;
-    -webkit-transition: color 0.5s !important;
-}
-
-body.blackMode ._1ht1:active ._1ht7 {
-    color: rgba(255, 255, 255, .40) !important;
-    -webkit-transition: color 0.0s !important;
-}
-
-body.blackMode ._1ht3 ._1ht7 {
-    color: #0084ff !important;
-    -webkit-transition: color 0.5s !important;
-}
-
-body.blackMode ._1ht3:active ._1ht7 {
-    color: #0084ff !important;
-    -webkit-transition: color 0.0s !important;
 }
 
 body.blackMode ._5i_d {
@@ -146,7 +128,7 @@ body.blackMode hr {
     -webkit-transition: background 0.5s, color 0.5s !important;
 }
 
-body.blackMode ._2c9i ._4ebz {
+body.blackMode ._2c9i ._4ebz, body.blackMode ._4dx4 {
     border-bottom: 1px solid rgba(255, 255, 255, .10) !important;
     -webkit-transition: border-bottom 0.5s !important;
 }
@@ -249,4 +231,54 @@ body.blackMode ._5iwm ._58al {
 
 body.blackMode ._5iwm ._58al::-webkit-input-placeholder {
     color: rgba(255, 255, 255, .4) !important;
+    -webkit-transition: color 0.5s !important;
+}
+
+body.blackMode ._5pw9 {
+    border-color: #22201d !important;
+    -webkit-transition: border-color 0.5s !important;
+}
+
+body.blackMode ._5pwa, body.blackMode ._5pw6 {
+    color: #e2ded6 !important;
+    -webkit-transition: color 0.5s !important;
+}
+
+body.blackMode ._58ah {
+    border-color: rgb(34, 32, 29) !important;
+    -webkit-transition: border-color 0.5s !important;
+}
+
+body.blackMode ._58al {
+    color: rgb(226, 222, 214) !important;
+    -webkit-transition: color 0.5s !important;
+}
+
+body.blackMode ._4x7m {
+    background: rgba(255, 255, 255, .05) !important;
+    -webkit-transition: background 0.5s !important;
+}
+
+body.blackMode ._3wb1, body.blackMode ._3way {
+    border: 1px solid #191919 !important;
+    -webkit-transition: border 0.5s !important;
+}
+
+body.blackMode ._3nta {
+    background: black !important;
+    border-bottom: 1px solid rgba(255, 255, 255, .10) !important;
+    -webkit-transition: background 0.5s, border-bottom 0.5s !important;
+}
+
+body.blackMode ._3nta:hover {
+    background-color: #0a0908 !important;
+    -webkit-transition: background-color 0.0s !important;
+}
+
+body.blackMode ._1liy ._1lj0:hover {
+    background-color: rgba(255, 255, 255, .05) !important;
+}
+
+body.blackMode ._2jnv:hover {
+    border: 1px solid rgba(255, 255, 255, .10) !important;
 }
