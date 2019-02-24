@@ -282,3 +282,15 @@ body.blackMode ._1liy ._1lj0:hover {
 body.blackMode ._2jnv:hover {
     border: 1px solid rgba(255, 255, 255, .10) !important;
 }
+
+body.blackMode ._4rv6 {
+    -webkit-filter: invert(100%) !important;
+    opacity: .6 !important;
+    -webkit-transition: -webkit-filter 0.5s, opacity 0.5s !important;
+}
+
+body.blackMode a._4ce_ {
+    -webkit-filter: invert(100%) !important;
+    opacity: .7 !important;
+    -webkit-transition: -webkit-filter 0.5s, opacity 0.5s !important;
+}
