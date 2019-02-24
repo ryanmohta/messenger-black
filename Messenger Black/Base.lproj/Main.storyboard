@@ -318,6 +318,7 @@
         <image name="Icon" width="1024" height="1024"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="frm-UB-TFo"/>
         <segue reference="KvE-1e-f6o"/>
     </inferredMetricsTieBreakers>
 </document>
