@@ -313,9 +313,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Back button" width="2058" height="795"/>
-        <image name="Continue button" width="1799.5" height="512"/>
-        <image name="Icon" width="512.5" height="512"/>
+        <image name="Back button" width="2057" height="794"/>
+        <image name="Continue button" width="3598" height="1024"/>
+        <image name="Icon" width="1024" height="1024"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="KvE-1e-f6o"/>
