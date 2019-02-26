@@ -294,3 +294,8 @@ body.blackMode a._4ce_ {
     opacity: .7 !important;
     -webkit-transition: -webkit-filter 0.5s, opacity 0.5s !important;
 }
+
+body.blackMode ._74ku {
+    color: rgba(255, 255, 255, .5) !important;
+    -webkit-transition: color 0.5s !important;
+}
