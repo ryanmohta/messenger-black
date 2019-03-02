@@ -8,7 +8,7 @@ function myTimer() {
     var date = new Date();
     var hour = date.getHours();
     var minute = date.getMinutes();
-    if(hour < 7 || /*(hour > 16 && minute > 29) || */hour > 17) {
+    if(hour < 7 || /*(hour >= 17 && minute >= 30) || */hour >= 18) {
         document.getElementsByTagName("BODY")[0].classList.add("blackMode");
     }
     else {
