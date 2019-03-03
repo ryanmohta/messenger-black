@@ -2,6 +2,10 @@ body {
   background-color: black;
 }
 
+.top {
+  margin-top: 30%;
+}
+
 .centered {
   display: block;
   margin: 0 auto;
