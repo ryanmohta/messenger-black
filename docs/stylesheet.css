@@ -6,15 +6,19 @@ body {
 }
 
 .top {
-  margin-top: 20vh;
+  margin-top: 15vh;
 }
 
 .centered {
   display: block;
   margin: 0 auto;
+  text-align: center;
 }
+
+
 
 h1 {
   font-family: "sf_pro_textlight", Helvetica, sans-serif;
   font-size: 48px;
+  margin-top: 5vh;
 }
