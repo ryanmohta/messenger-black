@@ -20,7 +20,7 @@ body {
 
 .description {
   width: 600px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 h1 {
@@ -45,4 +45,11 @@ button {
   padding: 16px;
   margin-left: 10px;
   margin-right: 10px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
 }
