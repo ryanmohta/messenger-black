@@ -12,19 +12,22 @@ h1 {
   line-height: 1.2;
 }
 
+h3 {
+  font-family: "sf_pro_displaylight", Helvetica, sans-serif;
+}
+
 .logo {
   width: 75px;
   margin-top: 40px;
   margin-bottom: 90px;
 }
 
-.title {
-  width: 600px;
-  margin-bottom: 5px;
-}
-
 .description {
   width: 600px;
+}
+
+h1.description {
+  margin-bottom: 5px;
 }
 
 .centered {
