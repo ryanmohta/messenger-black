@@ -26,7 +26,7 @@ h3 {
   width: 600px;
 }
 
-h1.description {
+.description h1 {
   margin-bottom: 5px;
 }
 
