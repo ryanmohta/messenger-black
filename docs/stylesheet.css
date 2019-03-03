@@ -17,6 +17,13 @@ h3 {
   font-size: 20px;
 }
 
+button {
+  background-color: inherit;
+  color: white;
+  font-size: 24px;
+  border: 5px solid white;
+}
+
 .logo {
   width: 75px;
   margin-top: 40px;
