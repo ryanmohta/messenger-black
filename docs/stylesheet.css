@@ -5,8 +5,9 @@ body {
   font-size: 16px;
 }
 
-.top {
-  margin-top: 15vh;
+.logo {
+  margin-top: 40px;
+  margin-bottom: 70px;
 }
 
 .centered {
@@ -19,6 +20,5 @@ body {
 h1 {
   font-family: "sf_pro_displaythin", Helvetica, sans-serif;
   font-size: 60px;
-  margin-top: 0;
   line-height: 1.2;
 }
