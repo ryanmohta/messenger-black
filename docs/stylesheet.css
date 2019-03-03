@@ -5,25 +5,11 @@ body {
   font-size: 16px;
 }
 
-h1 {
-  color: white;
-  font-family: "sf_pro_displaythin", Helvetica, sans-serif;
-  font-size: 60px;
-  line-height: 1.2;
-}
-
-h3 {
-  font-family: "sf_pro_displaylight", Helvetica, sans-serif;
-  font-size: 20px;
-}
-
-button {
-  background-color: inherit;
-  color: white;
-  font-size: 24px;
-  border: 2px solid white;
-  border-radius: 10%;
-  padding: 16px;
+.centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .logo {
@@ -34,15 +20,27 @@ button {
 
 .description {
   width: 600px;
+  margin-bottom: 20px;
 }
 
-.description h1 {
+h1 {
+  color: white;
+  font-family: "sf_pro_displaythin", Helvetica, sans-serif;
+  font-size: 60px;
+  line-height: 1.2;
   margin-bottom: 5px;
 }
 
-.centered {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
+h3 {
+  font-family: "sf_pro_displaylight", Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+button {
+  background-color: inherit;
+  color: whitesmoke;
+  font-size: 24px;
+  border: 2px solid whitesmoke;
+  border-radius: 10px;
+  padding: 16px;
 }
