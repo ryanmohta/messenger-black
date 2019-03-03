@@ -21,7 +21,9 @@ button {
   background-color: inherit;
   color: white;
   font-size: 24px;
-  border: 5px solid white;
+  border: 2px solid white;
+  border-radius: 10%;
+  padding: 16px;
 }
 
 .logo {
