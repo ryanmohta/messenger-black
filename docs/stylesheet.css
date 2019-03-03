@@ -1,6 +1,6 @@
 body {
   background-color: black;
-  color: whitesmoke;
+  color: gray;
   font-family: "sf_pro_textregular", Helvetica, sans-serif;
   font-size: 16px;
 }
@@ -13,12 +13,18 @@ h1 {
 }
 
 .logo {
+  width: 75px;
   margin-top: 40px;
-  margin-bottom: 70px;
+  margin-bottom: 90px;
+}
+
+.title {
+  width: 600px;
+  margin-bottom: 5px;
 }
 
 .description {
-  width: 500px;
+  width: 600px;
 }
 
 .centered {
