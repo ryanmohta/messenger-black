@@ -3,5 +3,5 @@ body {
 }
 
 .centered {
-  margin: 0 auto;
+  align-content: center;
 }
