@@ -3,5 +3,6 @@ body {
 }
 
 .centered {
-  margin: 0 auto;
+  display: block;
+  align-content: center;
 }
