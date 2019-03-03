@@ -16,11 +16,9 @@ body {
   text-align: center;
 }
 
-
-
 h1 {
   font-family: "sf_pro_displaythin", Helvetica, sans-serif;
   font-size: 60px;
-  margin-top: 10vh;
+  margin-top: 0;
   line-height: 1.2;
 }
