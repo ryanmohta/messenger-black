@@ -16,26 +16,54 @@ class SafariExtensionViewController: SFSafariExtensionViewController {
         return shared
     }()
     
-    @IBOutlet weak var manuallyEnable: NSButton!
+    @IBOutlet weak var manual: NSButton!
+    
+    @IBOutlet weak var onOff: NSSegmentedControl!
+    
     
     @IBOutlet weak var scheduled: NSButton!
     
-    @IBOutlet weak var sunsetToSunrise: NSButton!
+    @IBOutlet weak var from: NSTextField!
     
     @IBOutlet weak var startTime: NSDatePicker!
+    
+    @IBOutlet weak var to: NSTextField!
     
     @IBOutlet weak var endTime: NSDatePicker!
     
     
+    @IBOutlet weak var sunsetToSunrise: NSButton!
+    
+    
     
     @IBAction func radioButton(_ sender: Any) {
-        if(scheduled.state == NSControl.StateValue.on) {
-            startTime.isEnabled = true;
-            endTime.isEnabled = true;
+        
+        if(manual.state == NSControl.StateValue.on) {
+            onOff.isEnabled = true
+            from.textColor = NSColor.disabledControlTextColor
+            startTime.isEnabled = false
+            startTime.textColor = NSColor.disabledControlTextColor
+            to.textColor = NSColor.disabledControlTextColor
+            endTime.isEnabled = false
+            endTime.textColor = NSColor.disabledControlTextColor
+        }
+        else if(scheduled.state == NSControl.StateValue.on) {
+            onOff.isEnabled = false
+            from.textColor = NSColor.controlTextColor
+            startTime.isEnabled = true
+            startTime.textColor = NSColor.controlTextColor
+            to.textColor = NSColor.controlTextColor
+            endTime.isEnabled = true
+            endTime.textColor = NSColor.controlTextColor
         }
         else {
-            startTime.isEnabled = false;
-            endTime.isEnabled = false;
+            onOff.isEnabled = false
+            from.textColor = NSColor.disabledControlTextColor
+            startTime.isEnabled = false
+            startTime.textColor = NSColor.disabledControlTextColor
+            to.textColor = NSColor.disabledControlTextColor
+            endTime.isEnabled = false
+            endTime.textColor = NSColor.disabledControlTextColor
         }
         
     }

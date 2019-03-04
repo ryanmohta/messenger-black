@@ -9,10 +9,13 @@
         <customObject id="-2" userLabel="File's Owner" customClass="SafariExtensionViewController" customModule="Messenger_Black_for_Safari" customModuleProvider="target">
             <connections>
                 <outlet property="endTime" destination="2Oc-O0-CGf" id="nJ7-7H-sF1"/>
-                <outlet property="manuallyEnable" destination="M2I-8w-cp1" id="5YJ-Ri-gKp"/>
+                <outlet property="from" destination="4T6-EN-ElV" id="0hJ-KZ-TdD"/>
+                <outlet property="manual" destination="M2I-8w-cp1" id="5YJ-Ri-gKp"/>
+                <outlet property="onOff" destination="vHC-Eo-w7L" id="7oT-vs-3WH"/>
                 <outlet property="scheduled" destination="eUt-1I-POA" id="tFh-bL-XIj"/>
                 <outlet property="startTime" destination="n2r-Hb-rta" id="wdA-hJ-Cya"/>
                 <outlet property="sunsetToSunrise" destination="7wR-Ng-tBa" id="HAQ-PR-ZGB"/>
+                <outlet property="to" destination="OQv-bQ-qS2" id="vQh-W9-992"/>
                 <outlet property="view" destination="c22-O7-iKe" id="vwT-Xx-Aiz"/>
             </connections>
         </customObject>
@@ -48,9 +51,9 @@ All rights reserved.</string>
                     </textFieldCell>
                 </textField>
                 <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="M2I-8w-cp1">
-                    <rect key="frame" x="18" y="159" width="121" height="18"/>
+                    <rect key="frame" x="18" y="159" width="66" height="18"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <buttonCell key="cell" type="radio" title="Manually Enable" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="Cda-Qu-l54">
+                    <buttonCell key="cell" type="radio" title="Manual" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="Cda-Qu-l54">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                         <font key="font" metaFont="system"/>
                     </buttonCell>
@@ -124,6 +127,17 @@ All rights reserved.</string>
                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
+                <segmentedControl verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vHC-Eo-w7L">
+                    <rect key="frame" x="90" y="155" width="80" height="24"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <segmentedCell key="cell" borderStyle="border" alignment="left" style="rounded" trackingMode="selectOne" id="o9v-n2-Vrn">
+                        <font key="font" metaFont="system"/>
+                        <segments>
+                            <segment label="OFF" width="37"/>
+                            <segment label="ON" width="36" selected="YES" tag="1"/>
+                        </segments>
+                    </segmentedCell>
+                </segmentedControl>
             </subviews>
             <point key="canvasLocation" x="184" y="93"/>
         </customView>
