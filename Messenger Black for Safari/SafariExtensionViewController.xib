@@ -8,6 +8,11 @@
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="SafariExtensionViewController" customModule="Messenger_Black_for_Safari" customModuleProvider="target">
             <connections>
+                <outlet property="endTime" destination="2Oc-O0-CGf" id="nJ7-7H-sF1"/>
+                <outlet property="manuallyEnable" destination="M2I-8w-cp1" id="5YJ-Ri-gKp"/>
+                <outlet property="scheduled" destination="eUt-1I-POA" id="tFh-bL-XIj"/>
+                <outlet property="startTime" destination="n2r-Hb-rta" id="wdA-hJ-Cya"/>
+                <outlet property="sunsetToSunrise" destination="7wR-Ng-tBa" id="HAQ-PR-ZGB"/>
                 <outlet property="view" destination="c22-O7-iKe" id="vwT-Xx-Aiz"/>
             </connections>
         </customObject>
@@ -18,7 +23,7 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
                 <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DHO-ZI-Kij">
-                    <rect key="frame" x="88" y="134" width="64" height="64"/>
+                    <rect key="frame" x="25" y="196" width="22" height="22"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="Extension Icon" id="dIF-Sp-7k7"/>
                 </imageView>
@@ -34,11 +39,88 @@ All rights reserved.</string>
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7jm-bP-EWi">
-                    <rect key="frame" x="22" y="58" width="196" height="68"/>
+                    <rect key="frame" x="51" y="196" width="166" height="24"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" selectable="YES" alignment="center" title="Messenger Black" id="JT4-ZR-vdx">
-                        <font key="font" metaFont="systemThin" size="28"/>
+                        <font key="font" metaFont="systemSemibold" size="20"/>
                         <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="M2I-8w-cp1">
+                    <rect key="frame" x="18" y="159" width="121" height="18"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <buttonCell key="cell" type="radio" title="Manually Enable" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="Cda-Qu-l54">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="radioButton:" target="-2" id="TYE-Ut-jTY"/>
+                    </connections>
+                </button>
+                <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eUt-1I-POA">
+                    <rect key="frame" x="18" y="131" width="87" height="18"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <buttonCell key="cell" type="radio" title="Scheduled" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="BiN-WP-YPb">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="radioButton:" target="-2" id="054-5G-Tgr"/>
+                    </connections>
+                </button>
+                <datePicker verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="n2r-Hb-rta">
+                    <rect key="frame" x="82" y="104" width="89" height="27"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <datePickerCell key="cell" enabled="NO" borderStyle="bezel" alignment="left" id="XC0-Wu-g2n">
+                        <font key="font" metaFont="system"/>
+                        <date key="date" timeIntervalSinceReferenceDate="-595882800">
+                            <!--1982-02-13 05:00:00 +0000-->
+                        </date>
+                        <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        <color key="textColor" name="disabledControlTextColor" catalog="System" colorSpace="catalog"/>
+                        <datePickerElements key="datePickerElements" hour="YES" minute="YES"/>
+                    </datePickerCell>
+                </datePicker>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4T6-EN-ElV">
+                    <rect key="frame" x="39" y="107" width="37" height="17"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <textFieldCell key="cell" lineBreakMode="clipping" title="From" id="sGd-ur-nc0">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="disabledControlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7wR-Ng-tBa">
+                    <rect key="frame" x="18" y="49" width="129" height="18"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <buttonCell key="cell" type="radio" title="Sunset to Sunrise" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="BYU-cE-3DR">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="radioButton:" target="-2" id="TkP-NA-YBK"/>
+                    </connections>
+                </button>
+                <datePicker verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2Oc-O0-CGf">
+                    <rect key="frame" x="82" y="79" width="89" height="27"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <datePickerCell key="cell" enabled="NO" borderStyle="bezel" alignment="left" id="rJa-1G-ghY">
+                        <font key="font" metaFont="system"/>
+                        <date key="date" timeIntervalSinceReferenceDate="-595933200">
+                            <!--1982-02-12 15:00:00 +0000-->
+                        </date>
+                        <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        <color key="textColor" name="disabledControlTextColor" catalog="System" colorSpace="catalog"/>
+                        <datePickerElements key="datePickerElements" hour="YES" minute="YES"/>
+                    </datePickerCell>
+                </datePicker>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OQv-bQ-qS2">
+                    <rect key="frame" x="39" y="82" width="37" height="17"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <textFieldCell key="cell" lineBreakMode="clipping" title="To" id="COe-W0-tkX">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="disabledControlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
