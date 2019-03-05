@@ -16,6 +16,7 @@ class SafariExtensionViewController: SFSafariExtensionViewController {
         return shared
     }()
     
+    
     @IBOutlet weak var manual: NSButton!
     
     @IBOutlet weak var onOff: NSSegmentedControl!
@@ -46,6 +47,7 @@ class SafariExtensionViewController: SFSafariExtensionViewController {
             to.textColor = NSColor.disabledControlTextColor
             endTime.isEnabled = false
             endTime.textColor = NSColor.disabledControlTextColor
+            SafariExtensionHandler.currentPage?.dispatchMessageToScript(withName: "Hello", userInfo: nil)
         }
         else if(scheduled.state == NSControl.StateValue.on) {
             onOff.isEnabled = false
