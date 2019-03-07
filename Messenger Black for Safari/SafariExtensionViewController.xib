@@ -84,6 +84,9 @@ All rights reserved.</string>
                         <color key="textColor" name="disabledControlTextColor" catalog="System" colorSpace="catalog"/>
                         <datePickerElements key="datePickerElements" hour="YES" minute="YES"/>
                     </datePickerCell>
+                    <connections>
+                        <action selector="startTime:" target="-2" id="GcZ-PM-Zte"/>
+                    </connections>
                 </datePicker>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4T6-EN-ElV">
                     <rect key="frame" x="39" y="107" width="37" height="17"/>
@@ -117,6 +120,9 @@ All rights reserved.</string>
                         <color key="textColor" name="disabledControlTextColor" catalog="System" colorSpace="catalog"/>
                         <datePickerElements key="datePickerElements" hour="YES" minute="YES"/>
                     </datePickerCell>
+                    <connections>
+                        <action selector="endTime:" target="-2" id="CfK-tv-WmS"/>
+                    </connections>
                 </datePicker>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OQv-bQ-qS2">
                     <rect key="frame" x="39" y="82" width="37" height="17"/>
@@ -137,6 +143,9 @@ All rights reserved.</string>
                             <segment label="ON" width="36" selected="YES" tag="1"/>
                         </segments>
                     </segmentedCell>
+                    <connections>
+                        <action selector="onOff:" target="-2" id="byg-c2-Uer"/>
+                    </connections>
                 </segmentedControl>
             </subviews>
             <point key="canvasLocation" x="184" y="93"/>

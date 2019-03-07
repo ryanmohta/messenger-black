@@ -47,7 +47,8 @@ class SafariExtensionViewController: SFSafariExtensionViewController {
             to.textColor = NSColor.disabledControlTextColor
             endTime.isEnabled = false
             endTime.textColor = NSColor.disabledControlTextColor
-            SafariExtensionHandler.currentPage?.dispatchMessageToScript(withName: "Hello", userInfo: nil)
+            
+            manualChanged()
         }
         else if(scheduled.state == NSControl.StateValue.on) {
             onOff.isEnabled = false
@@ -57,6 +58,8 @@ class SafariExtensionViewController: SFSafariExtensionViewController {
             to.textColor = NSColor.controlTextColor
             endTime.isEnabled = true
             endTime.textColor = NSColor.controlTextColor
+            
+            scheduledChanged()
         }
         else {
             onOff.isEnabled = false
@@ -66,8 +69,41 @@ class SafariExtensionViewController: SFSafariExtensionViewController {
             to.textColor = NSColor.disabledControlTextColor
             endTime.isEnabled = false
             endTime.textColor = NSColor.disabledControlTextColor
+            
+            sunsetToSunriseChanged()
         }
         
+    }
+    
+    @IBAction func onOff(_ sender: Any) {
+        manualChanged()
+    }
+    
+    @IBAction func startTime(_ sender: Any) {
+        scheduledChanged()
+    }
+    
+    
+    @IBAction func endTime(_ sender: Any) {
+        scheduledChanged()
+    }
+    
+    
+    
+    func manualChanged() -> Void {
+        let state = (onOff.selectedSegment == 0 ? "Off" : "On")
+        SafariExtensionHandler.currentPage?.dispatchMessageToScript(withName: "Manual Changed", userInfo: ["State": state])
+    }
+    
+    func scheduledChanged() -> Void {
+        let startTimeDate = startTime.dateValue.timeIntervalSince1970
+        let endTimeDate = endTime.dateValue.timeIntervalSince1970
+        
+        SafariExtensionHandler.currentPage?.dispatchMessageToScript(withName: "Scheduled Changed", userInfo: ["Start Time": startTimeDate, "End Time": endTimeDate])
+    }
+    
+    func sunsetToSunriseChanged() -> Void {
+        SafariExtensionHandler.currentPage?.dispatchMessageToScript(withName: "Sunset to Sunrise Changed", userInfo: nil)
     }
     
 }

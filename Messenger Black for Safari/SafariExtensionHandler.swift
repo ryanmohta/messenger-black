@@ -10,8 +10,6 @@ import SafariServices
 
 class SafariExtensionHandler: SFSafariExtensionHandler {
     
-    static var activated = true
-    
     static var currentPage: SFSafariPage? = nil
     
     override func messageReceived(withName messageName: String, from page: SFSafariPage, userInfo: [String : Any]?) {
@@ -19,21 +17,19 @@ class SafariExtensionHandler: SFSafariExtensionHandler {
         
         SafariExtensionHandler.currentPage = page
         
+        /*if(messageName == "Initialized") {
+            SafariExtensionViewController.shared.radioButton(<#Any#>)
+        }*/
+        
         page.getPropertiesWithCompletionHandler { properties in
             NSLog("The extension received a message (\(messageName)) from a script injected into (\(String(describing: properties?.url))) with userInfo (\(userInfo ?? [:]))")
-        }
-        if SafariExtensionHandler.activated {
-            page.dispatchMessageToScript(withName: "ExtensionOn", userInfo: nil)
-        }
-        else {
-            page.dispatchMessageToScript(withName: "ExtensionOff", userInfo: nil)
         }
     }
     
     override func toolbarItemClicked(in window: SFSafariWindow) {
         // This method will be called when your toolbar item is clicked.
         NSLog("The extension's toolbar item was clicked")
-        
+        /*
         do {
             let path = URL(fileURLWithPath: "/Users/ryanmohta/Documents/XCode apps/Messenger Black/Messenger Black for Safari/data.txt")
             
@@ -69,7 +65,7 @@ class SafariExtensionHandler: SFSafariExtensionHandler {
                 SafariExtensionHandler.activated = true
             }
         }
-        
+        */
     }
     
     override func validateToolbarItem(in window: SFSafariWindow, validationHandler: @escaping ((Bool, String) -> Void)) {
