@@ -1,6 +1,200 @@
-body.blackMode, body.blackMode ._4sp8, body.blackMode ._4eby, body.blackMode ._59s7, body.blackMode ._3s-4, body.blackMode ._2y8_, body.blackMode ._53ij, body.blackMode ._1sk6, body.blackMode ._4gd0, /*body.blackMode input, */body.blackMode ._5pw9, body.blackMode ._58ahm {
-    background: black !important;
+/** Transitions **/
+body, ._4sp8, ._4eby, ._59s7, ._3s-4, ._2y8_, ._53ij, ._1sk6, ._4gd0, ._5pw9, ._58ahm {
     -webkit-transition: background 0.5s !important;
+}
+
+._2y8_, ._53ij {
+    -webkit-transition: border 0.5s !important;
+}
+
+/* Borders */
+._673w, ._36ic, ._374b, ._2y8y {
+    -webkit-transition: border-bottom 0.5s !important;
+}
+
+._llj {
+    -webkit-transition: border-bottom 0.5s !important;
+}
+
+._1t2u {
+    -webkit-transition: border-left 0.5s !important;
+}
+
+._4_j5 {
+    -webkit-transition: border-left 0.5s !important;
+}
+
+._4rv3, ._1li-, ._3war, ._3wax {
+    -webkit-transition: border-top 0.5s !important;
+}
+
+/* Text */
+h1, h2, h3, h4, h5, h6 {
+    -webkit-transition: color 0.5s !important;
+}
+
+textarea, keygen, select {
+    -webkit-transition: color 0.5s !important;
+}
+
+._2v6o, ._5eu7, ._3eus, ._5uh, ._3x6v, ._5rh4, ._5qsj, ._497p, ._5i_d .__6m, ._1r3o, ._374c, ._3q35, ._2y8z, ._2mjl, ._1n-e, ._4dx5, ._38wl, ._4x7m, ._4x79, ._4x7b {
+    -webkit-transition: color 0.5s !important;
+}
+
+body, ._3szq, ._4rph ._4rpj, ._364g, ._2jnv, ._2jnx, ._2jnz, ._2jnx ._30e7 ._5j5f, ._5i_d .__6k, ._5i_d .__6l, ._3wa-, ._3wb0, ._2c9i ._19jt, ._4ng2, ._3q34, ._36zg, input {
+    -webkit-transition: color 0.5s !important;
+}
+
+._225b {
+    -webkit-transition: background-color 0.5s, color 0.5s !important;
+}
+
+label {
+    -webkit-transition: color 0.5s !important;
+}
+
+._5i_d {
+    -webkit-transition: border 0.5s !important;
+}
+
+._618l {
+    -webkit-transition: color 0.5s !important;
+}
+
+._618n, ._6cs7 {
+    -webkit-transition: color 0.5s !important;
+}
+
+hr {
+    -webkit-transition: background 0.5s, color 0.5s !important;
+}
+
+._2c9i ._4ebz, ._4dx4 {
+    -webkit-transition: border-bottom 0.5s !important;
+}
+
+._koh {
+    -webkit-transition: border-bottom 0.5s !important;
+}
+
+._koh li:not(.selected) {
+    -webkit-transition: color 0.5s !important;
+}
+
+._3m31:nth-of-type(3n+1) {
+    -webkit-transition: border-right 0.5s !important;
+}
+
+._3m31:nth-of-type(3n+2) {
+    -webkit-transition: border-left 0.5s, border-right 0.5s !important;
+}
+
+._3m31:nth-of-type(3n+3) {
+    -webkit-transition: border-left 0.5s !important;
+}
+
+._33p7 {
+    -webkit-transition: background-color 0.5s, border-bottom 0.5s !important;
+}
+
+._2615 {
+    -webkit-transition: background-color 0.5s !important;
+}
+
+._517h {
+    -webkit-transition: color 0.5s !important;
+}
+
+._jf4 ._jf3 {
+    -webkit-transition: background-color 0.5s, color 0.5s !important;
+}
+
+._1ht1._1ht2 {
+    -webkit-transition: background-color 0.5s !important;
+}
+
+._1suj {
+    -webkit-transition: color 0.5s !important;
+}
+
+._1suk {
+    -webkit-transition: color 0.5s !important;
+}
+
+.uiInputLabel .__rm+.uiInputLabelLabel {
+    -webkit-transition: color 0.5s !important;
+}
+
+._7492 {
+    -webkit-transition: color 0.5s !important;
+}
+
+._4-hy ._3ixn {
+    -webkit-transition: background-color 0.5s !important;
+}
+
+._7jxv {
+    -webkit-transition: background-color 0.5s !important;
+}
+
+._5iwm ._58al {
+    -webkit-transition: background-color 0.5s !important;
+}
+
+._5iwm ._58al::-webkit-input-placeholder {
+    -webkit-transition: color 0.5s !important;
+}
+
+._5pw9 {
+    -webkit-transition: border-color 0.5s !important;
+}
+
+._5pwa, ._5pw6 {
+    -webkit-transition: color 0.5s !important;
+}
+
+._58ah {
+    -webkit-transition: border-color 0.5s !important;
+}
+
+._58al {
+    -webkit-transition: color 0.5s !important;
+}
+
+._4x7m {
+    -webkit-transition: background 0.5s !important;
+}
+
+._3wb1, ._3way {
+    -webkit-transition: border 0.5s !important;
+}
+
+._3nta {
+    -webkit-transition: background 0.5s, border-bottom 0.5s !important;
+}
+
+._3nta:hover {
+    -webkit-transition: background-color 0.0s !important;
+}
+
+._4rv6 {
+    -webkit-transition: -webkit-filter 0.5s, opacity 0.5s !important;
+}
+
+a._4ce_ {
+    -webkit-transition: -webkit-filter 0.5s, opacity 0.5s !important;
+}
+
+._74ku {
+    -webkit-transition: color 0.5s !important;
+}
+
+
+
+/* --------------------------------------------------------------------------- */
+
+body.blackMode, body.blackMode ._4sp8, body.blackMode ._4eby, body.blackMode ._59s7, body.blackMode ._3s-4, body.blackMode ._2y8_, body.blackMode ._53ij, body.blackMode ._1sk6, body.blackMode ._4gd0, body.blackMode ._5pw9, body.blackMode ._58ahm {
+    background: black !important;
 }
 
 /*body.blackMode ._4sp8 {
@@ -10,54 +204,44 @@ body.blackMode, body.blackMode ._4sp8, body.blackMode ._4eby, body.blackMode ._5
 
 body.blackMode ._2y8_, body.blackMode ._53ij {
     border: 1px solid rgba(255, 255, 255, .60) !important;
-    -webkit-transition: border 0.5s !important;
 }
 
 /* Borders */
 body.blackMode ._673w, body.blackMode ._36ic, body.blackMode ._374b, body.blackMode ._2y8y {
     border-bottom: 1px solid rgba(255, 255, 255, .10) !important;
-    -webkit-transition: border-bottom 0.5s !important;
 }
 
 body.blackMode ._llj {
     border-bottom: 1px solid rgba(255, 255, 255, .05) !important;
-    -webkit-transition: border-bottom 0.5s !important;
 }
 
 body.blackMode ._1t2u {
     border-left: 1px solid rgba(255, 255, 255, .20) !important;
-    -webkit-transition: border-left 0.5s !important;
 }
 
 body.blackMode ._4_j5 {
     border-left: 1px solid rgba(255, 255, 255, .10) !important;
-    -webkit-transition: border-left 0.5s !important;
 }
 
 body.blackMode ._4rv3, body.blackMode ._1li-, body.blackMode ._3war, body.blackMode ._3wax {
     border-top: 1px solid rgba(255, 255, 255, .10) !important;
-    -webkit-transition: border-top 0.5s !important;
 }
 
 /* Text */
 body.blackMode h1, body.blackMode h2, body.blackMode h3, body.blackMode h4, body.blackMode h5, body.blackMode h6 {
     color: #e2ded6 !important;
-    -webkit-transition: color 0.5s !important;
 }
 
 body.blackMode textarea, body.blackMode keygen, body.blackMode select {
     color: #bfc3c8 !important;
-    -webkit-transition: color 0.5s !important;
 }
 
 body.blackMode ._2v6o, body.blackMode ._5eu7, body.blackMode ._3eus, body.blackMode ._5uh, body.blackMode ._3x6v, body.blackMode ._5rh4, body.blackMode ._5qsj, body.blackMode ._497p, body.blackMode ._5i_d .__6m, body.blackMode ._1r3o, body.blackMode ._374c, body.blackMode ._3q35, body.blackMode ._2y8z, body.blackMode ._2mjl, body.blackMode ._1n-e, body.blackMode ._4dx5, body.blackMode ._38wl, body.blackMode ._4x7m, body.blackMode ._4x79, body.blackMode ._4x7b {
     color: rgba(255, 255, 255, .40) !important;
-    -webkit-transition: color 0.5s !important;
 }
 
 body.blackMode, body.blackMode ._3szq, body.blackMode ._4rph ._4rpj, body.blackMode ._364g, body.blackMode ._2jnv, body.blackMode ._2jnx, body.blackMode ._2jnz, body.blackMode ._2jnx ._30e7 ._5j5f, body.blackMode ._5i_d .__6k, body.blackMode ._5i_d .__6l, body.blackMode ._3wa-, body.blackMode ._3wb0, body.blackMode ._2c9i ._19jt, body.blackMode ._4ng2, body.blackMode ._3q34, body.blackMode ._36zg, body.blackMode input {
     color: white !important;
-    -webkit-transition: color 0.5s !important;
 }
 
 /* --------------------------------------------------------------------------- */
@@ -99,91 +283,74 @@ body.blackMode ._1ht3 ._1htf, body.blackMode ._1ht3:active ._1htf {
 body.blackMode ._225b {
     background-color: rgba(255, 255, 255, .03) !important;
     color: rgba(255, 255, 255, .40) !important;
-    -webkit-transition: background-color 0.5s, color 0.5s !important;
 }
 
 body.blackMode label {
     color: #999999 !important;
-    -webkit-transition: color 0.5s !important;
 }
 
 body.blackMode ._5i_d {
     border: 1px solid rgba(255, 255, 255, .1) !important;
-    -webkit-transition: border 0.5s !important;
 }
 
 body.blackMode ._618l {
     color: rgba(255, 255, 255, .75) !important;
-    -webkit-transition: color 0.5s !important;
 }
 
 body.blackMode ._618n, body.blackMode ._6cs7 {
     color: rgba(255, 255, 255, .60) !important;
-    -webkit-transition: color 0.5s !important;
 }
 
 body.blackMode hr {
     background: #262626 !important;
     color: #262626 !important;
-    -webkit-transition: background 0.5s, color 0.5s !important;
 }
 
 body.blackMode ._2c9i ._4ebz, body.blackMode ._4dx4 {
     border-bottom: 1px solid rgba(255, 255, 255, .10) !important;
-    -webkit-transition: border-bottom 0.5s !important;
 }
 
 body.blackMode ._koh {
     border-bottom: 1px solid #171717 !important;
-    -webkit-transition: border-bottom 0.5s !important;
 }
 
 body.blackMode ._koh li:not(.selected) {
     color: rgba(255, 255, 255, .5) !important;
-    -webkit-transition: color 0.5s !important;
 }
 
 body.blackMode ._3m31:nth-of-type(3n+1) {
     border-right: 2px solid black !important;
-    -webkit-transition: border-right 0.5s !important;
 }
 
 body.blackMode ._3m31:nth-of-type(3n+2) {
     border-left: 1px solid black !important;
     border-right: 1px solid black !important;
-    -webkit-transition: border-left 0.5s, border-right 0.5s !important;
 }
 
 body.blackMode ._3m31:nth-of-type(3n+3) {
     border-left: 2px solid black !important;
-    -webkit-transition: border-left 0.5s !important;
 }
 
 body.blackMode ._33p7 {
     background-color: rgba(0, 0, 0, .95) !important;
     border-bottom: 1px solid rgba(255, 255, 255, .10) !important;
-    -webkit-transition: background-color 0.5s, border-bottom 0.5s !important;
 }
 
 body.blackMode ._2615 {
     background-color: rgba(255, 255, 255, .10) !important;
-    -webkit-transition: background-color 0.5s !important;
 }
 
 body.blackMode ._517h {
     color: #b4b0a9 !important;
-    -webkit-transition: color 0.5s !important;
 }
 
 body.blackMode ._jf4 ._jf3 {
     background-color: rgba(255, 255, 255, .10) !important;
     color: rgba(255, 255, 255, .40) !important;
-    -webkit-transition: background-color 0.5s, color 0.5s !important;
 }
 
 body.blackMode ._1ht1._1ht2 {
     background-color: rgba(255, 255, 255, .07) !important;
-    -webkit-transition: background-color 0.5s !important;
 }
 
 body.blackMode ._1ht1:hover {
@@ -196,83 +363,67 @@ body.blackMode ._1ht1:active {
 
 body.blackMode ._1suj {
     color: rgb(0, 132, 255) !important;
-    -webkit-transition: color 0.5s !important;
 }
 
 body.blackMode ._1suk {
     color: rgba(255, 255, 255, .20) !important;
-    -webkit-transition: color 0.5s !important;
 }
 
 body.blackMode .uiInputLabel .__rm+.uiInputLabelLabel {
     color: rgba(255, 255, 255, .88) !important;
-    -webkit-transition: color 0.5s !important;
 }
 
 body.blackMode ._7492 {
     color: rgba(255, 255, 255, .5) !important;
-    -webkit-transition: color 0.5s !important;
 }
 
 body.blackMode ._4-hy ._3ixn {
     background-color: rgba(255, 255, 255, .4) !important;
-    -webkit-transition: background-color 0.5s !important;
 }
 
 body.blackMode ._7jxv {
     background: rgba(0, 0, 0, .4) !important;
-    -webkit-transition: background-color 0.5s !important;
 }
 
 body.blackMode ._5iwm ._58al {
     background-color: #0a0908 !important;
-    -webkit-transition: background-color 0.5s !important;
 }
 
 body.blackMode ._5iwm ._58al::-webkit-input-placeholder {
     color: rgba(255, 255, 255, .4) !important;
-    -webkit-transition: color 0.5s !important;
 }
 
 body.blackMode ._5pw9 {
     border-color: #22201d !important;
-    -webkit-transition: border-color 0.5s !important;
 }
 
 body.blackMode ._5pwa, body.blackMode ._5pw6 {
     color: #e2ded6 !important;
-    -webkit-transition: color 0.5s !important;
 }
 
 body.blackMode ._58ah {
     border-color: rgb(34, 32, 29) !important;
-    -webkit-transition: border-color 0.5s !important;
 }
 
 body.blackMode ._58al {
     color: rgb(226, 222, 214) !important;
-    -webkit-transition: color 0.5s !important;
 }
 
 body.blackMode ._4x7m {
     background: rgba(255, 255, 255, .05) !important;
-    -webkit-transition: background 0.5s !important;
 }
 
 body.blackMode ._3wb1, body.blackMode ._3way {
     border: 1px solid #191919 !important;
-    -webkit-transition: border 0.5s !important;
 }
 
 body.blackMode ._3nta {
     background: black !important;
     border-bottom: 1px solid rgba(255, 255, 255, .10) !important;
-    -webkit-transition: background 0.5s, border-bottom 0.5s !important;
 }
 
 body.blackMode ._3nta:hover {
     background-color: #0a0908 !important;
-    -webkit-transition: background-color 0.0s !important;
 }
 
 body.blackMode ._1liy ._1lj0:hover {
@@ -286,16 +437,13 @@ body.blackMode ._2jnv:hover {
 body.blackMode ._4rv6 {
     -webkit-filter: invert(100%) !important;
     opacity: .6 !important;
-    -webkit-transition: -webkit-filter 0.5s, opacity 0.5s !important;
 }
 
 body.blackMode a._4ce_ {
     -webkit-filter: invert(100%) !important;
     opacity: .7 !important;
-    -webkit-transition: -webkit-filter 0.5s, opacity 0.5s !important;
 }
 
 body.blackMode ._74ku {
     color: rgba(255, 255, 255, .5) !important;
-    -webkit-transition: color 0.5s !important;
 }
