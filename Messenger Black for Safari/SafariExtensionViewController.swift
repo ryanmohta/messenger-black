@@ -96,8 +96,8 @@ class SafariExtensionViewController: SFSafariExtensionViewController {
     }
     
     func scheduledChanged() -> Void {
-        let startTimeDate = startTime.dateValue.timeIntervalSince1970
-        let endTimeDate = endTime.dateValue.timeIntervalSince1970
+        let startTimeDate = startTime.dateValue.timeIntervalSince1970 * 1000
+        let endTimeDate = endTime.dateValue.timeIntervalSince1970 * 1000
         
         SafariExtensionHandler.currentPage?.dispatchMessageToScript(withName: "Scheduled Changed", userInfo: ["Start Time": startTimeDate, "End Time": endTimeDate])
     }

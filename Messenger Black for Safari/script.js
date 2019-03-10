@@ -22,13 +22,15 @@ function handleMessage(event) {
 }
 
 function manualChanged(event) {
-    clearInterval(timerVariable);
+    
     if(event.message["State"] === "On") {
         document.getElementsByTagName("BODY")[0].classList.add("blackMode");
     }
     else {
         document.getElementsByTagName("BODY")[0].classList.remove("blackMode");
     }
+    
+    clearInterval(timerVariable);
 }
 
 function scheduledChanged(event) {
@@ -41,15 +43,18 @@ function scheduledChanged(event) {
     var endTimeHour = endTimeDate.getHours();
     var endTimeMinute = endTimeDate.getMinutes();
     
-    timerVariable = setInterval(scheduledTimer, 1000);
+    scheduledTimer(startTimeHour, startTimeMinute, endTimeHour, endTimeMinute);
+    
+    clearInterval(timerVariable);
+    timerVariable = setInterval(scheduledTimer, 1000, startTimeHour, startTimeMinute, endTimeHour, endTimeMinute);
 }
 
-function scheduledTimer() {
+function scheduledTimer(startTimeHour, startTimeMinute, endTimeHour, endTimeMinute) {
     var currentDate = new Date();
-    var currentHour = date.getHours();
-    var currentMinute = date.getMinutes();
+    var currentHour = currentDate.getHours();
+    var currentMinute = currentDate.getMinutes();
     
-    if(currentHour < endTimeHour || (currentHour <= endTimeHour && currentMinute < endTimeMinute) || (currentHour >= startTimeHour && currentMinute >= endTimeMinute) || currentHour > startTimeHour) {
+    if(currentHour < endTimeHour || (currentHour <= endTimeHour && currentMinute < endTimeMinute) || (currentHour >= startTimeHour && currentMinute >= startTimeMinute) || currentHour > startTimeHour) {
         document.getElementsByTagName("BODY")[0].classList.add("blackMode");
     }
     else {
