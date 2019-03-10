@@ -13,8 +13,12 @@ body {
 }
 
 .title {
+  display: flex;
+  flex-direction: row;
   margin-top: 120px;
   margin-bottom: 90px;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo {
