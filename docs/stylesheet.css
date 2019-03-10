@@ -19,14 +19,14 @@ body {
 
 .logo {
   display: inline-block;
-  width: 48px;
+  width: 30px;
   padding-right: 10px;
 }
 
 h2 {
   color: white;
   font-family: "sf_pro_displaymedium", Helvetica, sans-serif;
-  font-size: 48px;
+  font-size: 30px;
 }
 
 .description {
