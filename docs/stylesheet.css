@@ -12,10 +12,21 @@ body {
   text-align: center;
 }
 
-.logo {
-  width: 75px;
-  margin-top: 40px;
+.title {
+  margin-top: 120px;
   margin-bottom: 90px;
+}
+
+.logo {
+  display: inline-block;
+  width: 48px;
+  padding-right: 10px;
+}
+
+h2 {
+  color: white;
+  font-family: "sf_pro_displaymedium", Helvetica, sans-serif;
+  font-size: 48px;
 }
 
 .description {
