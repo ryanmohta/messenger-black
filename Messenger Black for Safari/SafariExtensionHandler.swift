@@ -12,13 +12,16 @@ class SafariExtensionHandler: SFSafariExtensionHandler {
     
     static var currentPage: SFSafariPage? = nil
     
+    static let popover = SafariExtensionViewController.shared
+    
+    
     override func messageReceived(withName messageName: String, from page: SFSafariPage, userInfo: [String : Any]?) {
         // This method will be called when a content script provided by your extension calls safari.extension.dispatchMessage("message").
         
         SafariExtensionHandler.currentPage = page
         
         /*if(messageName == "Initialized") {
-            SafariExtensionViewController.shared.radioButton(<#Any#>)
+            SafariExtensionHandler.popover.radioButtonClicked()
         }*/
         
         page.getPropertiesWithCompletionHandler { properties in

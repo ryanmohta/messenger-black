@@ -77,8 +77,8 @@ All rights reserved.</string>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <datePickerCell key="cell" enabled="NO" borderStyle="bezel" alignment="left" id="XC0-Wu-g2n">
                         <font key="font" metaFont="system"/>
-                        <date key="date" timeIntervalSinceReferenceDate="-595882800">
-                            <!--1982-02-13 05:00:00 +0000-->
+                        <date key="date" timeIntervalSinceReferenceDate="-595890000">
+                            <!--1982-02-13 03:00:00 +0000-->
                         </date>
                         <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                         <color key="textColor" name="disabledControlTextColor" catalog="System" colorSpace="catalog"/>

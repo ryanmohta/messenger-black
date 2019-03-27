@@ -37,8 +37,26 @@ class SafariExtensionViewController: SFSafariExtensionViewController {
     
     
     
+    
     @IBAction func radioButton(_ sender: Any) {
-        
+        radioButtonClicked()
+    }
+    
+    @IBAction func onOff(_ sender: Any) {
+        manualChanged()
+    }
+    
+    @IBAction func startTime(_ sender: Any) {
+        scheduledChanged()
+    }
+    
+    
+    @IBAction func endTime(_ sender: Any) {
+        scheduledChanged()
+    }
+    
+    
+    func radioButtonClicked() -> Void {
         if(manual.state == NSControl.StateValue.on) {
             onOff.isEnabled = true
             from.textColor = NSColor.disabledControlTextColor
@@ -72,22 +90,7 @@ class SafariExtensionViewController: SFSafariExtensionViewController {
             
             sunsetToSunriseChanged()
         }
-        
     }
-    
-    @IBAction func onOff(_ sender: Any) {
-        manualChanged()
-    }
-    
-    @IBAction func startTime(_ sender: Any) {
-        scheduledChanged()
-    }
-    
-    
-    @IBAction func endTime(_ sender: Any) {
-        scheduledChanged()
-    }
-    
     
     
     func manualChanged() -> Void {

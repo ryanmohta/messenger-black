@@ -217,11 +217,11 @@
 				TargetAttributes = {
 					11C639C020F5FE3C0020D4A3 = {
 						CreatedOnToolsVersion = 9.4.1;
-						LastSwiftMigration = 1000;
+						LastSwiftMigration = 1020;
 					};
 					11C63A2E2106E7860020D4A3 = {
 						CreatedOnToolsVersion = 9.4.1;
-						LastSwiftMigration = 1000;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -446,7 +446,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ryanmohta.Messenger-Black";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -466,7 +466,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ryanmohta.Messenger-Black";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -485,7 +485,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ryanmohta.Messenger-Black.Messenger-Black-for-Safari";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -504,7 +504,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ryanmohta.Messenger-Black.Messenger-Black-for-Safari";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
