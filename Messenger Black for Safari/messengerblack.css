@@ -189,6 +189,16 @@ a._4ce_ {
     -webkit-transition: color 0.5s !important;
 }
 
+/* Low-contrast mode */
+
+._41ud div:not(._nd_) ._hh7 {
+    -webkit-transition: background-color 0.5s, color 0.5s !important;
+}
+
+._aou, ._4kf5, ._4kf6:not(._fy2) {
+    -webkit-transition: background 0.5s, color 0.5s !important;
+}
+
 
 
 /* --------------------------------------------------------------------------- */
@@ -446,4 +456,19 @@ body.blackMode a._4ce_ {
 
 body.blackMode ._74ku {
     color: rgba(255, 255, 255, .5) !important;
+}
+
+/* Low-contrast */
+
+body.blackMode ._41ud div:not(._nd_) ._hh7 {
+    background-color: rgb(50, 51, 52) !important;
+    color: white !important;
+}
+
+body.blackMode ._aou, body.blackMode ._4kf5 {
+    background: rgb(86, 87, 88) !important;
+}
+
+body.blackMode ._4kf6:not(._fy2) {
+    color: #9d9d9d !important;
 }
