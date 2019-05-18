@@ -12,17 +12,14 @@ class SafariExtensionHandler: SFSafariExtensionHandler {
     
     static var currentPage: SFSafariPage? = nil
     
-    static let popover = SafariExtensionViewController.shared
-    
-    
     override func messageReceived(withName messageName: String, from page: SFSafariPage, userInfo: [String : Any]?) {
         // This method will be called when a content script provided by your extension calls safari.extension.dispatchMessage("message").
         
         SafariExtensionHandler.currentPage = page
         
-        /*if(messageName == "Initialized") {
-            SafariExtensionHandler.popover.radioButtonClicked()
-        }*/
+        if(messageName == "Initialized") {
+            SafariExtensionViewController.shared.radioButtonClicked()
+        }
         
         page.getPropertiesWithCompletionHandler { properties in
             NSLog("The extension received a message (\(messageName)) from a script injected into (\(String(describing: properties?.url))) with userInfo (\(userInfo ?? [:]))")
@@ -77,6 +74,7 @@ class SafariExtensionHandler: SFSafariExtensionHandler {
     }
     
     override func popoverViewController() -> SFSafariExtensionViewController {
+        NSLog("hello")
         return SafariExtensionViewController.shared
     }
 

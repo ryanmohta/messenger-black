@@ -41,7 +41,7 @@ textarea, keygen, select {
     -webkit-transition: color 0.5s !important;
 }
 
-body, ._3szq, ._4rph ._4rpj, ._364g, ._2jnv, ._2jnx, ._2jnz, ._2jnx ._30e7 ._5j5f, ._5i_d .__6k, ._5i_d .__6l, ._3wa-, ._3wb0, ._2c9i ._19jt, ._4ng2, ._3q34, ._36zg, input {
+body, ._3szq, ._4rph ._4rpj, ._364g, ._2jnv, ._2jnx, ._2jnz, ._2jnx ._30e7 ._5j5f, ._5i_d .__6k, ._5i_d .__6l, ._3wa-, ._3wb0, ._2c9i ._19jt, ._4ng2, ._3q34, ._36zg, input, ._hh7 a {
     -webkit-transition: color 0.5s !important;
 }
 
@@ -189,15 +189,44 @@ a._4ce_ {
     -webkit-transition: color 0.5s !important;
 }
 
+#js_6 + rect {
+    -webkit-transition: fill 0.5s !important;
+}
+
+._6ymu, ._6-xp, ._6ybv, ._6y56 {
+    -webkit-transition: background-color 0.5s !important;
+}
+
+path#Fill-1, path#Fill-2 {
+    -webkit-transition: fill 0.5s !important;
+}
+
+._7i2l path#Fill-1 {
+    -webkit-transition: fill 0.0s !important;
+}
+
 /* Low-contrast mode */
 
-._41ud div:not(._nd_) ._hh7 {
+._41ud div:not(._nd_) ._hh7:not(._2f5r) {
     -webkit-transition: background-color 0.5s, color 0.5s !important;
 }
 
 ._aou, ._4kf5, ._4kf6:not(._fy2) {
     -webkit-transition: background 0.5s, color 0.5s !important;
 }
+
+._4k7a {
+    -webkit-transition: color 0.5s !important;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -250,7 +279,7 @@ body.blackMode ._2v6o, body.blackMode ._5eu7, body.blackMode ._3eus, body.blackM
     color: rgba(255, 255, 255, .40) !important;
 }
 
-body.blackMode, body.blackMode ._3szq, body.blackMode ._4rph ._4rpj, body.blackMode ._364g, body.blackMode ._2jnv, body.blackMode ._2jnx, body.blackMode ._2jnz, body.blackMode ._2jnx ._30e7 ._5j5f, body.blackMode ._5i_d .__6k, body.blackMode ._5i_d .__6l, body.blackMode ._3wa-, body.blackMode ._3wb0, body.blackMode ._2c9i ._19jt, body.blackMode ._4ng2, body.blackMode ._3q34, body.blackMode ._36zg, body.blackMode input {
+body.blackMode, body.blackMode ._3szq, body.blackMode ._4rph ._4rpj, body.blackMode ._364g, body.blackMode ._2jnv, body.blackMode ._2jnx, body.blackMode ._2jnz, body.blackMode ._2jnx ._30e7 ._5j5f, body.blackMode ._5i_d .__6k, body.blackMode ._5i_d .__6l, body.blackMode ._3wa-, body.blackMode ._3wb0, body.blackMode ._2c9i ._19jt, body.blackMode ._4ng2, body.blackMode ._3q34, body.blackMode ._36zg, body.blackMode input, body.blackMode ._hh7 a {
     color: white !important;
 }
 
@@ -458,9 +487,33 @@ body.blackMode ._74ku {
     color: rgba(255, 255, 255, .5) !important;
 }
 
+body.blackMode #js_6 + rect {
+    fill: black !important;
+}
+
+body.blackMode ._6ymu, body.blackMode ._6-xp, body.blackMode ._6ybv, body.blackMode ._6y56, body.blackMode ._5zvq._7i2o:hover, body.blackMode ._3-wv._7i2n:hover, body.blackMode ._2rvp._7i2l:hover {
+    background-color: rgba(255, 255, 255, .12) !important;
+}
+
+body.blackMode path#Fill-1, body.blackMode path#Fill-2 {
+    fill: white !important;
+}
+
+body.blackMode ._4k7a {
+    color: rgba(255, 255, 255, .5) !important;
+}
+
+body.blackMode ._7i2o path, body.blackMode ._7i2n path#Fill-19, body.blackMode ._7i2l path#Fill-1 {
+    fill: rgba(255, 255, 255, 0.34) !important;
+}
+
+body.blackMode ._7i2o:hover path, body.blackMode ._7i2n:hover path#Fill-19, body.blackMode ._7i2l:hover path#Fill-1 {
+    fill: white !important;
+}
+
 /* Low-contrast */
 
-body.blackMode ._41ud div:not(._nd_) ._hh7 {
+body.blackMode ._41ud div:not(._nd_) ._hh7:not(._2f5r) {
     background-color: rgb(50, 51, 52) !important;
     color: white !important;
 }
