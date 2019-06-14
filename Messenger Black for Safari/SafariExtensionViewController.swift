@@ -10,14 +10,6 @@ import SafariServices
 
 class SafariExtensionViewController: SFSafariExtensionViewController {
     
-    static let shared: SafariExtensionViewController = {
-        let shared = SafariExtensionViewController()
-        shared.preferredContentSize = NSSize(width:240, height:240)
-        NSLog("helloooo")
-        return shared
-    }()
-    
-    
     @IBOutlet weak var manual: NSButton!
     
     @IBOutlet weak var onOff: NSSegmentedControl!
@@ -36,6 +28,59 @@ class SafariExtensionViewController: SFSafariExtensionViewController {
     
     @IBOutlet weak var sunsetToSunrise: NSButton!
     
+    
+    
+    
+    static let shared: SafariExtensionViewController = {
+        
+        if UserDefaults.standard.bool(forKey: "initialized") == false {
+        
+            UserDefaults.standard.set(true, forKey: "manual")
+            UserDefaults.standard.set(true, forKey: "onOff")
+            
+            UserDefaults.standard.set(false, forKey: "scheduled")
+            UserDefaults.standard.set(382422600, forKey: "startTime")
+            UserDefaults.standard.set(382374000, forKey: "endTime")
+            
+            UserDefaults.standard.set(false, forKey: "sunsetToSunrise")
+            
+            UserDefaults.standard.set(true, forKey: "initialized")
+            
+            NSLog("Initialized")
+            
+        }
+        
+        
+        let shared = SafariExtensionViewController()
+        
+        _ = shared.view
+        
+        shared.preferredContentSize = NSSize(width:240, height:240)
+        
+        
+        shared.manual.state = UserDefaults.standard.bool(forKey: "manual") ? NSControl.StateValue.on : NSControl.StateValue.off
+        
+        
+        shared.onOff.selectedSegment = UserDefaults.standard.bool(forKey: "onOff") ? 1 : 0
+        
+        
+        
+        shared.scheduled.state = UserDefaults.standard.bool(forKey: "scheduled") ? NSControl.StateValue.on : NSControl.StateValue.off
+        
+        shared.startTime.dateValue = Date(timeIntervalSince1970: UserDefaults.standard.double(forKey: "startTime"))
+        
+        shared.endTime.dateValue = Date(timeIntervalSince1970: UserDefaults.standard.double(forKey: "endTime"))
+        
+        
+        
+        shared.sunsetToSunrise.state = UserDefaults.standard.bool(forKey: "sunsetToSunrise") ? NSControl.StateValue.on : NSControl.StateValue.off
+        
+        
+        
+        shared.radioButtonClicked()
+        
+        return shared
+    }()
     
     
     
@@ -97,6 +142,8 @@ class SafariExtensionViewController: SFSafariExtensionViewController {
     func manualChanged() -> Void {
         let state = (onOff.selectedSegment == 0 ? "Off" : "On")
         SafariExtensionHandler.currentPage?.dispatchMessageToScript(withName: "Manual Changed", userInfo: ["State": state])
+        
+        updateUserDefaults()
     }
     
     func scheduledChanged() -> Void {
@@ -104,10 +151,25 @@ class SafariExtensionViewController: SFSafariExtensionViewController {
         let endTimeDate = endTime.dateValue.timeIntervalSince1970 * 1000
         
         SafariExtensionHandler.currentPage?.dispatchMessageToScript(withName: "Scheduled Changed", userInfo: ["Start Time": startTimeDate, "End Time": endTimeDate])
+        
+        updateUserDefaults()
     }
     
     func sunsetToSunriseChanged() -> Void {
         SafariExtensionHandler.currentPage?.dispatchMessageToScript(withName: "Sunset to Sunrise Changed", userInfo: nil)
+        
+        updateUserDefaults()
+    }
+    
+    func updateUserDefaults() -> Void {
+        UserDefaults.standard.set(manual.state == NSControl.StateValue.on, forKey: "manual")
+        UserDefaults.standard.set(onOff.selectedSegment == 1, forKey: "onOff")
+        
+        UserDefaults.standard.set(scheduled.state == NSControl.StateValue.on, forKey: "scheduled")
+        UserDefaults.standard.set(startTime.dateValue.timeIntervalSince1970, forKey: "startTime")
+        UserDefaults.standard.set(endTime.dateValue.timeIntervalSince1970, forKey: "endTime")
+        
+        UserDefaults.standard.set(sunsetToSunrise.state == NSControl.StateValue.on, forKey: "sunsetToSunrise")
     }
     
 }

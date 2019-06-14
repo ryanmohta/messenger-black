@@ -29,43 +29,6 @@ class SafariExtensionHandler: SFSafariExtensionHandler {
     override func toolbarItemClicked(in window: SFSafariWindow) {
         // This method will be called when your toolbar item is clicked.
         NSLog("The extension's toolbar item was clicked")
-        /*
-        do {
-            let path = URL(fileURLWithPath: "/Users/ryanmohta/Documents/XCode apps/Messenger Black/Messenger Black for Safari/data.txt")
-            
-            //let path = Bundle.main.path(forResource: "data", ofType: "txt")
-            let text = "It worked!!"
-            try text.write(to: path, atomically: false, encoding: .utf8)
-        }
-        catch {
-            print(error)
-        }
-        
-        window.getToolbarItem { (toolbarItem) in
-            if SafariExtensionHandler.activated {
-                toolbarItem?.setImage(NSImage(named: "ToolbarItemIcon_Off.pdf"))
-                
-                window.getActiveTab { (activeTab) in
-                    activeTab?.getActivePage { (activePage) in
-                        activePage?.dispatchMessageToScript(withName: "ExtensionOff", userInfo: nil)
-                    }
-                }
-                
-                SafariExtensionHandler.activated = false
-            }
-            else {
-                toolbarItem?.setImage(nil)
-                
-                window.getActiveTab { (activeTab) in
-                    activeTab?.getActivePage { (activePage) in
-                        activePage?.dispatchMessageToScript(withName: "ExtensionOn", userInfo: nil)
-                    }
-                }
-                
-                SafariExtensionHandler.activated = true
-            }
-        }
-        */
     }
     
     override func validateToolbarItem(in window: SFSafariWindow, validationHandler: @escaping ((Bool, String) -> Void)) {
@@ -74,7 +37,6 @@ class SafariExtensionHandler: SFSafariExtensionHandler {
     }
     
     override func popoverViewController() -> SFSafariExtensionViewController {
-        NSLog("hello")
         return SafariExtensionViewController.shared
     }
 
