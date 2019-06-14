@@ -109,7 +109,7 @@ hr {
     -webkit-transition: background-color 0.5s, color 0.5s !important;
 }
 
-._1ht1._1ht2 {
+._1ht1._1ht2, ._1hbw ._5pd7 {
     -webkit-transition: background-color 0.5s !important;
 }
 
@@ -205,9 +205,17 @@ path#Fill-1, path#Fill-2 {
     -webkit-transition: fill 0.0s !important;
 }
 
+._7301._hh7, ._7301._hh7._hh7._6ybn {
+    -webkit-transition: background-color 0.5s, border-color 0.5s, color 0.5s !important;
+}
+
+._18p0 {
+    -webkit-transition: border-top-color 0.5s !important;
+}
+
 /* Low-contrast mode */
 
-._41ud div:not(._nd_) ._hh7:not(._2f5r) {
+._41ud div:not(._nd_) ._hh7:not(._2f5r):not(._7301) {
     -webkit-transition: background-color 0.5s, color 0.5s !important;
 }
 
@@ -511,9 +519,23 @@ body.blackMode ._7i2o:hover path, body.blackMode ._7i2n:hover path#Fill-19, body
     fill: white !important;
 }
 
+body.blackMode ._1hbw ._5pd7 {
+    background-color: rgba(255, 255, 255, 0.6) !important;
+}
+
+body.blackMode ._7301._hh7, body.blackMode ._7301._hh7._hh7._6ybn {
+    background-color: black !important;
+    border-color: rgba(255, 255, 255, .1) !important;
+    color: rgba(255, 255, 255, .4) !important;
+}
+
+body.blackMode ._18p0 {
+    border-top-color: rgba(255, 255, 255, .1) !important;
+}
+
 /* Low-contrast */
 
-body.blackMode ._41ud div:not(._nd_) ._hh7:not(._2f5r) {
+body.blackMode ._41ud div:not(._nd_) ._hh7:not(._2f5r):not(._7301) {
     background-color: rgb(50, 51, 52) !important;
     color: white !important;
 }
