@@ -1,5 +1,5 @@
 /** Transitions **/
-body, ._4sp8, ._4eby, ._59s7, ._3s-4, ._2y8_, ._53ij, ._1sk6, ._4gd0, ._5pw9, ._58ahm, ._4x7m {
+body, ._4sp8, ._4eby, ._59s7, ._3s-4, ._2y8_, ._53ij, ._1sk6, ._4gd0, ._5pw9, ._58ahm, ._4x7m, ._80cm, ._80co {
     -webkit-transition: background 0.5s !important;
 }
 
@@ -31,7 +31,7 @@ body, ._4sp8, ._4eby, ._59s7, ._3s-4, ._2y8_, ._53ij, ._1sk6, ._4gd0, ._5pw9, ._
     -webkit-transition: border-left 0.5s !important;
 }
 
-h1, h2, h3, h4, h5, h6, textarea, keygen, select, ._2v6o, ._5eu7, ._3eus, ._5uh, ._3x6v, ._5rh4, ._5qsj, ._497p, ._5i_d .__6m, ._1r3o, ._374c, ._3q35, ._2y8z, ._2mjl, ._1n-e, ._4dx5, ._38wl, ._4x7m, ._4x79, ._4x7b, body, ._3szq, ._4rph ._4rpj, ._364g, ._2jnv, ._2jnx, ._2jnz, ._2jnx ._30e7 ._5j5f, ._5i_d .__6k, ._5i_d .__6l, ._3wa-, ._3wb0, ._2c9i ._19jt, ._4ng2, ._3q34, ._36zg, input, ._hh7 a, ._3eur._6ybk a, label, ._618l, ._618n, ._6cs7, ._koh li:not(.selected), ._517h, ._1suj, ._1suk, .uiInputLabel .__rm+.uiInputLabelLabel, ._7492, ._5iwm ._58al::-webkit-input-placeholder, ._5pwa, ._5pw6, ._58al, ._74ku {
+h1, h2, h3, h4, h5, h6, textarea, keygen, select, ._2v6o, ._5eu7, ._3eus, ._5uh, ._3x6v, ._5rh4, ._5qsj, ._497p, ._5i_d .__6m, ._1r3o, ._374c, ._3q35, ._2y8z, ._2mjl, ._1n-e, ._4dx5, ._38wl, ._4x7m, ._4x79, ._4x7b, body, ._3szq, ._4rph ._4rpj, ._364g, ._2jnv, ._2jnx, ._2jnz, ._2jnx ._30e7 ._5j5f, ._5i_d .__6k, ._5i_d .__6l, ._3wa-, ._3wb0, ._2c9i ._19jt, ._4ng2, ._3q34, ._36zg, input, ._hh7 a, ._3eur._6ybk a, label, ._618l, ._618n, ._6cs7, ._koh li:not(.selected), ._517h, ._1suj, ._1suk, .uiInputLabel .__rm+.uiInputLabelLabel, ._7492, ._5iwm ._58al::-webkit-input-placeholder, ._5pwa, ._5pw6, ._58al, ._74ku, ._7q1q {
     -webkit-transition: color 0.5s !important;
 }
 
@@ -51,8 +51,12 @@ hr {
     -webkit-transition: background-color 0.5s !important;
 }
 
-._5pw9, ._58ah {
+._5pw9, ._58ah, ._7q0v, ._7q1i, ._7q1m, ._7q1n {
     -webkit-transition: border-color 0.5s !important;
+}
+
+._7q1p {
+    -webkit-transition: background-color 0.5s, border-color 0.5s !important;
 }
 
 ._3nta {
@@ -67,7 +71,7 @@ hr {
     -webkit-transition: -webkit-filter 0.5s, opacity 0.5s !important;
 }
 
-#js_6 + rect, path#Fill-1, path#Fill-2 {
+#js_6 + rect, path#Fill-1, path#Fill-2, ._7oal path {
     -webkit-transition: fill 0.5s !important;
 }
 
@@ -104,7 +108,7 @@ hr {
 
 /* --------------------------------------------------------------------------- */
 
-body.blackMode, body.blackMode ._4sp8, body.blackMode ._4eby, body.blackMode ._59s7, body.blackMode ._3s-4, body.blackMode ._2y8_, body.blackMode ._53ij, body.blackMode ._1sk6, body.blackMode ._4gd0, body.blackMode ._5pw9, body.blackMode ._58ahm {
+body.blackMode, body.blackMode ._4sp8, body.blackMode ._4eby, body.blackMode ._59s7, body.blackMode ._3s-4, body.blackMode ._2y8_, body.blackMode ._53ij, body.blackMode ._1sk6, body.blackMode ._4gd0, body.blackMode ._5pw9, body.blackMode ._58ahm, body.blackMode ._80cm {
     background: black !important;
 }
 
@@ -151,7 +155,7 @@ body.blackMode ._2v6o, body.blackMode ._5eu7, body.blackMode ._3eus, body.blackM
     color: rgba(255, 255, 255, .40) !important;
 }
 
-body.blackMode, body.blackMode ._3szq, body.blackMode ._4rph ._4rpj, body.blackMode ._364g, body.blackMode ._2jnv, body.blackMode ._2jnx, body.blackMode ._2jnz, body.blackMode ._2jnx ._30e7 ._5j5f, body.blackMode ._5i_d .__6k, body.blackMode ._5i_d .__6l, body.blackMode ._3wa-, body.blackMode ._3wb0, body.blackMode ._2c9i ._19jt, body.blackMode ._4ng2, body.blackMode ._3q34, body.blackMode ._36zg, body.blackMode input, body.blackMode ._hh7 a, body.blackMode ._3eur._6ybk a {
+body.blackMode, body.blackMode ._3szq, body.blackMode ._4rph ._4rpj, body.blackMode ._364g, body.blackMode ._2jnv, body.blackMode ._2jnx, body.blackMode ._2jnz, body.blackMode ._2jnx ._30e7 ._5j5f, body.blackMode ._5i_d .__6k, body.blackMode ._5i_d .__6l, body.blackMode ._3wa-, body.blackMode ._3wb0, body.blackMode ._2c9i ._19jt, body.blackMode ._4ng2, body.blackMode ._3q34, body.blackMode ._36zg, body.blackMode input, body.blackMode ._hh7 a, body.blackMode ._3eur._6ybk a, body.blackMode ._7q1q {
     color: white !important;
 }
 
@@ -367,7 +371,7 @@ body.blackMode ._6ymu, body.blackMode ._6-xp, body.blackMode ._6ybv, body.blackM
     background-color: rgba(255, 255, 255, .12) !important;
 }
 
-body.blackMode path#Fill-1, body.blackMode path#Fill-2 {
+body.blackMode path#Fill-1, body.blackMode path#Fill-2, body.blackMode ._7i2o:hover path, body.blackMode ._7i2n:hover path#Fill-19, body.blackMode ._7i2l:hover path#Fill-1, body.blackMode ._7oal path {
     fill: white !important;
 }
 
@@ -377,10 +381,6 @@ body.blackMode ._4k7a {
 
 body.blackMode ._7i2o path, body.blackMode ._7i2n path#Fill-19, body.blackMode ._7i2l path#Fill-1 {
     fill: rgba(255, 255, 255, 0.34) !important;
-}
-
-body.blackMode ._7i2o:hover path, body.blackMode ._7i2n:hover path#Fill-19, body.blackMode ._7i2l:hover path#Fill-1 {
-    fill: white !important;
 }
 
 body.blackMode ._1hbw ._5pd7 {
@@ -397,7 +397,9 @@ body.blackMode ._18p0 {
     border-top-color: rgba(255, 255, 255, .1) !important;
 }
 
-/* Low-contrast */
+body.blackMode ._7q0v, body.blackMode ._7q1i, body.blackMode ._7q1p._7q1l, body.blackMode ._7q1m, body.blackMode ._7q1n {
+    border-color: black !important;
+}
 
 body.blackMode ._41ud div:not(._nd_) ._hh7:not(._2f5r):not(._7301) {
     background-color: rgb(50, 51, 52) !important;
@@ -410,4 +412,12 @@ body.blackMode ._aou, body.blackMode ._4kf5 {
 
 body.blackMode ._4kf6:not(._fy2) {
     color: #9d9d9d !important;
+}
+
+body.blackMode ._7q1p {
+    background-color: rgb(50, 51, 52) !important;
+}
+
+body.blackMode ._80co {
+    background: rgba(0, 0, 0, .5) !important;
 }
