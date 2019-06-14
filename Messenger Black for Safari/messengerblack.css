@@ -1,84 +1,22 @@
 /** Transitions **/
-body, ._4sp8, ._4eby, ._59s7, ._3s-4, ._2y8_, ._53ij, ._1sk6, ._4gd0, ._5pw9, ._58ahm {
+body, ._4sp8, ._4eby, ._59s7, ._3s-4, ._2y8_, ._53ij, ._1sk6, ._4gd0, ._5pw9, ._58ahm, ._4x7m {
     -webkit-transition: background 0.5s !important;
 }
 
-._2y8_, ._53ij {
+._2y8_, ._53ij, ._5i_d, ._3wb1, ._3way {
     -webkit-transition: border 0.5s !important;
 }
 
-/* Borders */
-._673w, ._36ic, ._374b, ._2y8y {
+._673w, ._36ic, ._374b, ._2y8y, ._llj, ._2c9i ._4ebz, ._4dx4, ._koh {
     -webkit-transition: border-bottom 0.5s !important;
 }
 
-._llj {
-    -webkit-transition: border-bottom 0.5s !important;
-}
-
-._1t2u {
-    -webkit-transition: border-left 0.5s !important;
-}
-
-._4_j5 {
+._1t2u, ._4_j5 {
     -webkit-transition: border-left 0.5s !important;
 }
 
 ._4rv3, ._1li-, ._3war, ._3wax {
     -webkit-transition: border-top 0.5s !important;
-}
-
-/* Text */
-h1, h2, h3, h4, h5, h6 {
-    -webkit-transition: color 0.5s !important;
-}
-
-textarea, keygen, select {
-    -webkit-transition: color 0.5s !important;
-}
-
-._2v6o, ._5eu7, ._3eus, ._5uh, ._3x6v, ._5rh4, ._5qsj, ._497p, ._5i_d .__6m, ._1r3o, ._374c, ._3q35, ._2y8z, ._2mjl, ._1n-e, ._4dx5, ._38wl, ._4x7m, ._4x79, ._4x7b {
-    -webkit-transition: color 0.5s !important;
-}
-
-body, ._3szq, ._4rph ._4rpj, ._364g, ._2jnv, ._2jnx, ._2jnz, ._2jnx ._30e7 ._5j5f, ._5i_d .__6k, ._5i_d .__6l, ._3wa-, ._3wb0, ._2c9i ._19jt, ._4ng2, ._3q34, ._36zg, input, ._hh7 a, ._3eur._6ybk a {
-    -webkit-transition: color 0.5s !important;
-}
-
-._225b {
-    -webkit-transition: background-color 0.5s, color 0.5s !important;
-}
-
-label {
-    -webkit-transition: color 0.5s !important;
-}
-
-._5i_d {
-    -webkit-transition: border 0.5s !important;
-}
-
-._618l {
-    -webkit-transition: color 0.5s !important;
-}
-
-._618n, ._6cs7 {
-    -webkit-transition: color 0.5s !important;
-}
-
-hr {
-    -webkit-transition: background 0.5s, color 0.5s !important;
-}
-
-._2c9i ._4ebz, ._4dx4 {
-    -webkit-transition: border-bottom 0.5s !important;
-}
-
-._koh {
-    -webkit-transition: border-bottom 0.5s !important;
-}
-
-._koh li:not(.selected) {
-    -webkit-transition: color 0.5s !important;
 }
 
 ._3m31:nth-of-type(3n+1) {
@@ -93,80 +31,28 @@ hr {
     -webkit-transition: border-left 0.5s !important;
 }
 
+h1, h2, h3, h4, h5, h6, textarea, keygen, select, ._2v6o, ._5eu7, ._3eus, ._5uh, ._3x6v, ._5rh4, ._5qsj, ._497p, ._5i_d .__6m, ._1r3o, ._374c, ._3q35, ._2y8z, ._2mjl, ._1n-e, ._4dx5, ._38wl, ._4x7m, ._4x79, ._4x7b, body, ._3szq, ._4rph ._4rpj, ._364g, ._2jnv, ._2jnx, ._2jnz, ._2jnx ._30e7 ._5j5f, ._5i_d .__6k, ._5i_d .__6l, ._3wa-, ._3wb0, ._2c9i ._19jt, ._4ng2, ._3q34, ._36zg, input, ._hh7 a, ._3eur._6ybk a, label, ._618l, ._618n, ._6cs7, ._koh li:not(.selected), ._517h, ._1suj, ._1suk, .uiInputLabel .__rm+.uiInputLabelLabel, ._7492, ._5iwm ._58al::-webkit-input-placeholder, ._5pwa, ._5pw6, ._58al, ._74ku {
+    -webkit-transition: color 0.5s !important;
+}
+
+._225b, ._jf4 ._jf3 {
+    -webkit-transition: background-color 0.5s, color 0.5s !important;
+}
+
+hr {
+    -webkit-transition: background 0.5s, color 0.5s !important;
+}
+
 ._33p7 {
     -webkit-transition: background-color 0.5s, border-bottom 0.5s !important;
 }
 
-._2615 {
+._2615, ._1ht1._1ht2, ._1hbw ._5pd7, ._4-hy ._3ixn, ._7jxv, ._5iwm ._58al, ._6ymu, ._6-xp, ._6ybv, ._6y56 {
     -webkit-transition: background-color 0.5s !important;
 }
 
-._517h {
-    -webkit-transition: color 0.5s !important;
-}
-
-._jf4 ._jf3 {
-    -webkit-transition: background-color 0.5s, color 0.5s !important;
-}
-
-._1ht1._1ht2, ._1hbw ._5pd7 {
-    -webkit-transition: background-color 0.5s !important;
-}
-
-._1suj {
-    -webkit-transition: color 0.5s !important;
-}
-
-._1suk {
-    -webkit-transition: color 0.5s !important;
-}
-
-.uiInputLabel .__rm+.uiInputLabelLabel {
-    -webkit-transition: color 0.5s !important;
-}
-
-._7492 {
-    -webkit-transition: color 0.5s !important;
-}
-
-._4-hy ._3ixn {
-    -webkit-transition: background-color 0.5s !important;
-}
-
-._7jxv {
-    -webkit-transition: background-color 0.5s !important;
-}
-
-._5iwm ._58al {
-    -webkit-transition: background-color 0.5s !important;
-}
-
-._5iwm ._58al::-webkit-input-placeholder {
-    -webkit-transition: color 0.5s !important;
-}
-
-._5pw9 {
+._5pw9, ._58ah {
     -webkit-transition: border-color 0.5s !important;
-}
-
-._5pwa, ._5pw6 {
-    -webkit-transition: color 0.5s !important;
-}
-
-._58ah {
-    -webkit-transition: border-color 0.5s !important;
-}
-
-._58al {
-    -webkit-transition: color 0.5s !important;
-}
-
-._4x7m {
-    -webkit-transition: background 0.5s !important;
-}
-
-._3wb1, ._3way {
-    -webkit-transition: border 0.5s !important;
 }
 
 ._3nta {
@@ -177,27 +63,11 @@ hr {
     -webkit-transition: background-color 0.0s !important;
 }
 
-._4rv6 {
+._4rv6, a._4ce_ {
     -webkit-transition: -webkit-filter 0.5s, opacity 0.5s !important;
 }
 
-a._4ce_ {
-    -webkit-transition: -webkit-filter 0.5s, opacity 0.5s !important;
-}
-
-._74ku {
-    -webkit-transition: color 0.5s !important;
-}
-
-#js_6 + rect {
-    -webkit-transition: fill 0.5s !important;
-}
-
-._6ymu, ._6-xp, ._6ybv, ._6y56 {
-    -webkit-transition: background-color 0.5s !important;
-}
-
-path#Fill-1, path#Fill-2 {
+#js_6 + rect, path#Fill-1, path#Fill-2 {
     -webkit-transition: fill 0.5s !important;
 }
 
@@ -226,12 +96,6 @@ path#Fill-1, path#Fill-2 {
 ._4k7a {
     -webkit-transition: color 0.5s !important;
 }
-
-
-
-
-
-
 
 
 
