@@ -75,7 +75,7 @@ hr {
     -webkit-transition: -webkit-filter 0.5s, opacity 0.5s !important;
 }
 
-#js_6 + rect, svg:not(._7oal) path#Fill-1, path#Fill-2, path#Fill-8, path#Fill-19 path#Fill-23, path#Fill-24, ._80cm ._7oal path {
+#js_6 + rect, path#Fill-1, path#Fill-2, path#Fill-8, path#Fill-19 path#Fill-23, path#Fill-24, ._80cm ._7oal path {
     -webkit-transition: fill 0.5s !important;
 }
 
@@ -394,7 +394,7 @@ body.blackMode ._6ymu, body.blackMode ._6-xp, body.blackMode ._6ybv, body.blackM
     background-color: rgba(255, 255, 255, .12) !important;
 }
 
-body.blackMode svg:not(._7oal) path#Fill-1, body.blackMode path#Fill-2, body.blackMode path#Fill-8, body.blackMode path#Fill-19, body.blackMode path#Fill-23, body.blackMode path#Fill-24, body.blackMode ._7i2o:hover path, body.blackMode ._7i2n:hover path#Fill-19, body.blackMode ._7i2l:hover path#Fill-1, body.blackMode ._80cm ._7oal path {
+body.blackMode path#Fill-1, body.blackMode path#Fill-2, body.blackMode path#Fill-8, body.blackMode path#Fill-19, body.blackMode path#Fill-23, body.blackMode path#Fill-24, body.blackMode ._7i2o:hover path, body.blackMode ._7i2n:hover path#Fill-19, body.blackMode ._7i2l:hover path#Fill-1, body.blackMode ._80cm ._7oal path {
     fill: white !important;
 }
 
