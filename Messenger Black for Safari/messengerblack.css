@@ -39,6 +39,10 @@ h1, h2, h3, h4, h5, h6, textarea, keygen, select, ._2v6o, ._5eu7, ._3eus, ._5uh,
     -webkit-transition: color 0.5s !important;
 }
 
+._1ht1:active ._6zkf {
+    -webkit-transition: color 0.0s !important;
+}
+
 ._225b, ._jf4 ._jf3 {
     -webkit-transition: background-color 0.5s, color 0.5s !important;
 }
@@ -55,8 +59,12 @@ hr {
     -webkit-transition: background-color 0.5s !important;
 }
 
-._5pw9, ._58ah, ._7q0v, ._7q1i, ._7q1m, ._7q1n, ._71bm._71bn, ._71bo._71bm:hover, ._3b4t, ._2m5p {
+._5pw9, ._58ah, ._7q0v, ._7q1i, ._7q1l, ._7q1m, ._7q1n, ._71bm._71bn, ._71bo._71bm:hover, ._3b4t, ._2m5p {
     -webkit-transition: border-color 0.5s !important;
+}
+
+._1ht1:active ._7q1i, ._1ht1:active ._7q0v {
+    -webkit-transition: border-color 0.0s !important;
 }
 
 ._7q1p, ._2f5n, .__6j._43kk, ._ric, ._4mnq {
@@ -398,6 +406,10 @@ body.blackMode path#Fill-1, body.blackMode path#Fill-2, body.blackMode path#Fill
     fill: white !important;
 }
 
+body.blackMode a[aria-label="Create a poll"] path#Fill-1 {
+    fill: inherit !important;
+}
+
 body.blackMode ._4k7a {
     color: rgba(255, 255, 255, .5) !important;
 }
@@ -420,7 +432,7 @@ body.blackMode ._18p0 {
     border-top-color: rgba(255, 255, 255, .1) !important;
 }
 
-body.blackMode ._7q0v, body.blackMode ._7q1i, body.blackMode ._7q1p._7q1l, body.blackMode ._7q1m, body.blackMode ._7q1n, body.blackMode .__6j._43kk {
+body.blackMode ._7q0v, body.blackMode ._7q1i, body.blackMode ._7q1l, body.blackMode ._7q1p._7q1l, body.blackMode ._7q1m, body.blackMode ._7q1n, body.blackMode .__6j._43kk {
     border-color: black !important;
 }
 
