@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14490.70"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -145,6 +145,9 @@
                                             <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Continue button" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="T1h-Xn-Qkm">
                                                 <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                                 <font key="font" metaFont="system"/>
+                                                <string key="keyEquivalent" base64-UTF8="YES">
+DQ
+</string>
                                             </buttonCell>
                                             <connections>
                                                 <segue destination="sUe-V1-eNF" kind="custom" customClass="MyCustomSegue" customModule="Messenger_Black" customModuleProvider="target" id="frm-UB-TFo"/>
@@ -190,79 +193,6 @@
                                     <rect key="frame" x="0.0" y="0.0" width="640" height="480"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
-                                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="rHM-al-PLL">
-                                            <rect key="frame" x="112" y="282" width="32" height="57"/>
-                                            <constraints>
-                                                <constraint firstAttribute="height" constant="57" id="8qH-V4-DjL"/>
-                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="28" id="dxe-dr-emw"/>
-                                            </constraints>
-                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="1" id="msu-ol-fti">
-                                                <font key="font" metaFont="systemThin" size="48"/>
-                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                                            </textFieldCell>
-                                        </textField>
-                                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="JjJ-hi-lBN">
-                                            <rect key="frame" x="165" y="289" width="370" height="41"/>
-                                            <constraints>
-                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="366" id="HN9-Vn-nOd"/>
-                                                <constraint firstAttribute="height" constant="41" id="Lx6-eQ-Gpj"/>
-                                            </constraints>
-                                            <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Open Safari. In the Menu Bar, go to &quot;Safari ▶︎ Preferences...&quot; or use the keyboard shortcut &quot;⌘,&quot;." id="nx0-iQ-Lmi">
-                                                <font key="font" metaFont="systemLight" size="16"/>
-                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="0.85426476883561642" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                                            </textFieldCell>
-                                        </textField>
-                                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="KzV-e4-c1q">
-                                            <rect key="frame" x="105" y="200" width="32" height="57"/>
-                                            <constraints>
-                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="28" id="Buq-s8-9HF"/>
-                                                <constraint firstAttribute="height" constant="57" id="wrs-cm-vql"/>
-                                            </constraints>
-                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="2" id="WDe-Pu-UxT">
-                                                <font key="font" metaFont="systemThin" size="48"/>
-                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                                            </textFieldCell>
-                                        </textField>
-                                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="t8B-bK-SIg">
-                                            <rect key="frame" x="105" y="118" width="32" height="57"/>
-                                            <constraints>
-                                                <constraint firstAttribute="height" constant="57" id="Fh6-Tv-O5e"/>
-                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="28" id="NFZ-7c-bbe"/>
-                                            </constraints>
-                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="3" id="Scu-EU-64m">
-                                                <font key="font" metaFont="systemThin" size="48"/>
-                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                                            </textFieldCell>
-                                        </textField>
-                                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="HJJ-CE-S4z">
-                                            <rect key="frame" x="165" y="193" width="370" height="57"/>
-                                            <constraints>
-                                                <constraint firstAttribute="height" constant="57" id="dHv-DO-j2S"/>
-                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="366" id="ucp-Tm-WZR"/>
-                                            </constraints>
-                                            <textFieldCell key="cell" sendsActionOnEndEditing="YES" id="4Qk-FK-VrX">
-                                                <font key="font" metaFont="systemLight" size="16"/>
-                                                <string key="title">Click on the "Extensions" tab. You should see "Messenger Black for Safari 1.0" on the left. Check the box next to it to enable it.</string>
-                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="0.85426476883561642" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                                            </textFieldCell>
-                                        </textField>
-                                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="0iw-3E-RLQ">
-                                            <rect key="frame" x="165" y="110" width="370" height="57"/>
-                                            <constraints>
-                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="366" id="3lH-RZ-ig3"/>
-                                                <constraint firstAttribute="height" constant="57" id="sfV-Qg-vXE"/>
-                                            </constraints>
-                                            <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="You're done! Visit messenger.com or facebook.com/messages to see this extension take action." id="pS0-Ur-FMi">
-                                                <font key="font" metaFont="systemLight" size="16"/>
-                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="0.85426476883561642" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                                            </textFieldCell>
-                                        </textField>
                                         <button imageHugsTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9lu-nP-tNN">
                                             <rect key="frame" x="10" y="431" width="52" height="20"/>
                                             <constraints>
@@ -277,29 +207,55 @@
                                                 <segue destination="XfG-lQ-9wD" kind="custom" customClass="MyCustomSegue" customModule="Messenger_Black" customModuleProvider="target" id="KvE-1e-f6o"/>
                                             </connections>
                                         </button>
+                                        <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VuS-ne-LGK">
+                                            <rect key="frame" x="272" y="292" width="96" height="96"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="96" id="Ca3-rx-xhn"/>
+                                                <constraint firstAttribute="width" constant="96" id="PRH-Db-V7k"/>
+                                            </constraints>
+                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="Location Icon" id="Vgx-N9-KYP"/>
+                                        </imageView>
+                                        <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="5cg-j0-UFz">
+                                            <rect key="frame" x="188" y="229" width="265" height="44"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="44" id="5Zd-UG-9oG"/>
+                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="261" id="WFP-Nk-NlI"/>
+                                            </constraints>
+                                            <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="Location Services" id="7v0-EE-yUO">
+                                                <font key="font" metaFont="systemThin" size="36"/>
+                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="loZ-J5-tdu">
+                                            <rect key="frame" x="115" y="108" width="411" height="95"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="407" id="Qqb-qm-5UT"/>
+                                                <constraint firstAttribute="height" constant="95" id="TUf-Ia-fFk"/>
+                                            </constraints>
+                                            <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" id="Jix-yI-Nfe">
+                                                <font key="font" metaFont="systemLight" size="16"/>
+                                                <string key="title">Messenger Black's "Sunset to Sunrise" mode uses the sun's position to determine when to darken or lighten Messenger. In order to use this mode, you must enable Location Services, so we can determine the exact sunset and sunrise times in your area.</string>
+                                                <color key="textColor" white="1" alpha="0.79902068660000003" colorSpace="deviceWhite"/>
+                                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="rHM-al-PLL" firstAttribute="top" secondItem="KFY-Ix-ANl" secondAttribute="top" constant="141" id="2PT-zz-spO"/>
-                                        <constraint firstItem="KzV-e4-c1q" firstAttribute="leading" secondItem="KFY-Ix-ANl" secondAttribute="leading" constant="107" id="2X3-NZ-cdh"/>
+                                        <constraint firstAttribute="trailing" secondItem="VuS-ne-LGK" secondAttribute="trailing" constant="272" id="2Io-5m-5Jj"/>
                                         <constraint firstItem="9lu-nP-tNN" firstAttribute="leading" secondItem="KFY-Ix-ANl" secondAttribute="leading" constant="10" id="2tF-PI-qGR"/>
-                                        <constraint firstItem="KzV-e4-c1q" firstAttribute="top" secondItem="rHM-al-PLL" secondAttribute="bottom" constant="25" id="84U-dp-APJ"/>
-                                        <constraint firstAttribute="trailing" secondItem="HJJ-CE-S4z" secondAttribute="trailing" constant="107" id="8FQ-GK-71B"/>
-                                        <constraint firstItem="HJJ-CE-S4z" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="KzV-e4-c1q" secondAttribute="trailing" constant="32" id="AT9-1G-LB5"/>
-                                        <constraint firstItem="t8B-bK-SIg" firstAttribute="top" secondItem="KzV-e4-c1q" secondAttribute="bottom" constant="25" id="Hrz-83-edc"/>
+                                        <constraint firstItem="VuS-ne-LGK" firstAttribute="top" secondItem="KFY-Ix-ANl" secondAttribute="top" constant="92" id="6Y0-hQ-hdQ"/>
+                                        <constraint firstItem="5cg-j0-UFz" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="KFY-Ix-ANl" secondAttribute="leading" constant="190" id="7Nd-Sg-HOw"/>
+                                        <constraint firstAttribute="bottom" secondItem="loZ-J5-tdu" secondAttribute="bottom" constant="108" id="7yf-Of-e7F"/>
+                                        <constraint firstItem="VuS-ne-LGK" firstAttribute="leading" secondItem="KFY-Ix-ANl" secondAttribute="leading" constant="272" id="GXT-6y-342"/>
                                         <constraint firstItem="9lu-nP-tNN" firstAttribute="top" secondItem="KFY-Ix-ANl" secondAttribute="top" constant="29" id="N6V-Gf-i8I"/>
-                                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="JjJ-hi-lBN" secondAttribute="trailing" constant="107" id="RHo-Ju-Uqp"/>
-                                        <constraint firstItem="HJJ-CE-S4z" firstAttribute="top" secondItem="JjJ-hi-lBN" secondAttribute="bottom" constant="39" id="X7h-YO-c74"/>
-                                        <constraint firstItem="0iw-3E-RLQ" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="t8B-bK-SIg" secondAttribute="trailing" constant="32" id="Yu1-kv-jbs"/>
-                                        <constraint firstItem="0iw-3E-RLQ" firstAttribute="top" secondItem="HJJ-CE-S4z" secondAttribute="bottom" constant="26" id="azG-cI-Q2b"/>
-                                        <constraint firstItem="t8B-bK-SIg" firstAttribute="leading" secondItem="KFY-Ix-ANl" secondAttribute="leading" constant="107" id="d9w-YQ-NIa"/>
+                                        <constraint firstItem="loZ-J5-tdu" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="KFY-Ix-ANl" secondAttribute="leading" constant="117" id="X6K-qg-c7a"/>
+                                        <constraint firstAttribute="trailing" secondItem="loZ-J5-tdu" secondAttribute="trailing" constant="116" id="aLx-lX-eG8"/>
+                                        <constraint firstAttribute="trailing" secondItem="5cg-j0-UFz" secondAttribute="trailing" constant="189" id="d82-dB-g3v"/>
+                                        <constraint firstItem="5cg-j0-UFz" firstAttribute="top" secondItem="VuS-ne-LGK" secondAttribute="bottom" constant="19" id="dtk-Je-e6w"/>
                                         <constraint firstAttribute="trailing" secondItem="9lu-nP-tNN" secondAttribute="trailing" constant="578" id="eyx-UD-H85"/>
-                                        <constraint firstItem="JjJ-hi-lBN" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="rHM-al-PLL" secondAttribute="trailing" constant="25" id="hVu-3D-wsV"/>
-                                        <constraint firstItem="JjJ-hi-lBN" firstAttribute="top" secondItem="KFY-Ix-ANl" secondAttribute="top" constant="150" id="mO1-dx-8W5"/>
-                                        <constraint firstAttribute="bottom" secondItem="t8B-bK-SIg" secondAttribute="bottom" constant="118" id="mz2-CC-wdg"/>
+                                        <constraint firstItem="loZ-J5-tdu" firstAttribute="top" secondItem="5cg-j0-UFz" secondAttribute="bottom" constant="26" id="kOC-LC-eZr"/>
                                         <constraint firstAttribute="bottom" secondItem="9lu-nP-tNN" secondAttribute="bottom" constant="431" id="n7z-Hg-Gce"/>
-                                        <constraint firstItem="rHM-al-PLL" firstAttribute="leading" secondItem="KFY-Ix-ANl" secondAttribute="leading" constant="114" id="r7C-Gy-KS7"/>
-                                        <constraint firstAttribute="bottom" secondItem="0iw-3E-RLQ" secondAttribute="bottom" constant="110" id="sqZ-62-q6q"/>
-                                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="0iw-3E-RLQ" secondAttribute="trailing" constant="107" id="yni-lc-G14"/>
                                     </constraints>
                                 </view>
                                 <color key="fillColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -311,14 +267,152 @@
             </objects>
             <point key="canvasLocation" x="772" y="813"/>
         </scene>
+        <!--Third View Controller-->
+        <scene sceneID="eA6-XF-QnG">
+            <objects>
+                <viewController id="5Ly-Sl-eTf" userLabel="Third View Controller" customClass="SecondViewController" customModule="Messenger_Black" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" identifier="Third View" wantsLayer="YES" id="ZzP-cT-M7k">
+                        <rect key="frame" x="0.0" y="0.0" width="640" height="480"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <box fixedFrame="YES" boxType="custom" borderType="none" title="Box" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="jHO-sQ-kkV">
+                                <rect key="frame" x="0.0" y="0.0" width="640" height="480"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <view key="contentView" id="b1b-Fd-ueB">
+                                    <rect key="frame" x="0.0" y="0.0" width="640" height="480"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Y00-uC-uhf">
+                                            <rect key="frame" x="112" y="282" width="32" height="57"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="28" id="UMW-vj-tOm"/>
+                                                <constraint firstAttribute="height" constant="57" id="vfU-ZE-Ubc"/>
+                                            </constraints>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="1" id="CRZ-Pu-z0Y">
+                                                <font key="font" metaFont="systemThin" size="48"/>
+                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="8L3-Fn-hHq">
+                                            <rect key="frame" x="105" y="200" width="32" height="57"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="57" id="Qgd-nA-rW4"/>
+                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="28" id="eGq-3y-5A3"/>
+                                            </constraints>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="2" id="UNv-WY-KBu">
+                                                <font key="font" metaFont="systemThin" size="48"/>
+                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="YG2-fO-CMU">
+                                            <rect key="frame" x="105" y="118" width="32" height="57"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="28" id="idj-vb-FoQ"/>
+                                                <constraint firstAttribute="height" constant="57" id="wM9-KS-Ovl"/>
+                                            </constraints>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="3" id="MM4-5R-rWc">
+                                                <font key="font" metaFont="systemThin" size="48"/>
+                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ui8-zW-iVW">
+                                            <rect key="frame" x="165" y="193" width="370" height="57"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="366" id="Yyu-60-TIo"/>
+                                                <constraint firstAttribute="height" constant="57" id="jrp-x7-Y2P"/>
+                                            </constraints>
+                                            <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Check &quot;Messenger Black for Safari 1.0&quot; to enable the extension." id="twY-w3-12L">
+                                                <font key="font" metaFont="systemLight" size="16"/>
+                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="0.85426476880000002" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="PGM-7q-dm5">
+                                            <rect key="frame" x="165" y="110" width="370" height="57"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="366" id="pvT-8t-2ry"/>
+                                                <constraint firstAttribute="height" constant="57" id="trH-RS-roz"/>
+                                            </constraints>
+                                            <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="You're done! Visit messenger.com or facebook.com/messages to see this extension take action." id="M5B-Ym-gEr">
+                                                <font key="font" metaFont="systemLight" size="16"/>
+                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="0.85426476880000002" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
+                                        <button imageHugsTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hiq-Qt-aU3">
+                                            <rect key="frame" x="10" y="431" width="52" height="20"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="20" id="6L0-hK-TjG"/>
+                                                <constraint firstAttribute="width" constant="52" id="yx5-5V-Ozr"/>
+                                            </constraints>
+                                            <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Back button" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="InE-nY-wPl">
+                                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                <font key="font" metaFont="system"/>
+                                            </buttonCell>
+                                            <connections>
+                                                <segue destination="sUe-V1-eNF" kind="custom" customClass="MyCustomSegue" customModule="Messenger_Black" customModuleProvider="target" id="L3e-5i-ipZ"/>
+                                            </connections>
+                                        </button>
+                                        <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="fCi-7t-qOP">
+                                            <rect key="frame" x="161" y="293" width="188" height="32"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="21" id="1pJ-Im-dip"/>
+                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="176" id="ujc-4r-KdP"/>
+                                            </constraints>
+                                            <buttonCell key="cell" type="push" title="Open Safari Preferences" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="OEb-UZ-qa8">
+                                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                <font key="font" metaFont="system"/>
+                                            </buttonCell>
+                                            <connections>
+                                                <action selector="openButton:" target="5Ly-Sl-eTf" id="elo-OL-c1Z"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="Hiq-Qt-aU3" firstAttribute="top" secondItem="b1b-Fd-ueB" secondAttribute="top" constant="29" id="1mF-ms-UE7"/>
+                                        <constraint firstItem="Y00-uC-uhf" firstAttribute="top" secondItem="b1b-Fd-ueB" secondAttribute="top" constant="141" id="3tX-aJ-RgV"/>
+                                        <constraint firstAttribute="trailing" secondItem="fCi-7t-qOP" secondAttribute="trailing" constant="297" id="6eJ-yi-Njy"/>
+                                        <constraint firstAttribute="trailing" secondItem="ui8-zW-iVW" secondAttribute="trailing" constant="107" id="8Im-9r-by5"/>
+                                        <constraint firstItem="8L3-Fn-hHq" firstAttribute="top" secondItem="Y00-uC-uhf" secondAttribute="bottom" constant="25" id="9hk-Na-TpT"/>
+                                        <constraint firstItem="PGM-7q-dm5" firstAttribute="top" secondItem="ui8-zW-iVW" secondAttribute="bottom" constant="26" id="FYR-PD-e9j"/>
+                                        <constraint firstAttribute="trailing" secondItem="Hiq-Qt-aU3" secondAttribute="trailing" constant="578" id="Fim-Ov-cIm"/>
+                                        <constraint firstItem="YG2-fO-CMU" firstAttribute="leading" secondItem="b1b-Fd-ueB" secondAttribute="leading" constant="107" id="HA9-om-v7e"/>
+                                        <constraint firstItem="Y00-uC-uhf" firstAttribute="leading" secondItem="b1b-Fd-ueB" secondAttribute="leading" constant="114" id="Hz9-OW-TdP"/>
+                                        <constraint firstAttribute="bottom" secondItem="PGM-7q-dm5" secondAttribute="bottom" constant="110" id="KTw-uW-WgL"/>
+                                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="PGM-7q-dm5" secondAttribute="trailing" constant="107" id="Ltr-Td-8Bj"/>
+                                        <constraint firstItem="fCi-7t-qOP" firstAttribute="top" secondItem="b1b-Fd-ueB" secondAttribute="top" constant="159" id="R0s-Qr-Jym"/>
+                                        <constraint firstItem="ui8-zW-iVW" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8L3-Fn-hHq" secondAttribute="trailing" constant="32" id="SDy-Fp-1xy"/>
+                                        <constraint firstAttribute="bottom" secondItem="Hiq-Qt-aU3" secondAttribute="bottom" constant="431" id="YhU-iZ-qxy"/>
+                                        <constraint firstItem="Hiq-Qt-aU3" firstAttribute="leading" secondItem="b1b-Fd-ueB" secondAttribute="leading" constant="10" id="dh4-Xo-CCz"/>
+                                        <constraint firstItem="8L3-Fn-hHq" firstAttribute="leading" secondItem="b1b-Fd-ueB" secondAttribute="leading" constant="107" id="eoW-Ge-Mny"/>
+                                        <constraint firstItem="PGM-7q-dm5" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="YG2-fO-CMU" secondAttribute="trailing" constant="32" id="gpn-Q5-EAu"/>
+                                        <constraint firstItem="ui8-zW-iVW" firstAttribute="top" secondItem="fCi-7t-qOP" secondAttribute="bottom" constant="50" id="jEf-QV-2uQ"/>
+                                        <constraint firstItem="YG2-fO-CMU" firstAttribute="top" secondItem="8L3-Fn-hHq" secondAttribute="bottom" constant="25" id="nDQ-s5-WEs"/>
+                                        <constraint firstAttribute="bottom" secondItem="YG2-fO-CMU" secondAttribute="bottom" constant="118" id="t9D-5C-axp"/>
+                                        <constraint firstItem="fCi-7t-qOP" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Y00-uC-uhf" secondAttribute="trailing" constant="25" id="ter-gI-iJk"/>
+                                    </constraints>
+                                </view>
+                                <color key="fillColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </box>
+                        </subviews>
+                    </view>
+                </viewController>
+                <customObject id="vcg-yM-HlP" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1587" y="813"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Back button" width="2057" height="794"/>
         <image name="Continue button" width="3598" height="1024"/>
         <image name="Icon" width="1024" height="1024"/>
+        <image name="Location Icon" width="2048" height="2048"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="frm-UB-TFo"/>
+        <segue reference="L3e-5i-ipZ"/>
         <segue reference="KvE-1e-f6o"/>
     </inferredMetricsTieBreakers>
 </document>
