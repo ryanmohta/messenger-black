@@ -13,12 +13,10 @@
 		1137503721128E6800B37B0C /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1137503621128E6800B37B0C /* ToolbarItemIcon.pdf */; };
 		1178A6F7218AEB0C004936DA /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1178A6F6218AEB0C004936DA /* SafariExtensionViewController.xib */; };
 		11A0A6FB218D6A4B00E79DAF /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11A0A6FA218D6A4B00E79DAF /* Media.xcassets */; };
-		11C4662E210D925A003D3CA2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C4662D210D925A003D3CA2 /* SecondViewController.swift */; };
-		11C46630210D988F003D3CA2 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C4662F210D988F003D3CA2 /* SecondView.swift */; };
 		11C46632210E7971003D3CA2 /* MyCustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C46631210E7971003D3CA2 /* MyCustomSegue.swift */; };
 		11C46634210E7A7F003D3CA2 /* MyCustomAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C46633210E7A7F003D3CA2 /* MyCustomAnimator.swift */; };
 		11C639C520F5FE3C0020D4A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C639C420F5FE3C0020D4A3 /* AppDelegate.swift */; };
-		11C639C720F5FE3C0020D4A3 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C639C620F5FE3C0020D4A3 /* FirstViewController.swift */; };
+		11C639C720F5FE3C0020D4A3 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C639C620F5FE3C0020D4A3 /* MyViewController.swift */; };
 		11C639C920F5FE3E0020D4A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11C639C820F5FE3E0020D4A3 /* Assets.xcassets */; };
 		11C639CC20F5FE3E0020D4A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11C639CA20F5FE3E0020D4A3 /* Main.storyboard */; };
 		11C63A302106E7860020D4A3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C639DA20F5FF4F0020D4A3 /* Cocoa.framework */; };
@@ -61,26 +59,24 @@
 		1137503621128E6800B37B0C /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
 		1178A6F6218AEB0C004936DA /* SafariExtensionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SafariExtensionViewController.xib; sourceTree = "<group>"; };
 		11A0A6FA218D6A4B00E79DAF /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
-		11C4662D210D925A003D3CA2 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		11C4662F210D988F003D3CA2 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 		11C46631210E7971003D3CA2 /* MyCustomSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomSegue.swift; sourceTree = "<group>"; };
 		11C46633210E7A7F003D3CA2 /* MyCustomAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomAnimator.swift; sourceTree = "<group>"; };
 		11C639C120F5FE3C0020D4A3 /* Messenger Black.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Messenger Black.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11C639C420F5FE3C0020D4A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		11C639C620F5FE3C0020D4A3 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		11C639C620F5FE3C0020D4A3 /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 		11C639C820F5FE3E0020D4A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11C639CB20F5FE3E0020D4A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		11C639CD20F5FE3E0020D4A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		11C639CE20F5FE3E0020D4A3 /* Messenger_Black.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Messenger_Black.entitlements; sourceTree = "<group>"; };
 		11C639DA20F5FF4F0020D4A3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		11C63A2F2106E7860020D4A3 /* Messenger Black for Safari.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Messenger Black for Safari.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11C63A322106E7860020D4A3 /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
 		11C63A342106E7860020D4A3 /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
 		11C63A392106E7860020D4A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11C63A3A2106E7860020D4A3 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
-		11C63A3E2106E7860020D4A3 /* Messenger_Black_for_Safari.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Messenger_Black_for_Safari.entitlements; sourceTree = "<group>"; };
 		11C63A452106E8060020D4A3 /* messengerblack.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = messengerblack.css; sourceTree = "<group>"; };
 		11F68865211691C900D85A88 /* ToolbarItemIcon_Off.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon_Off.pdf; sourceTree = "<group>"; };
+		11FF9CBF22FEB4D1007F9879 /* Messenger Black.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Messenger Black.entitlements"; sourceTree = "<group>"; };
+		11FF9CC022FEB760007F9879 /* Messenger Black for Safari.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Messenger Black for Safari.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,14 +120,12 @@
 		11C639C320F5FE3C0020D4A3 /* Messenger Black */ = {
 			isa = PBXGroup;
 			children = (
+				11FF9CBF22FEB4D1007F9879 /* Messenger Black.entitlements */,
 				11C639C420F5FE3C0020D4A3 /* AppDelegate.swift */,
-				11C639C620F5FE3C0020D4A3 /* FirstViewController.swift */,
+				11C639C620F5FE3C0020D4A3 /* MyViewController.swift */,
 				11C639CA20F5FE3E0020D4A3 /* Main.storyboard */,
 				11C639C820F5FE3E0020D4A3 /* Assets.xcassets */,
 				11C639CD20F5FE3E0020D4A3 /* Info.plist */,
-				11C639CE20F5FE3E0020D4A3 /* Messenger_Black.entitlements */,
-				11C4662D210D925A003D3CA2 /* SecondViewController.swift */,
-				11C4662F210D988F003D3CA2 /* SecondView.swift */,
 				11C46631210E7971003D3CA2 /* MyCustomSegue.swift */,
 				11C46633210E7A7F003D3CA2 /* MyCustomAnimator.swift */,
 			);
@@ -149,6 +143,7 @@
 		11C63A312106E7860020D4A3 /* Messenger Black for Safari */ = {
 			isa = PBXGroup;
 			children = (
+				11FF9CC022FEB760007F9879 /* Messenger Black for Safari.entitlements */,
 				11C63A452106E8060020D4A3 /* messengerblack.css */,
 				112F5D1C21293B9600CA0603 /* earth-large.jpg */,
 				112F5D262129416D00CA0603 /* earth.jpg */,
@@ -160,7 +155,6 @@
 				11F68865211691C900D85A88 /* ToolbarItemIcon_Off.pdf */,
 				11C63A392106E7860020D4A3 /* Info.plist */,
 				11C63A3A2106E7860020D4A3 /* script.js */,
-				11C63A3E2106E7860020D4A3 /* Messenger_Black_for_Safari.entitlements */,
 				11A0A6FA218D6A4B00E79DAF /* Media.xcassets */,
 			);
 			path = "Messenger Black for Safari";
@@ -218,10 +212,20 @@
 					11C639C020F5FE3C0020D4A3 = {
 						CreatedOnToolsVersion = 9.4.1;
 						LastSwiftMigration = 1020;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 					11C63A2E2106E7860020D4A3 = {
 						CreatedOnToolsVersion = 9.4.1;
 						LastSwiftMigration = 1020;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -277,10 +281,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11C4662E210D925A003D3CA2 /* SecondViewController.swift in Sources */,
 				11C46634210E7A7F003D3CA2 /* MyCustomAnimator.swift in Sources */,
-				11C639C720F5FE3C0020D4A3 /* FirstViewController.swift in Sources */,
-				11C46630210D988F003D3CA2 /* SecondView.swift in Sources */,
+				11C639C720F5FE3C0020D4A3 /* MyViewController.swift in Sources */,
 				11C639C520F5FE3C0020D4A3 /* AppDelegate.swift in Sources */,
 				11C46632210E7971003D3CA2 /* MyCustomSegue.swift in Sources */,
 			);
@@ -368,7 +370,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -422,7 +424,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -435,7 +437,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Messenger Black/Messenger_Black.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Messenger Black/Messenger Black.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = XX2UC95MTQ;
@@ -455,7 +457,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Messenger Black/Messenger_Black.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Messenger Black/Messenger Black.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = XX2UC95MTQ;
@@ -473,7 +475,7 @@
 		11C63A422106E7870020D4A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "Messenger Black for Safari/Messenger_Black_for_Safari.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Messenger Black for Safari/Messenger Black for Safari.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XX2UC95MTQ;
 				INFOPLIST_FILE = "Messenger Black for Safari/Info.plist";
@@ -492,7 +494,7 @@
 		11C63A432106E7870020D4A3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "Messenger Black for Safari/Messenger_Black_for_Safari.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Messenger Black for Safari/Messenger Black for Safari.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XX2UC95MTQ;
 				INFOPLIST_FILE = "Messenger Black for Safari/Info.plist";

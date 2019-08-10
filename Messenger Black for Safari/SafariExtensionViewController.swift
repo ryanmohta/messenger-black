@@ -7,8 +7,11 @@
 //
 
 import SafariServices
+import CoreLocation
 
-class SafariExtensionViewController: SFSafariExtensionViewController {
+class SafariExtensionViewController: SFSafariExtensionViewController, CLLocationManagerDelegate {
+    
+    let locationManager = CLLocationManager()
     
     @IBOutlet weak var manual: NSButton!
     
@@ -156,6 +159,23 @@ class SafariExtensionViewController: SFSafariExtensionViewController {
     }
     
     func sunsetToSunriseChanged() -> Void {
+        
+        locationManager.delegate = self
+        
+//        let authorizationStatus = CLLocationManager.authorizationStatus()
+//        if authorizationStatus != .authorizedAlways {
+//            // User has not authorized access to location information.
+//            NSLog("Not authorized")
+//        }
+//
+//        NSLog("\(String(describing: authorizationStatus))")
+        
+    locationManager.startMonitoringSignificantLocationChanges()
+        
+//        locationManager.startUpdatingLocation()
+        
+        NSLog("L0cation: \(String(describing: locationManager.location))")
+        
         SafariExtensionHandler.currentPage?.dispatchMessageToScript(withName: "Sunset to Sunrise Changed", userInfo: nil)
         
         updateUserDefaults()
@@ -170,6 +190,21 @@ class SafariExtensionViewController: SFSafariExtensionViewController {
         UserDefaults.standard.set(endTime.dateValue.timeIntervalSince1970, forKey: "endTime")
         
         UserDefaults.standard.set(sunsetToSunrise.state == NSControl.StateValue.on, forKey: "sunsetToSunrise")
+    }
+    
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        let lastLocation = locations.last
+        
+        print("Last location: \(String(describing: lastLocation))")
+    }
+    
+    func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
+        if let error = error as? CLError, error.code == .denied {
+            // Location updates are not authorized.
+            manager.stopMonitoringSignificantLocationChanges()
+            return
+        }
+        print("Location Error: \(error)")
     }
     
 }
