@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
-        <deployment identifier="macosx"/>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14490.70"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -150,7 +149,7 @@ DQ
 </string>
                                             </buttonCell>
                                             <connections>
-                                                <segue destination="sUe-V1-eNF" kind="custom" customClass="MyCustomSegue" customModule="Messenger_Black" customModuleProvider="target" id="frm-UB-TFo"/>
+                                                <segue destination="5Ly-Sl-eTf" kind="custom" customClass="MyCustomSegue" customModule="Messenger_Black" customModuleProvider="target" id="oTP-7s-QEY"/>
                                             </connections>
                                         </button>
                                     </subviews>
@@ -179,137 +178,9 @@ DQ
             <point key="canvasLocation" x="75" y="813"/>
         </scene>
         <!--Second View Controller-->
-        <scene sceneID="JlT-fm-PtM">
-            <objects>
-                <viewController id="sUe-V1-eNF" userLabel="Second View Controller" customClass="MyViewController" customModule="Messenger_Black" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" wantsLayer="YES" id="GtQ-Pg-tuR">
-                        <rect key="frame" x="0.0" y="0.0" width="640" height="480"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <subviews>
-                            <box fixedFrame="YES" boxType="custom" borderType="none" title="Box" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="s4M-Ux-G5N">
-                                <rect key="frame" x="0.0" y="0.0" width="640" height="480"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <view key="contentView" id="KFY-Ix-ANl">
-                                    <rect key="frame" x="0.0" y="0.0" width="640" height="480"/>
-                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                    <subviews>
-                                        <button imageHugsTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9lu-nP-tNN">
-                                            <rect key="frame" x="10" y="431" width="52" height="20"/>
-                                            <constraints>
-                                                <constraint firstAttribute="height" constant="20" id="7qe-ff-nLZ"/>
-                                                <constraint firstAttribute="width" constant="52" id="hP0-8s-W11"/>
-                                            </constraints>
-                                            <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="Back button" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="Chl-ik-HYR">
-                                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                                <font key="font" metaFont="system"/>
-                                            </buttonCell>
-                                            <connections>
-                                                <segue destination="XfG-lQ-9wD" kind="custom" customClass="MyCustomSegue" customModule="Messenger_Black" customModuleProvider="target" id="KvE-1e-f6o"/>
-                                            </connections>
-                                        </button>
-                                        <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VuS-ne-LGK">
-                                            <rect key="frame" x="272" y="292" width="96" height="96"/>
-                                            <constraints>
-                                                <constraint firstAttribute="height" constant="96" id="Ca3-rx-xhn"/>
-                                                <constraint firstAttribute="width" constant="96" id="PRH-Db-V7k"/>
-                                            </constraints>
-                                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="Location Icon" id="Vgx-N9-KYP"/>
-                                        </imageView>
-                                        <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="5cg-j0-UFz">
-                                            <rect key="frame" x="188" y="229" width="265" height="44"/>
-                                            <constraints>
-                                                <constraint firstAttribute="height" constant="44" id="5Zd-UG-9oG"/>
-                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="261" id="WFP-Nk-NlI"/>
-                                            </constraints>
-                                            <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="Location Services" id="7v0-EE-yUO">
-                                                <font key="font" metaFont="systemThin" size="36"/>
-                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                                            </textFieldCell>
-                                        </textField>
-                                        <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="loZ-J5-tdu">
-                                            <rect key="frame" x="115" y="108" width="411" height="95"/>
-                                            <constraints>
-                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="407" id="Qqb-qm-5UT"/>
-                                                <constraint firstAttribute="height" constant="95" id="TUf-Ia-fFk"/>
-                                            </constraints>
-                                            <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" id="Jix-yI-Nfe">
-                                                <font key="font" metaFont="systemLight" size="16"/>
-                                                <string key="title">Messenger Black's "Sunset to Sunrise" mode uses the sun's position to determine when to darken or lighten Messenger. In order to use this mode, you must enable Location Services, so we can determine the exact sunset and sunrise times in your area.</string>
-                                                <color key="textColor" white="1" alpha="0.79902068660000003" colorSpace="deviceWhite"/>
-                                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                                            </textFieldCell>
-                                        </textField>
-                                        <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="uJw-tb-lvF">
-                                            <rect key="frame" x="267" y="57" width="192" height="32"/>
-                                            <constraints>
-                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="180" id="N60-aT-n6J"/>
-                                                <constraint firstAttribute="height" constant="21" id="nBf-HX-6te"/>
-                                            </constraints>
-                                            <buttonCell key="cell" type="push" title="Enable Location Services" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="TcR-lw-8BA">
-                                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                                <font key="font" metaFont="system"/>
-                                                <string key="keyEquivalent" base64-UTF8="YES">
-DQ
-</string>
-                                            </buttonCell>
-                                            <connections>
-                                                <action selector="enableLocation:" target="sUe-V1-eNF" id="8NX-tp-pn6"/>
-                                            </connections>
-                                        </button>
-                                        <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="vgj-tQ-Dii">
-                                            <rect key="frame" x="182" y="57" width="85" height="32"/>
-                                            <constraints>
-                                                <constraint firstAttribute="height" constant="21" id="3sz-qg-fgp"/>
-                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="73" id="Ukb-Tu-F7o"/>
-                                            </constraints>
-                                            <buttonCell key="cell" type="push" title="Disable" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="HUY-IP-b9R">
-                                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                                <font key="font" metaFont="system"/>
-                                            </buttonCell>
-                                            <connections>
-                                                <segue destination="5Ly-Sl-eTf" kind="custom" customClass="MyCustomSegue" customModule="Messenger_Black" customModuleProvider="target" id="Ibe-D3-xT3"/>
-                                            </connections>
-                                        </button>
-                                    </subviews>
-                                    <constraints>
-                                        <constraint firstAttribute="trailing" secondItem="VuS-ne-LGK" secondAttribute="trailing" constant="272" id="2Io-5m-5Jj"/>
-                                        <constraint firstItem="9lu-nP-tNN" firstAttribute="leading" secondItem="KFY-Ix-ANl" secondAttribute="leading" constant="10" id="2tF-PI-qGR"/>
-                                        <constraint firstItem="VuS-ne-LGK" firstAttribute="top" secondItem="KFY-Ix-ANl" secondAttribute="top" constant="92" id="6Y0-hQ-hdQ"/>
-                                        <constraint firstItem="5cg-j0-UFz" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="KFY-Ix-ANl" secondAttribute="leading" constant="190" id="7Nd-Sg-HOw"/>
-                                        <constraint firstAttribute="bottom" secondItem="loZ-J5-tdu" secondAttribute="bottom" constant="108" id="7yf-Of-e7F"/>
-                                        <constraint firstItem="vgj-tQ-Dii" firstAttribute="leading" secondItem="KFY-Ix-ANl" secondAttribute="leading" constant="188" id="8fa-GH-G84"/>
-                                        <constraint firstItem="VuS-ne-LGK" firstAttribute="leading" secondItem="KFY-Ix-ANl" secondAttribute="leading" constant="272" id="GXT-6y-342"/>
-                                        <constraint firstItem="9lu-nP-tNN" firstAttribute="top" secondItem="KFY-Ix-ANl" secondAttribute="top" constant="29" id="N6V-Gf-i8I"/>
-                                        <constraint firstAttribute="bottom" secondItem="uJw-tb-lvF" secondAttribute="bottom" constant="64" id="PZB-q4-JOJ"/>
-                                        <constraint firstItem="uJw-tb-lvF" firstAttribute="top" secondItem="loZ-J5-tdu" secondAttribute="bottom" constant="23" id="RAc-AQ-5Om"/>
-                                        <constraint firstItem="loZ-J5-tdu" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="KFY-Ix-ANl" secondAttribute="leading" constant="117" id="X6K-qg-c7a"/>
-                                        <constraint firstAttribute="trailing" secondItem="loZ-J5-tdu" secondAttribute="trailing" constant="116" id="aLx-lX-eG8"/>
-                                        <constraint firstAttribute="trailing" secondItem="5cg-j0-UFz" secondAttribute="trailing" constant="189" id="d82-dB-g3v"/>
-                                        <constraint firstItem="uJw-tb-lvF" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="vgj-tQ-Dii" secondAttribute="trailing" constant="12" id="dLC-pR-WEX"/>
-                                        <constraint firstItem="5cg-j0-UFz" firstAttribute="top" secondItem="VuS-ne-LGK" secondAttribute="bottom" constant="19" id="dtk-Je-e6w"/>
-                                        <constraint firstAttribute="trailing" secondItem="9lu-nP-tNN" secondAttribute="trailing" constant="578" id="eyx-UD-H85"/>
-                                        <constraint firstAttribute="bottom" secondItem="vgj-tQ-Dii" secondAttribute="bottom" constant="64" id="hDz-vT-NaC"/>
-                                        <constraint firstItem="vgj-tQ-Dii" firstAttribute="top" secondItem="loZ-J5-tdu" secondAttribute="bottom" constant="23" id="k26-Sj-PD3"/>
-                                        <constraint firstItem="loZ-J5-tdu" firstAttribute="top" secondItem="5cg-j0-UFz" secondAttribute="bottom" constant="26" id="kOC-LC-eZr"/>
-                                        <constraint firstAttribute="bottom" secondItem="9lu-nP-tNN" secondAttribute="bottom" constant="431" id="n7z-Hg-Gce"/>
-                                        <constraint firstItem="uJw-tb-lvF" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="vgj-tQ-Dii" secondAttribute="trailing" constant="12" id="vRb-4d-FQY"/>
-                                        <constraint firstAttribute="trailing" secondItem="uJw-tb-lvF" secondAttribute="trailing" constant="187" id="z7h-uv-aO8"/>
-                                    </constraints>
-                                </view>
-                                <color key="fillColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </box>
-                        </subviews>
-                    </view>
-                </viewController>
-                <customObject id="ALr-V5-LbN" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="772" y="813"/>
-        </scene>
-        <!--Third View Controller-->
         <scene sceneID="eA6-XF-QnG">
             <objects>
-                <viewController id="5Ly-Sl-eTf" userLabel="Third View Controller" customClass="MyViewController" customModule="Messenger_Black" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="5Ly-Sl-eTf" userLabel="Second View Controller" customClass="MyViewController" customModule="Messenger_Black" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" identifier="Third View" wantsLayer="YES" id="ZzP-cT-M7k">
                         <rect key="frame" x="0.0" y="0.0" width="640" height="480"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -392,7 +263,7 @@ DQ
                                                 <font key="font" metaFont="system"/>
                                             </buttonCell>
                                             <connections>
-                                                <segue destination="sUe-V1-eNF" kind="custom" customClass="MyCustomSegue" customModule="Messenger_Black" customModuleProvider="target" id="L3e-5i-ipZ"/>
+                                                <segue destination="XfG-lQ-9wD" kind="custom" customClass="MyCustomSegue" customModule="Messenger_Black" customModuleProvider="target" id="wyL-G5-VyX"/>
                                             </connections>
                                         </button>
                                         <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="fCi-7t-qOP">
@@ -441,18 +312,15 @@ DQ
                 </viewController>
                 <customObject id="vcg-yM-HlP" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1462" y="813"/>
+            <point key="canvasLocation" x="746" y="813"/>
         </scene>
     </scenes>
     <resources>
         <image name="Back button" width="2057" height="794"/>
         <image name="Continue button" width="3598" height="1024"/>
         <image name="Icon" width="1024" height="1024"/>
-        <image name="Location Icon" width="2048" height="2048"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Ibe-D3-xT3"/>
-        <segue reference="L3e-5i-ipZ"/>
-        <segue reference="KvE-1e-f6o"/>
+        <segue reference="cq2-FE-JQM"/>
     </inferredMetricsTieBreakers>
 </document>

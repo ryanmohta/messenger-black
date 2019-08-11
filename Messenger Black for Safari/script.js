@@ -1,3 +1,5 @@
+var SunCalc = require('suncalc');
+
 var body = document.getElementsByTagName("BODY")[0];
 var timerVariable;
 
@@ -18,6 +20,9 @@ function handleMessage(event) {
     }
     else if(event.name === "Scheduled Changed") {
         scheduledChanged(event);
+    }
+    else if(event.name === "Sunset to Sunrise Changed") {
+        sunsetToSunriseChanged(event);
     }
 }
 
@@ -49,6 +54,21 @@ function scheduledChanged(event) {
     timerVariable = setInterval(scheduledTimer, 1000, startTimeHour, startTimeMinute, endTimeHour, endTimeMinute);
 }
 
+function sunsetToSunriseChanged(event) {
+    var times = SunCalc.getTimes(new Date(), event.message["Latitude"], event.message["Longitude"]);
+    
+    var sunsetHour = times.sunset.getHours();
+    var sunsetMinute = times.sunset.getMinutes();
+    
+    var sunriseHour = times.sunrise.getHours();
+    var sunriseMinute = times.sunrise.getMinutes();
+    
+    scheduledTimer(sunsetHour, sunsetMinute, sunriseHour, sunriseMinute);
+    
+    clearInterval(timerVariable);
+    timerVariable = setInterval(scheduledTimer, 1000, sunsetHour, sunsetMinute, sunriseHour, sunriseMinute);
+}
+
 function scheduledTimer(startTimeHour, startTimeMinute, endTimeHour, endTimeMinute) {
     var currentDate = new Date();
     var currentHour = currentDate.getHours();
@@ -60,19 +80,4 @@ function scheduledTimer(startTimeHour, startTimeMinute, endTimeHour, endTimeMinu
     else {
         document.getElementsByTagName("BODY")[0].classList.remove("blackMode");
     }
-    
-    /*if(hour < 7 || /*(hour >= 17 && minute >= 30) || hour >= 18) {
-        document.getElementsByTagName("BODY")[0].classList.add("blackMode");
-    }
-    else {
-        document.getElementsByTagName("BODY")[0].classList.remove("blackMode");
-    }*/
 }
-
-
-
-/*safari.self.addEventListener("Sunset to Sunrise Changed", sunsetToSunriseChanged);*/
-
-
-
-

@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		112F5D1D21293B9600CA0603 /* earth-large.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 112F5D1C21293B9600CA0603 /* earth-large.jpg */; };
-		112F5D272129416D00CA0603 /* earth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 112F5D262129416D00CA0603 /* earth.jpg */; };
-		112F5D2921294BF300CA0603 /* pattern.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 112F5D2821294BF200CA0603 /* pattern.jpg */; };
 		1137503721128E6800B37B0C /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1137503621128E6800B37B0C /* ToolbarItemIcon.pdf */; };
 		1178A6F7218AEB0C004936DA /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1178A6F6218AEB0C004936DA /* SafariExtensionViewController.xib */; };
 		11A0A6FB218D6A4B00E79DAF /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11A0A6FA218D6A4B00E79DAF /* Media.xcassets */; };
+		11C01D5A22FF9C0800E72B4F /* package.json in Resources */ = {isa = PBXBuildFile; fileRef = 11C01D5922FF9C0800E72B4F /* package.json */; };
+		11C01D5C22FF9C9500E72B4F /* node_modules in Resources */ = {isa = PBXBuildFile; fileRef = 11C01D5B22FF9C9400E72B4F /* node_modules */; };
+		11C01D5E22FF9CF200E72B4F /* package-lock.json in Resources */ = {isa = PBXBuildFile; fileRef = 11C01D5D22FF9CF200E72B4F /* package-lock.json */; };
+		11C01D60230011AE00E72B4F /* bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = 11C01D5F230011AE00E72B4F /* bundle.js */; };
 		11C46632210E7971003D3CA2 /* MyCustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C46631210E7971003D3CA2 /* MyCustomSegue.swift */; };
 		11C46634210E7A7F003D3CA2 /* MyCustomAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C46633210E7A7F003D3CA2 /* MyCustomAnimator.swift */; };
 		11C639C520F5FE3C0020D4A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C639C420F5FE3C0020D4A3 /* AppDelegate.swift */; };
@@ -25,7 +26,6 @@
 		11C63A3B2106E7860020D4A3 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 11C63A3A2106E7860020D4A3 /* script.js */; };
 		11C63A412106E7860020D4A3 /* Messenger Black for Safari.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 11C63A2F2106E7860020D4A3 /* Messenger Black for Safari.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		11C63A462106E8060020D4A3 /* messengerblack.css in Resources */ = {isa = PBXBuildFile; fileRef = 11C63A452106E8060020D4A3 /* messengerblack.css */; };
-		11F68866211691C900D85A88 /* ToolbarItemIcon_Off.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 11F68865211691C900D85A88 /* ToolbarItemIcon_Off.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,12 +53,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		112F5D1C21293B9600CA0603 /* earth-large.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "earth-large.jpg"; sourceTree = "<group>"; };
-		112F5D262129416D00CA0603 /* earth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = earth.jpg; sourceTree = "<group>"; };
-		112F5D2821294BF200CA0603 /* pattern.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pattern.jpg; sourceTree = "<group>"; };
 		1137503621128E6800B37B0C /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
 		1178A6F6218AEB0C004936DA /* SafariExtensionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SafariExtensionViewController.xib; sourceTree = "<group>"; };
 		11A0A6FA218D6A4B00E79DAF /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		11C01D5922FF9C0800E72B4F /* package.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = package.json; sourceTree = "<group>"; };
+		11C01D5B22FF9C9400E72B4F /* node_modules */ = {isa = PBXFileReference; lastKnownFileType = folder; path = node_modules; sourceTree = "<group>"; };
+		11C01D5D22FF9CF200E72B4F /* package-lock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "package-lock.json"; sourceTree = "<group>"; };
+		11C01D5F230011AE00E72B4F /* bundle.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = bundle.js; sourceTree = "<group>"; };
 		11C46631210E7971003D3CA2 /* MyCustomSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomSegue.swift; sourceTree = "<group>"; };
 		11C46633210E7A7F003D3CA2 /* MyCustomAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomAnimator.swift; sourceTree = "<group>"; };
 		11C639C120F5FE3C0020D4A3 /* Messenger Black.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Messenger Black.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,7 +75,6 @@
 		11C63A392106E7860020D4A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11C63A3A2106E7860020D4A3 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
 		11C63A452106E8060020D4A3 /* messengerblack.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = messengerblack.css; sourceTree = "<group>"; };
-		11F68865211691C900D85A88 /* ToolbarItemIcon_Off.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon_Off.pdf; sourceTree = "<group>"; };
 		11FF9CBF22FEB4D1007F9879 /* Messenger Black.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Messenger Black.entitlements"; sourceTree = "<group>"; };
 		11FF9CC022FEB760007F9879 /* Messenger Black for Safari.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Messenger Black for Safari.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -143,18 +143,18 @@
 		11C63A312106E7860020D4A3 /* Messenger Black for Safari */ = {
 			isa = PBXGroup;
 			children = (
+				11C01D5B22FF9C9400E72B4F /* node_modules */,
+				11C01D5F230011AE00E72B4F /* bundle.js */,
 				11FF9CC022FEB760007F9879 /* Messenger Black for Safari.entitlements */,
 				11C63A452106E8060020D4A3 /* messengerblack.css */,
-				112F5D1C21293B9600CA0603 /* earth-large.jpg */,
-				112F5D262129416D00CA0603 /* earth.jpg */,
-				112F5D2821294BF200CA0603 /* pattern.jpg */,
 				11C63A322106E7860020D4A3 /* SafariExtensionHandler.swift */,
 				11C63A342106E7860020D4A3 /* SafariExtensionViewController.swift */,
 				1178A6F6218AEB0C004936DA /* SafariExtensionViewController.xib */,
 				1137503621128E6800B37B0C /* ToolbarItemIcon.pdf */,
-				11F68865211691C900D85A88 /* ToolbarItemIcon_Off.pdf */,
 				11C63A392106E7860020D4A3 /* Info.plist */,
 				11C63A3A2106E7860020D4A3 /* script.js */,
+				11C01D5922FF9C0800E72B4F /* package.json */,
+				11C01D5D22FF9CF200E72B4F /* package-lock.json */,
 				11A0A6FA218D6A4B00E79DAF /* Media.xcassets */,
 			);
 			path = "Messenger Black for Safari";
@@ -214,7 +214,7 @@
 						LastSwiftMigration = 1020;
 						SystemCapabilities = {
 							com.apple.Sandbox = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};
@@ -263,14 +263,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				11A0A6FB218D6A4B00E79DAF /* Media.xcassets in Resources */,
-				11F68866211691C900D85A88 /* ToolbarItemIcon_Off.pdf in Resources */,
-				112F5D272129416D00CA0603 /* earth.jpg in Resources */,
 				11C63A3B2106E7860020D4A3 /* script.js in Resources */,
+				11C01D60230011AE00E72B4F /* bundle.js in Resources */,
+				11C01D5A22FF9C0800E72B4F /* package.json in Resources */,
+				11C01D5E22FF9CF200E72B4F /* package-lock.json in Resources */,
+				11C01D5C22FF9C9500E72B4F /* node_modules in Resources */,
 				1137503721128E6800B37B0C /* ToolbarItemIcon.pdf in Resources */,
-				112F5D2921294BF300CA0603 /* pattern.jpg in Resources */,
 				11C63A462106E8060020D4A3 /* messengerblack.css in Resources */,
 				1178A6F7218AEB0C004936DA /* SafariExtensionViewController.xib in Resources */,
-				112F5D1D21293B9600CA0603 /* earth-large.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,7 +437,6 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Messenger Black/Messenger Black.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = XX2UC95MTQ;
@@ -457,7 +456,6 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Messenger Black/Messenger Black.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = XX2UC95MTQ;

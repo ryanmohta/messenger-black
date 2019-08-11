@@ -162,21 +162,14 @@ class SafariExtensionViewController: SFSafariExtensionViewController, CLLocation
         
         locationManager.delegate = self
         
-//        let authorizationStatus = CLLocationManager.authorizationStatus()
-//        if authorizationStatus != .authorizedAlways {
-//            // User has not authorized access to location information.
-//            NSLog("Not authorized")
-//        }
-//
-//        NSLog("\(String(describing: authorizationStatus))")
+        locationManager.startMonitoringSignificantLocationChanges()
         
-    locationManager.startMonitoringSignificantLocationChanges()
-        
-//        locationManager.startUpdatingLocation()
+        let latitude = locationManager.location?.coordinate.latitude
+        let longitude = locationManager.location?.coordinate.longitude
         
         NSLog("L0cation: \(String(describing: locationManager.location))")
         
-        SafariExtensionHandler.currentPage?.dispatchMessageToScript(withName: "Sunset to Sunrise Changed", userInfo: nil)
+        SafariExtensionHandler.currentPage?.dispatchMessageToScript(withName: "Sunset to Sunrise Changed", userInfo: ["Latitude": latitude!, "Longitude": longitude!])
         
         updateUserDefaults()
     }
@@ -195,7 +188,12 @@ class SafariExtensionViewController: SFSafariExtensionViewController, CLLocation
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         let lastLocation = locations.last
         
-        print("Last location: \(String(describing: lastLocation))")
+        let latitude = lastLocation?.coordinate.latitude
+        let longitude = lastLocation?.coordinate.longitude
+        
+        SafariExtensionHandler.currentPage?.dispatchMessageToScript(withName: "Sunset to Sunrise Changed", userInfo: ["Latitude": latitude!, "Longitude": longitude!])
+        
+        NSLog("Last l0cation: \(String(describing: lastLocation))")
     }
     
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
