@@ -8,10 +8,14 @@
 
 import SafariServices
 import CoreLocation
+import Foundation
 
 class SafariExtensionViewController: SFSafariExtensionViewController, CLLocationManagerDelegate {
     
     let locationManager = CLLocationManager()
+    
+    var timer: Timer?
+    
     
     @IBOutlet weak var manual: NSButton!
     
@@ -53,7 +57,6 @@ class SafariExtensionViewController: SFSafariExtensionViewController, CLLocation
             
         }
         
-        
         let shared = SafariExtensionViewController()
         
         _ = shared.view
@@ -75,10 +78,7 @@ class SafariExtensionViewController: SFSafariExtensionViewController, CLLocation
         shared.endTime.dateValue = Date(timeIntervalSince1970: UserDefaults.standard.double(forKey: "endTime"))
         
         
-        
         shared.sunsetToSunrise.state = UserDefaults.standard.bool(forKey: "sunsetToSunrise") ? NSControl.StateValue.on : NSControl.StateValue.off
-        
-        
         
         shared.radioButtonClicked()
         
@@ -106,6 +106,7 @@ class SafariExtensionViewController: SFSafariExtensionViewController, CLLocation
     
     
     func radioButtonClicked() -> Void {
+        
         if(manual.state == NSControl.StateValue.on) {
             onOff.isEnabled = true
             from.textColor = NSColor.disabledControlTextColor
@@ -139,6 +140,7 @@ class SafariExtensionViewController: SFSafariExtensionViewController, CLLocation
             
             sunsetToSunriseChanged()
         }
+        
     }
     
     
@@ -147,6 +149,11 @@ class SafariExtensionViewController: SFSafariExtensionViewController, CLLocation
         SafariExtensionHandler.currentPage?.dispatchMessageToScript(withName: "Manual Changed", userInfo: ["State": state])
         
         updateUserDefaults()
+        if timer != nil {
+            timer?.invalidate()
+            timer = nil
+        }
+        
     }
     
     func scheduledChanged() -> Void {
@@ -156,22 +163,26 @@ class SafariExtensionViewController: SFSafariExtensionViewController, CLLocation
         SafariExtensionHandler.currentPage?.dispatchMessageToScript(withName: "Scheduled Changed", userInfo: ["Start Time": startTimeDate, "End Time": endTimeDate])
         
         updateUserDefaults()
+        if timer != nil {
+            timer?.invalidate()
+            timer = nil
+        }
+        
     }
     
     func sunsetToSunriseChanged() -> Void {
         
-        locationManager.delegate = self
+        requestLocation()
         
-        locationManager.startMonitoringSignificantLocationChanges()
-        
-        let latitude = locationManager.location?.coordinate.latitude
-        let longitude = locationManager.location?.coordinate.longitude
-        
-        NSLog("L0cation: \(String(describing: locationManager.location))")
-        
-        SafariExtensionHandler.currentPage?.dispatchMessageToScript(withName: "Sunset to Sunrise Changed", userInfo: ["Latitude": latitude!, "Longitude": longitude!])
+        timer = Timer.scheduledTimer(timeInterval: 3600, target: self, selector: #selector(requestLocation), userInfo: nil, repeats: true)
+        timer?.tolerance = 60
         
         updateUserDefaults()
+    }
+    
+    @objc func requestLocation() {
+        locationManager.delegate = self
+        locationManager.requestLocation()
     }
     
     func updateUserDefaults() -> Void {
@@ -186,23 +197,23 @@ class SafariExtensionViewController: SFSafariExtensionViewController, CLLocation
     }
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-        let lastLocation = locations.last
-        
-        let latitude = lastLocation?.coordinate.latitude
-        let longitude = lastLocation?.coordinate.longitude
-        
-        SafariExtensionHandler.currentPage?.dispatchMessageToScript(withName: "Sunset to Sunrise Changed", userInfo: ["Latitude": latitude!, "Longitude": longitude!])
-        
-        NSLog("Last l0cation: \(String(describing: lastLocation))")
+        if let location = locations.first {
+            sendLocationToScript(location: location)
+            manager.stopUpdatingLocation()
+        }
     }
     
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
-        if let error = error as? CLError, error.code == .denied {
-            // Location updates are not authorized.
-            manager.stopMonitoringSignificantLocationChanges()
-            return
-        }
-        print("Location Error: \(error)")
+        NSLog("Location Error: \(error)")
+    }
+    
+    
+    func sendLocationToScript(location: CLLocation) {
+        let latitude = location.coordinate.latitude
+        let longitude = location.coordinate.longitude
+        
+        SafariExtensionHandler.currentPage?.dispatchMessageToScript(withName: "Sunset to Sunrise Changed", userInfo: ["Latitude": latitude, "Longitude": longitude])
+        
     }
     
 }
