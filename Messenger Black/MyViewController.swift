@@ -32,4 +32,8 @@ class MyViewController: NSViewController {
             NSLog("\(String(describing: error))")
         }
     }
+    
+    @IBAction func finishButton(_ sender: Any) {
+        NSApplication.shared.terminate(self)
+    }
 }
