@@ -46,7 +46,7 @@ class SafariExtensionViewController: SFSafariExtensionViewController, CLLocation
             UserDefaults.standard.set(true, forKey: "onOff")
             
             UserDefaults.standard.set(false, forKey: "scheduled")
-            UserDefaults.standard.set(382422600, forKey: "startTime")
+            UserDefaults.standard.set(382419000, forKey: "startTime")
             UserDefaults.standard.set(382374000, forKey: "endTime")
             
             UserDefaults.standard.set(false, forKey: "sunsetToSunrise")
@@ -174,8 +174,8 @@ class SafariExtensionViewController: SFSafariExtensionViewController, CLLocation
         
         requestLocation()
         
-        timer = Timer.scheduledTimer(timeInterval: 3600, target: self, selector: #selector(requestLocation), userInfo: nil, repeats: true)
-        timer?.tolerance = 60
+        timer = Timer.scheduledTimer(timeInterval: 86400, target: self, selector: #selector(requestLocation), userInfo: nil, repeats: true)
+        timer?.tolerance = 600
         
         updateUserDefaults()
     }
