@@ -7,7 +7,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Messenger Black for Safari</string>
+	<string>Messenger Black</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -69,6 +69,6 @@
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2018-2019 Ryan Mohta. All rights reserved.</string>
 	<key>NSHumanReadableDescription</key>
-	<string>This extension turns Facebook Messenger into a dark, easy-on-the-eyes mode, ideal for messaging at night.</string>
+	<string>Scheduled Dark Mode for Facebook Messenger, now including Sunset to Sunrise controls.</string>
 </dict>
 </plist>

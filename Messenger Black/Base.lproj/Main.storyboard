@@ -248,7 +248,7 @@ DQ
                                                 <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="366" id="WLI-nl-HoH"/>
                                                 <constraint firstAttribute="height" constant="57" id="ipL-DA-45M"/>
                                             </constraints>
-                                            <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Check &quot;Messenger Black for Safari 1.0&quot; to enable the extension." id="twY-w3-12L">
+                                            <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Check &quot;Messenger Black 1.0&quot; to enable the extension." id="twY-w3-12L">
                                                 <font key="font" metaFont="systemLight" size="16"/>
                                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="0.85426476880000002" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -338,7 +338,6 @@ DQ
         <image name="Icon" width="1024" height="1024"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="oTP-7s-QEY"/>
         <segue reference="wyL-G5-VyX"/>
     </inferredMetricsTieBreakers>
 </document>

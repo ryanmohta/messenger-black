@@ -35,7 +35,7 @@ body, ._4sp8, ._4eby, ._59s7, ._3s-4, ._2y8_, ._1sk6, ._4gd0, ._5pw9, ._58ahm, .
     -webkit-transition: border-left 0.5s !important;
 }
 
-h1, h2, h3, h4, h5, h6, textarea, keygen, select, ._2v6o, ._5eu7, ._3eus, ._5uh, ._3x6v, ._5rh4, ._5qsj, ._497p, ._5i_d .__6m, ._1r3o, ._374c, ._3q35, ._2y8z, ._2mjl, ._1n-e, ._4dx5, ._38wl, ._4x7m, ._4x79, ._4x7b, body, ._3szq, ._4rph ._4rpj, ._364g, ._2jnv, ._2jnx, ._2jnz, ._2jnx ._30e7 ._5j5f, ._5i_d .__6k, ._5i_d .__6l, ._3wa-, ._3wb0, ._2c9i ._19jt, ._4ng2, ._3q34, ._36zg, input, ._hh7 a:not(_ih-), ._3eur._6ybk a, label, ._618l, ._618n, ._6cs7, ._koh li:not(.selected), ._517h, ._1suj, ._1suk, .uiInputLabel .__rm+.uiInputLabelLabel, ._7492, ._5iwm ._58al::-webkit-input-placeholder, ._5pwa, ._5pw6, ._58al, ._74ku, ._7q1q, ._7ht_, ._6ct8._6y58, ._6zkf, .__6k, .__6l, .__6m, ._3b4u, ._1mr_, ._1mq-, ._2f5n ._29ey {
+h1, h2, h3, h4, h5, h6, textarea, keygen, select, ._2v6o, ._5eu7, ._3eus, ._5uh, ._3x6v, ._5rh4, ._5qsj, ._497p, ._5i_d .__6m, ._1r3o, ._374c, ._3q35, ._2y8z, ._2mjl, ._1n-e, ._4dx5, ._38wl, ._4x7m, ._4x79, ._4x7b, body, ._3szq, ._4rph ._4rpj, ._364g, ._2jnv, ._2jnx, ._2jnz, ._2jnx ._30e7 ._5j5f, ._5i_d .__6k, ._5i_d .__6l, ._3wa-, ._3wb0, ._2c9i ._19jt, ._4ng2, ._3q34, ._36zg, input, ._hh7 a:not(_ih-), ._3eur._6ybk a, label, ._618l, ._618n, ._6cs7, ._koh li:not(.selected), ._517h, ._1suj, ._1suk, .uiInputLabel .__rm+.uiInputLabelLabel, ._7492, ._5iwm ._58al::-webkit-input-placeholder, ._5pwa, ._5pw6, ._58al, ._74ku, ._7q1q, ._7ht_, ._6ct8._6y58, ._6zkf, .__6k, .__6l, .__6m, ._3b4u, ._1mr_, ._1mq-, ._2f5n ._29ey, ._67tw {
     -webkit-transition: color 0.5s !important;
 }
 
@@ -133,6 +133,10 @@ hr {
 
 ._7t1o {
     -webkit-transition: background-color 0.5s, transform .25s !important;
+}
+
+._kmc._7kpg ._1p1t {
+    -webkit-transition: color 0.5s, -webkit-text-fill-color 0.5s !important;
 }
 
 
@@ -264,7 +268,7 @@ body.blackMode ._koh {
     border-bottom: 1px solid #171717 !important;
 }
 
-body.blackMode ._koh li:not(.selected) {
+body.blackMode ._koh li:not(.selected), body.blackMode ._7492, body.blackMode ._74ku, body.blackMode ._4k7a, body.blackMode ._67tw {
     color: rgba(255, 255, 255, .5) !important;
 }
 
@@ -321,10 +325,6 @@ body.blackMode ._1suk {
 
 body.blackMode .uiInputLabel .__rm+.uiInputLabelLabel {
     color: rgba(255, 255, 255, .88) !important;
-}
-
-body.blackMode ._7492 {
-    color: rgba(255, 255, 255, .5) !important;
 }
 
 body.blackMode ._4-hy ._3ixn {
@@ -390,10 +390,6 @@ body.blackMode a._4ce_ {
     opacity: .7 !important;
 }
 
-body.blackMode ._74ku {
-    color: rgba(255, 255, 255, .5) !important;
-}
-
 body.blackMode #js_6 + rect {
     fill: black !important;
 }
@@ -408,10 +404,6 @@ body.blackMode path#Fill-1, body.blackMode path#Fill-2, body.blackMode path#Fill
 
 body.blackMode a[aria-label="Create a poll"] path#Fill-1 {
     fill: inherit !important;
-}
-
-body.blackMode ._4k7a {
-    color: rgba(255, 255, 255, .5) !important;
 }
 
 body.blackMode ._7i2o path, body.blackMode ._7i2n path#Fill-19, body.blackMode ._7i2l path#Fill-1 {
@@ -506,4 +498,9 @@ body.blackMode ._3b4h {
 body.blackMode ._ric, body.blackMode ._4mnq {
     background-color: #14120f !important;
     border-color: black !important;
+}
+
+body.blackMode ._kmc._7kpg ._1p1t {
+    color: rgba(255, 255, 255, .5) !important;
+    -webkit-text-fill-color: rgba(255, 255, 255, .5) !important;
 }
