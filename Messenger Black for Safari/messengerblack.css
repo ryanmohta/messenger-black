@@ -1,6 +1,10 @@
 /** Transitions **/
-body, ._4sp8, ._4eby, ._59s7, ._3s-4, ._2y8_, ._1sk6, ._4gd0, ._5pw9, ._58ahm, ._4x7m, ._80cm, ._80co {
+._4sp8, ._4eby, ._59s7, ._3s-4, ._2y8_, ._1sk6, ._4gd0, ._5pw9, ._58ahm, ._4x7m, ._80cm, ._80co {
     -webkit-transition: background 0.5s !important;
+}
+
+body {
+    -webkit-transition: background 0.5s, color 0.5s !important;
 }
 
 ._2y8_, ._5i_d, ._3wb1, ._3way {
@@ -124,7 +128,7 @@ hr {
 }
 
 ._kmc ._1p1t {
-    -webkit-transition: color 0.5s, -webkit-text-fill-color 0.5s !important;
+    -webkit-transition: color 0.5s !important;
 }
 
 ._7mki {
@@ -136,7 +140,7 @@ hr {
 }
 
 ._kmc._7kpg ._1p1t {
-    -webkit-transition: color 0.5s, -webkit-text-fill-color 0.5s !important;
+    -webkit-transition: color 0.5s !important;
 }
 
 
@@ -480,7 +484,7 @@ body.blackMode ._5irm._7mkm, body.blackMode ._7mki {
 
 body.blackMode ._kmc ._1p1t {
     color: #333 !important;
-    -webkit-text-fill-color: #333 !important;
+    -webkit-text-fill-color: initial !important;
 }
 
 body.blackMode ._7t1o {
@@ -502,5 +506,5 @@ body.blackMode ._ric, body.blackMode ._4mnq {
 
 body.blackMode ._kmc._7kpg ._1p1t {
     color: rgba(255, 255, 255, .5) !important;
-    -webkit-text-fill-color: rgba(255, 255, 255, .5) !important;
+    -webkit-text-fill-color: initial !important;
 }
