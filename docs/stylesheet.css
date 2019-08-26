@@ -52,6 +52,11 @@ h1 {
   margin-bottom: 5px;
 }
 
+#promo {
+  width: 90%;
+  text-align: center;
+}
+
 h3 {
   font-weight: 300;
   font-size: 20px;
