@@ -195,5 +195,13 @@ h2 {
 
 .customization-icon {
   display: inline-block;
-  width: 32px;
+  width: 72px;
+}
+
+#scheduled-icon svg {
+  fill: rgb(84, 174, 248);
+}
+
+#sunsetToSunrise-icon svg {
+  fill: rgb(255, 167, 38);
 }
