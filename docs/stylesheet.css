@@ -72,13 +72,13 @@ p#download {
   fill: rgb(206, 92, 78);
 }
 
-.intro {
+.outer-container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-h3 {
+h4 {
   color: white;
   display: inline;
   font-weight: 400;
@@ -100,7 +100,7 @@ h3 {
   padding-top: 6px;
 }
 
-h2 {
+h3 {
   color: white;
   display: inline;
   font-weight: 400;
@@ -149,4 +149,9 @@ h1 {
 
 #download-chrome {
   background: linear-gradient(rgb(206, 92, 78), rgb(206, 52, 58));
+}
+
+h2 {
+  font-size: 64px;
+  font-weight: 500;
 }
