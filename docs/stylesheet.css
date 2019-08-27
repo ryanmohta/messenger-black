@@ -15,16 +15,21 @@ h1, h2, h3, h4, h5, h6 {
   position: sticky;
   top: 0;
   height: 60px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
 
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  justify-content: space-between;
 
   background-color: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
+}
+
+.navbar-title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .navbar-logo {
