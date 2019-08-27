@@ -1,4 +1,5 @@
 body {
+  margin: 0;
   background-color: black;
   color: gray;
   font-family: "SF Pro Text", Helvetica, sans-serif;
@@ -12,9 +13,14 @@ h1, h2, h3, h4, h5, h6 {
 .navbar {
   position: -webkit-sticky;
   position: sticky;
+  top: 0;
+  width: 60px;
+
   display: flex;
   flex-direction: row;
-  top: 0;
+  align-items: center;
+
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .centered {
