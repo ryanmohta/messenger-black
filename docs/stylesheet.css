@@ -55,10 +55,11 @@ h1, h2, h3, h4, h5, h6 {
 p#download {
   font-weight: 200;
   padding-right: 4px;
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .navbar-browser svg {
-  fill: gray;
+  fill: rgba(255, 255, 255, 0.7);
 }
 
 h3 {
@@ -78,7 +79,7 @@ h3 {
 .title {
   display: flex;
   flex-direction: row;
-  margin-top: 120px;
+  margin-top: 60px;
   justify-content: center;
   align-items: center;
 }
