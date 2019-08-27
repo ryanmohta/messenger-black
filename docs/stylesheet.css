@@ -105,6 +105,8 @@ h3 {
   display: inline;
   font-weight: 400;
   font-size: 30px;
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
 
 h1 {
@@ -195,7 +197,7 @@ h2 {
 
 .customization-icon {
   display: inline-block;
-  width: 72px;
+  width: 36px;
 }
 
 #scheduled-icon svg {
@@ -204,4 +206,8 @@ h2 {
 
 #sunsetToSunrise-icon svg {
   fill: rgb(255, 167, 38);
+}
+
+#menu {
+  width: 250px;
 }
