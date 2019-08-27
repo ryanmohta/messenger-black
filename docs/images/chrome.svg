@@ -7,18 +7,18 @@
     </clipPath>
     <g clip-path="url(#_clip1)">
         <g transform="matrix(1.05417,0,0,1.05417,-13.8675,-13.8675)">
-            <circle cx="256.015" cy="256.015" r="97.008" style="fill:none;stroke:black;stroke-width:7.59px;"/>
+            <circle cx="256.015" cy="256.015" r="97.008" style="fill:none;stroke:white;stroke-width:7.59px;"/>
             <g transform="matrix(0.4999,-0.8661,0.216522,0.124973,57.1955,594.953)">
-                <rect x="174.167" y="383.354" width="220.003" height="32"/>
+                <rect x="174.167" y="383.354" width="220.003" height="32" style="fill:white;"/>
             </g>
             <g transform="matrix(0.216487,-0.125018,0.5001,0.866,-14.0708,41.1145)">
-                <rect x="101.885" y="98.87" width="32.001" height="219.946"/>
+                <rect x="101.885" y="98.87" width="32.001" height="219.946" style="fill:white;"/>
             </g>
             <g transform="matrix(1.00027,0,0,0.25,-0.0843454,118.985)">
-                <rect x="256.03" y="144.09" width="219.94" height="32"/>
+                <rect x="256.03" y="144.09" width="219.94" height="32" style="fill:white;"/>
             </g>
             <g transform="matrix(1.0713,0,0,1.0713,-18.2489,-18.2527)">
-                <circle cx="256.012" cy="256.015" r="224.028" style="fill:none;stroke:black;stroke-width:7.08px;"/>
+                <circle cx="256.012" cy="256.015" r="224.028" style="fill:none;stroke:white;stroke-width:7.08px;"/>
             </g>
         </g>
     </g>
