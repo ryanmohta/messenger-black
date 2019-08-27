@@ -27,6 +27,20 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-backdrop-filter: blur(20px);
 }
 
+.navbar-logo {
+  display: inline-block;
+  width: 23px;
+  padding-right: 8px;
+  padding-top: 8px;
+}
+
+h3 {
+  color: white;
+  display: inline;
+  font-weight: 400;
+  font-size: 24px;
+}
+
 .centered {
   display: block;
   margin-left: auto;
@@ -75,7 +89,7 @@ h1 {
   text-align: center;
 }
 
-h3 {
+h4 {
   font-weight: 300;
   font-size: 20px;
 }
