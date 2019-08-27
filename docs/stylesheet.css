@@ -65,7 +65,7 @@ p#download {
 }
 
 #navbar-safari:hover svg {
-  fill: rgb(75, 161, 241);
+  fill: rgb(84, 174, 248);
 }
 
 #navbar-chrome:hover svg {
@@ -145,7 +145,7 @@ h1 {
 }
 
 #download-safari {
-  background: linear-gradient(rgb(75, 161, 241), rgb(54, 128, 241));
+  background: linear-gradient(rgb(84, 174, 248), rgb(54, 128, 241));
 }
 
 #download-chrome {
@@ -161,7 +161,7 @@ h1 {
 }
 
 .customization-topic h3 {
-  color: rgb(75, 161, 241);
+  color: rgb(84, 174, 248);
 }
 
 .customization-description {
