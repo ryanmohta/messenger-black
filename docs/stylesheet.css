@@ -1,7 +1,7 @@
 body {
   margin: 0;
   background-color: black;
-  color: gray;
+  color: white;
   font-family: "SF Pro Text", Helvetica, sans-serif;
   font-size: 16px;
 }
@@ -70,6 +70,12 @@ p#download {
   fill: rgb(206, 92, 78);
 }
 
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 h3 {
   color: white;
   display: inline;
@@ -106,11 +112,6 @@ h2 {
   font-size: 30px;
 }
 
-.description {
-  width: 600px;
-  margin-bottom: 50px;
-}
-
 h1 {
   color: white;
   display: inline;
@@ -122,12 +123,10 @@ h1 {
 
 #promo {
   width: 100vw;
-  text-align: center;
 }
 
-h4 {
-  font-weight: 300;
-  font-size: 20px;
+.description {
+  width: 80vw;
 }
 
 button {
