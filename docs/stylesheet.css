@@ -131,6 +131,7 @@ h1 {
 }
 
 .download-button {
+  font-family: "SF Pro Text", Helvetica, sans-serif;
   color: white;
   font-size: 14px;
   border: none;
