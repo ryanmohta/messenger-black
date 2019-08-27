@@ -47,14 +47,18 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-browser {
   display: inline-block;
-  width: 23px;
+  width: 24px;
   padding-left: 8px;
-  padding-right: 8px;
-  padding-top: 8px;
+  padding-top: 4px;
+}
+
+p#download {
+  font-weight: 200;
+  padding-right: 4px;
 }
 
 .navbar-browser svg {
-  fill: white;
+  fill: gray;
 }
 
 h3 {
