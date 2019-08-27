@@ -160,7 +160,7 @@ h1 {
   width: 75vw;
 }
 
-.customization-topic {
+.customization-topic h3 {
   color: rgb(75, 161, 241);
   font-weight: 500;
 }
