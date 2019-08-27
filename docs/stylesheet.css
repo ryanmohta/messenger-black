@@ -60,6 +60,8 @@ p#download {
 
 .navbar-browser svg {
   fill: rgba(255, 255, 255, 0.7);
+  transition: fill 0.2s;
+  -webkit-transition: fill 0.2s;
 }
 
 #navbar-safari:hover svg {
