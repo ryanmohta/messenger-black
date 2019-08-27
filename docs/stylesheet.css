@@ -128,6 +128,7 @@ h1 {
 
 .description {
   width: 60vw;
+  color: rgba(255, 255, 255, 0.75);
   padding-top: 20px;
   font-size: 20px;
   font-weight: 300;
