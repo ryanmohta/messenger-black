@@ -148,3 +148,11 @@ h1 {
   transition-duration: 0.2s;
   cursor: pointer;
 }
+
+#download-safari {
+  background: linear-gradient(rgb(75, 161, 241), rgb(54, 128, 241));
+}
+
+#download-chrome {
+  background: linear-gradient(rgb(206, 92, 78), rgb(206, 52, 58));
+}
