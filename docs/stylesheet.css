@@ -151,6 +151,20 @@ h1 {
   background: linear-gradient(rgb(206, 92, 78), rgb(206, 52, 58));
 }
 
+.customization {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.customization-tagline {
+  width: 40vw;
+}
+
+.customization-description {
+  width: 60vw;
+}
+
 h2 {
   font-size: 64px;
   font-weight: 500;
