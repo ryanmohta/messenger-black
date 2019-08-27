@@ -127,7 +127,10 @@ h1 {
 }
 
 .description {
-  width: 80vw;
+  width: 60vw;
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: 300;
 }
 
 button {
