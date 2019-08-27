@@ -193,6 +193,7 @@ h2 {
 .customization-row {
   display: flex;
   align-items: center;
+  margin-bottom: 32px;
 }
 
 .customization-icon {
@@ -200,7 +201,11 @@ h2 {
   width: 36px;
 }
 
-.customization-icon p {
+.customization-content {
+  width: 350px;
+}
+
+.customization-content p {
   margin: 0;
   color: rgba(255, 255, 255, 0.7);
 }
