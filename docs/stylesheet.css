@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, h6 {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  width: 60px;
+  height: 60px;
 
   display: flex;
   flex-direction: row;
