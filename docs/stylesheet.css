@@ -39,6 +39,20 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 8px;
 }
 
+.navbar-download {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.navbar-browser {
+  display: inline-block;
+  width: 23px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 8px;
+}
+
 h3 {
   color: white;
   display: inline;
