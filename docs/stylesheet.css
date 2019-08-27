@@ -139,14 +139,14 @@ h1 {
 button {
   background-color: inherit;
   color: rgba(255, 255, 255, 0.9);
-  font-size: 24px;
+  font-size: 18px;
   border: 1px solid rgba(255, 255, 255, 0.8);
   border-radius: 10px;
-  padding: 12px 24px;
+  padding: 8px 16px;
   margin-left: 10px;
   margin-right: 10px;
-  -webkit-transition-duration: 0.4s;
-  transition-duration: 0.4s;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
   cursor: pointer;
 }
 
