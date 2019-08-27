@@ -159,6 +159,10 @@ h1 {
   width: 75vw;
 }
 
+.customization-topic {
+  color: rgb(75, 161, 241);
+}
+
 .customization-description {
   color: rgba(255, 255, 255, 0.75);
   font-size: 20px;
