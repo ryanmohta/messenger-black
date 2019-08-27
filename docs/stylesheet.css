@@ -176,3 +176,9 @@ h2 {
   line-height: 1.2;
   display: inline;
 }
+
+.customization-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
