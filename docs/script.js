@@ -6,12 +6,10 @@ document.addEventListener("DOMContentLoaded", function() {
     var elemBottom = rect.bottom;
 
     if (elemTop < 0) {
-      document.getElementById("navbar").style.visibility = "visible";
-      document.getElementById("navbar").style.top = "0px";
+      document.getElementById("navbar").classList.add("visible");
     }
     else {
-      document.getElementById("navbar").style.top = "-60px";
-      document.getElementById("navbar").style.visibility = "hidden";
+      document.getElementById("navbar").classList.remove("visible");
     }
   };
 });

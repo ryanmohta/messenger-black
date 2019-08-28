@@ -25,7 +25,12 @@ h1, h2, h3, h4, h5, h6 {
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
 
-  transition: 0.2s;
+  transition: top 0.2s;
+}
+
+.navbar.visible {
+  visibility: visible;
+  top: 0;
 }
 
 .navbar-title {
