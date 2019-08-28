@@ -17,8 +17,11 @@ document.addEventListener("DOMContentLoaded", function() {
     var elemTop = rect.top;
     var elemBottom = rect.bottom;
 
-    if (elemTop <= window.innerHeight - 100) {
+    if (elemTop <= window.innerHeight - 200) {
       document.getElementById("description").classList.add("visible");
+      setTimeout(function() {
+        document.getElementById("download-buttons").classList.add("visible");
+      }, 350);
     }
   };
 });

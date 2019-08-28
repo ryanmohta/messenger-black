@@ -168,6 +168,17 @@ h1.loaded {
   opacity: 1;
 }
 
+#download-buttons {
+  margin-top: 10px;
+  opacity: 0;
+  transition: margin-top 750ms, opacity 750ms;
+}
+
+#download-buttons.visible {
+  margin-top: 0;
+  opacity: 1;
+}
+
 .download-button {
   font-family: "SF Pro Text", Helvetica, sans-serif;
   color: white;
