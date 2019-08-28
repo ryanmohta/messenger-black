@@ -17,5 +17,5 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 document.addEventListener("load", function() {
-  document.getElementsById("title").classList.add("loaded");
+  document.getElementById("title").classList.add("loaded");
 });
