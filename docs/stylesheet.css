@@ -203,9 +203,16 @@ h1.loaded {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-top: 150px;
+  margin-top: 160px;
   margin-bottom: 100px;
   width: 75vw;
+  opacity: 0;
+  transition: margin-top 750ms, opacity 750ms;
+}
+
+.customization.visible {
+  margin-top: 150px;
+  opacity: 1;
 }
 
 .customization-topic h3 {

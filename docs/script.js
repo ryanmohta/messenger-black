@@ -23,6 +23,15 @@ document.addEventListener("DOMContentLoaded", function() {
         document.getElementById("download-buttons").classList.add("visible");
       }, 350);
     }
+
+    title = document.getElementById("customization")
+    var rect = title.getBoundingClientRect();
+    var elemTop = rect.top;
+    var elemBottom = rect.bottom;
+
+    if (elemTop <= window.innerHeight - 200) {
+      document.getElementById("customization").classList.add("visible");
+    }
   };
 });
 
