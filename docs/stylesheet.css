@@ -138,13 +138,14 @@ h1.loaded {
 
 #promo {
   margin-top: 10px;
-  width: 100vw;
+  width: 90vw;
   opacity: 0;
-  transition: margin-top 500ms, opacity 500ms;
+  transition: margin-top 750ms, width 750ms, opacity 750ms;
 }
 
 #promo.loaded {
   margin-top: 0;
+  width: 100vw;
   opacity: 1;
 }
 
