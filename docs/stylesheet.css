@@ -138,9 +138,9 @@ h1.loaded {
 
 #promo {
   margin-top: 10px;
-  width: 90vw;
+  width: 96vw;
   opacity: 0;
-  transition: margin-top 750ms, width 750ms, opacity 750ms;
+  transition: margin-top 1000ms, width 1000ms, opacity 750ms;
 }
 
 #promo.loaded {
