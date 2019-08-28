@@ -92,7 +92,7 @@ h4 {
 .title {
   display: flex;
   flex-direction: row;
-  margin-top: 60px;
+  margin-top: 120px;
   justify-content: center;
   align-items: center;
 }
