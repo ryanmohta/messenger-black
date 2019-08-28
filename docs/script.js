@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
   document.body.onscroll = function() {
-    var title = document.getElementById("title")
+    var title = document.getElementById("tagline")
     var rect = title.getBoundingClientRect();
     var elemTop = rect.top;
     var elemBottom = rect.bottom;
@@ -10,8 +10,8 @@ document.addEventListener("DOMContentLoaded", function() {
       document.getElementById("navbar").style.top = "0px";
     }
     else {
-      document.getElementById("navbar").style.visibility = "hidden";
       document.getElementById("navbar").style.top = "-60px";
+      document.getElementById("navbar").style.visibility = "hidden";
     }
 
       // // Only completely visible elements return true:
