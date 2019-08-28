@@ -13,8 +13,8 @@ h1, h2, h3, h4, h5, h6 {
 .navbar {
   visibility: hidden;
 
-  position: -webkit-sticky;
-  position: sticky;
+  position: fixed;
+  width: 100vw;
   top: -60px;
   height: 60px;
   padding-left: 40px;

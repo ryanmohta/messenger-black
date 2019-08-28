@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
     else {
       document.getElementById("navbar").style.top = "-60px";
-      //document.getElementById("navbar").style.visibility = "hidden";
+      document.getElementById("navbar").style.visibility = "hidden";
     }
 
       // // Only completely visible elements return true:
