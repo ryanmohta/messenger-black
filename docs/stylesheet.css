@@ -199,6 +199,7 @@ h2 {
 .customization-icon {
   display: inline-block;
   width: 36px;
+  padding-right: 16px;
 }
 
 .customization-content {
