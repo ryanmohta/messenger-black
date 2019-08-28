@@ -101,7 +101,7 @@ h4 {
   opacity: 0;
   justify-content: center;
   align-items: center;
-  transition: margin-top 750ms, opacity 750ms;
+  transition: margin-top 1000ms, opacity 1000ms;
 }
 
 .title.loaded {
@@ -133,7 +133,7 @@ h1 {
   margin-top: 10px;
   opacity: 0;
   margin-bottom: 50px;
-  transition: margin-top 750ms, opacity 750ms;
+  transition: margin-top 1000ms, opacity 1000ms;
 }
 
 h1.loaded {

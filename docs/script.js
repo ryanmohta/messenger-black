@@ -43,7 +43,7 @@ addEventListener("load", function() {
       setTimeout(function() {
         document.getElementById("promo").classList.add("loaded");
       }, 1250);
-    }, 350);
+    }, 250);
   }, 500);
 
 });
