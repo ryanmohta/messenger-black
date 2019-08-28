@@ -16,6 +16,6 @@ document.addEventListener("DOMContentLoaded", function() {
   };
 });
 
-window.addEventListener("load", function() {
+document.addEventListener("load", function() {
   document.getElementById("title").classList.add("loaded");
 });
