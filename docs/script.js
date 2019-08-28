@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
   document.body.onscroll = function() {
-    var title = document.getElementById("promo");
+    var title = document.getElementById("tagline")
     var rect = title.getBoundingClientRect();
     var elemTop = rect.top;
     var elemBottom = rect.bottom;
