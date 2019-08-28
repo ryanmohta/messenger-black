@@ -137,12 +137,14 @@ h1.loaded {
 }
 
 #promo {
+  margin-top: 10px;
   width: 100vw;
   opacity: 0;
-  transition: opacity 0.5s;
+  transition: margin-top 0.5s, opacity 0.5s;
 }
 
 #promo.loaded {
+  margin-top: 0;
   opacity: 1;
 }
 
