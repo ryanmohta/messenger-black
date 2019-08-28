@@ -142,12 +142,15 @@ h1.loaded {
 }
 
 #promo {
-  width: 100vw;
+  width: 98vw;
+  margin-top: 5px;
   opacity: 0;
-  transition: opacity 1000ms;
+  transition: opacity 1000ms, margin-top 1000ms, width 1000ms;
 }
 
 #promo.loaded {
+  width: 100vw;
+  margin-top: 0;
   opacity: 1;
 }
 
