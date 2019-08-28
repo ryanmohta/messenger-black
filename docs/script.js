@@ -17,6 +17,5 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 document.addEventListener("load", function() {
-  document.getElementsByClassName("title")[0].style.margin-top = "120px";
-  document.getElementsByClassName("title")[0].style.opacity = "1";
+  document.getElementsById("title").classList.add("loaded");
 });

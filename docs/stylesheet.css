@@ -99,6 +99,11 @@ h4 {
   transition: margin-top 0.2s, opacity 0.2s;
 }
 
+.title.loaded {
+  margin-top: 120px;
+  opacity: 1;
+}
+
 .logo {
   display: inline-block;
   width: 28px;
