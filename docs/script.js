@@ -6,10 +6,10 @@ document.addEventListener("DOMContentLoaded", function() {
     var elemBottom = rect.bottom;
 
     if (elemTop < 0) {
-      document.getElementById("navbar").visibility = visible;
+      document.getElementById("navbar").style.visibility = visible;
     }
     else {
-      document.getElementById("navbar").visibility = hidden;
+      document.getElementById("navbar").style.visibility = hidden;
     }
 
       // // Only completely visible elements return true:
