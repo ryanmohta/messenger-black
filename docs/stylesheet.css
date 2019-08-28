@@ -12,10 +12,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar {
   visibility: hidden;
-  
+
   position: -webkit-sticky;
   position: sticky;
-  top: 0;
+  top: -60px;
   height: 60px;
   padding-left: 40px;
   padding-right: 40px;
@@ -26,6 +26,8 @@ h1, h2, h3, h4, h5, h6 {
   background-color: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
+
+  transition-duration: 0.2s;
 }
 
 .navbar-title {

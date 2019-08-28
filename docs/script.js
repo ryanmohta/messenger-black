@@ -7,9 +7,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
     if (elemTop < 0) {
       document.getElementById("navbar").style.visibility = "visible";
+      document.getElementById("navbar").style.top = "0px";
     }
     else {
       document.getElementById("navbar").style.visibility = "hidden";
+      document.getElementById("navbar").style.top = "-60px";
     }
 
       // // Only completely visible elements return true:
