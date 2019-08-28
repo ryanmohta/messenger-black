@@ -25,7 +25,7 @@ h1, h2, h3, h4, h5, h6 {
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
 
-  transition-duration: top 0.2s;
+  transition: top 0.2s;
 }
 
 .navbar-title {
@@ -92,9 +92,11 @@ h4 {
 .title {
   display: flex;
   flex-direction: row;
-  margin-top: 120px;
+  margin-top: 130px;
+  opacity: 0;
   justify-content: center;
   align-items: center;
+  transition: margin-top 0.2s, opacity 0.2s;
 }
 
 .logo {
@@ -144,8 +146,6 @@ h1 {
   padding: 6px 16px;
   margin-left: 10px;
   margin-right: 10px;
-  -webkit-transition-duration: 0.2s;
-  transition-duration: 0.2s;
   cursor: pointer;
 }
 

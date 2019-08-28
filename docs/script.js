@@ -13,12 +13,10 @@ document.addEventListener("DOMContentLoaded", function() {
       document.getElementById("navbar").style.top = "-60px";
       document.getElementById("navbar").style.visibility = "hidden";
     }
-
-      // // Only completely visible elements return true:
-      // var isVisible = (elemTop >= 0) && (elemBottom <= window.innerHeight);
-      // // Partially visible elements return true:
-      // //isVisible = elemTop < window.innerHeight && elemBottom >= 0;
-      // return isVisible;
   };
+});
 
+document.addEventListener("load", function() {
+  document.getElementsByClassName("title")[0].style.margin-top = "120px";
+  document.getElementsByClassName("title")[0].style.opacity = "1";
 });
