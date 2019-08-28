@@ -219,6 +219,7 @@ h2 {
 .customization-row {
   display: flex;
   margin-bottom: 32px;
+  align-items: flex-start;
 }
 
 .customization-icon {
