@@ -20,4 +20,7 @@ addEventListener("load", function() {
   setTimeout(function() {
     document.getElementById("title").classList.add("loaded");
   }, 500);
+  setTimeout(function() {
+    document.getElementById("tagline").classList.add("loaded");
+  }, 500);
 });

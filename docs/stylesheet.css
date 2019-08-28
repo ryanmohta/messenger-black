@@ -125,8 +125,14 @@ h1 {
   font-weight: 500;
   font-size: 84px;
   line-height: 1.2;
-  margin-top: 0;
+  margin-top: 10px;
+  opacity: 0;
   margin-bottom: 50px;
+}
+
+h1.loaded {
+  margin-top: 0;
+  opacity: 1;
 }
 
 #promo {
