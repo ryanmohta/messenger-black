@@ -24,7 +24,7 @@ addEventListener("load", function() {
       setTimeout(function() {
         document.getElementById("promo").classList.add("loaded");
       }, 1250);
-    }, 250);
+    }, 350);
   }, 500);
 
 });
