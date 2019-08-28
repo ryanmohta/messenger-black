@@ -23,8 +23,8 @@ addEventListener("load", function() {
       document.getElementById("tagline").classList.add("loaded");
       setTimeout(function() {
         document.getElementById("promo").classList.add("loaded");
-      }, 1000);
-    }, 300);
+      }, 1250);
+    }, 250);
   }, 500);
 
 });
