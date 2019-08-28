@@ -138,6 +138,12 @@ h1.loaded {
 
 #promo {
   width: 100vw;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+#promo.loaded {
+  opacity: 1;
 }
 
 .description {
