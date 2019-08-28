@@ -11,6 +11,15 @@ document.addEventListener("DOMContentLoaded", function() {
     else {
       document.getElementById("navbar").classList.remove("visible");
     }
+
+    title = document.getElementById("description")
+    var rect = title.getBoundingClientRect();
+    var elemTop = rect.top;
+    var elemBottom = rect.bottom;
+
+    if (elemTop <= window.innerHeight - 100) {
+      document.getElementById("description").classList.add("visible");
+    }
   };
 });
 
