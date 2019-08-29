@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var elemBottom = rect.bottom;
 
     if (mql.matches) {
-      if (elemTop <= window.innerHeight - 800) {
+      if (elemTop <= window.innerHeight * 0.5) {
         document.getElementById("description").classList.add("visible");
         setTimeout(function() {
           document.getElementById("download-buttons").classList.add("visible");
@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function() {
       }
     }
     else {
-      if (elemTop <= window.innerHeight - 200) {
+      if (elemTop <= window.innerHeight * 0.75) {
         document.getElementById("description").classList.add("visible");
         setTimeout(function() {
           document.getElementById("download-buttons").classList.add("visible");
@@ -42,12 +42,12 @@ document.addEventListener("DOMContentLoaded", function() {
     var elemBottom = rect.bottom;
 
     if (mql.matches) {
-      if (elemTop <= window.innerHeight - 800) {
+      if (elemTop <= window.innerHeight * 0.5) {
         document.getElementById("customization").classList.add("visible");
       }
     }
     else {
-      if (elemTop <= window.innerHeight - 200) {
+      if (elemTop <= window.innerHeight * 0.75) {
         document.getElementById("customization").classList.add("visible");
       }
     }
