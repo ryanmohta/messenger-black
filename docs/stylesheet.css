@@ -332,8 +332,12 @@ h2 {
     justify-content: center;
   }
 
-  .description, .customization, .customization-content, #menu {
+  .description, .customization, #menu {
     width: 80vw;
+  }
+
+  .customization-content {
+    width: auto;
   }
 
   #download-buttons {
