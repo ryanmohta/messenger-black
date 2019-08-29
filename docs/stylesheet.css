@@ -3,7 +3,7 @@ body {
   background-color: black;
   color: white;
   font-family: "SF Pro Text", Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: calc(16em / 16);
 }
 
 h1, h2, h3, h4, h5, h6 {
