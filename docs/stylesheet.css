@@ -15,15 +15,15 @@ h1, h2, h3, h4, h5, h6 {
 
   position: fixed;
   width: 100vw;
-  top: -60px;
-  height: 60px;
+  top: calc(-60em / 16);
+  height: calc(60em / 16);
 
   display: flex;
   justify-content: space-between;
 
   background-color: rgba(36, 36, 36, 0.5);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(calc(20em / 16));
+  -webkit-backdrop-filter: blur(calc(20em / 16));
 
   transition: 0.2s;
 }
@@ -37,33 +37,33 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding-left: 40px;
+  padding-left: calc(40em / 16);
 }
 
 .navbar-logo {
   display: inline-block;
-  width: 23px;
-  padding-right: 8px;
-  padding-top: 8px;
+  width: calc(23em / 16);
+  padding-right: calc(8em / 16);
+  padding-top: calc(8em / 16);
 }
 
 .navbar-download {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding-right: 40px;
+  padding-right: calc(40em / 16);
 }
 
 .navbar-browser {
   display: inline-block;
-  width: 24px;
-  padding-left: 8px;
-  padding-top: 4px;
+  width: calc(24em / 16);
+  padding-left: calc(8em / 16);
+  padding-top: calc(4em / 16);
 }
 
 p#download {
   font-weight: 200;
-  padding-right: 4px;
+  padding-right: calc(4em / 16);
   color: rgba(255, 255, 255, 0.7);
 }
 
@@ -91,13 +91,13 @@ h4 {
   color: white;
   display: inline;
   font-weight: 400;
-  font-size: 24px;
+  font-size: calc(24em / 16);
 }
 
 .title {
   display: flex;
   flex-direction: row;
-  margin-top: 130px;
+  margin-top: calc(130em / 16);
   opacity: 0;
   justify-content: center;
   align-items: center;
@@ -105,22 +105,22 @@ h4 {
 }
 
 .title.loaded {
-  margin-top: 120px;
+  margin-top: calc(120em / 16);
   opacity: 1;
 }
 
 .logo {
   display: inline-block;
-  width: 28px;
-  padding-right: 10px;
-  padding-top: 6px;
+  width: calc(28em / 16);
+  padding-right: calc(10em / 16);
+  padding-top: calc(6em / 16);
 }
 
 h3 {
   color: white;
   display: inline;
   font-weight: 400;
-  font-size: 30px;
+  font-size: calc(30em / 16);
   margin: 0;
 }
 
@@ -129,11 +129,11 @@ h1 {
   text-align: center;
   display: inline;
   font-weight: 500;
-  font-size: 84px;
+  font-size: calc(84em / 16);
   line-height: 1.2;
-  margin-top: 10px;
+  margin-top: calc(10em / 16);
   opacity: 0;
-  margin-bottom: 50px;
+  margin-bottom: calc(50em / 16);
   transition: margin-top 1000ms, opacity 1000ms;
 }
 
@@ -144,7 +144,7 @@ h1.loaded {
 
 #promo {
   width: 98vw;
-  margin-top: 5px;
+  margin-top: calc(5em / 16);
   opacity: 0;
   transition: opacity 1000ms, margin-top 1000ms, width 1000ms;
 }
@@ -158,11 +158,11 @@ h1.loaded {
 .description {
   width: 60vw;
   color: rgba(255, 255, 255, 0.75);
-  padding-top: 20px;
-  padding-bottom: 20px;
-  font-size: 20px;
+  padding-top: calc(20em / 16);
+  padding-bottom: calc(20em / 16);
+  font-size: calc(20em / 16);
   font-weight: 300;
-  margin-top: 10px;
+  margin-top: calc(10em / 16);
   opacity: 0;
   transition: margin-top 750ms, opacity 750ms;
 }
@@ -173,7 +173,7 @@ h1.loaded {
 }
 
 #download-buttons {
-  margin-top: 10px;
+  margin-top: calc(10em / 16);
   opacity: 0;
   transition: margin-top 750ms, opacity 750ms;
 }
@@ -186,12 +186,12 @@ h1.loaded {
 .download-button {
   font-family: "SF Pro Text", Helvetica, sans-serif;
   color: white;
-  font-size: 14px;
+  font-size: calc(14em / 16);
   border: none;
-  border-radius: 4px;
-  padding: 6px 16px;
-  margin-left: 10px;
-  margin-right: 10px;
+  border-radius: calc(4em / 16);
+  padding: calc(6em / 16) calc(16em / 16);
+  margin-left: calc(10em / 16);
+  margin-right: calc(10em / 16);
   cursor: pointer;
 }
 
@@ -207,15 +207,15 @@ h1.loaded {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-top: 160px;
-  margin-bottom: 100px;
-  width: 75vw;
+  margin-top: calc(160em / 16);
+  margin-bottom: calc(100em / 16);
+  width: calc(75em / 16);
   opacity: 0;
   transition: margin-top 750ms, opacity 750ms;
 }
 
 .customization.visible {
-  margin-top: 150px;
+  margin-top: calc(150em / 16);
   opacity: 1;
 }
 
@@ -225,13 +225,13 @@ h1.loaded {
 
 .customization-description {
   color: rgba(255, 255, 255, 0.75);
-  font-size: 20px;
+  font-size: calc(20em / 16);
   font-weight: 300;
-  margin-bottom: 36px;
+  margin-bottom: calc(36em / 16);
 }
 
 h2 {
-  font-size: 60px;
+  font-size: calc(60em / 16);
   font-weight: 500;
   line-height: 1.2;
   display: inline;
@@ -252,19 +252,19 @@ h2 {
 
 .customization-row {
   display: flex;
-  margin-bottom: 32px;
+  margin-bottom: calc(32em / 16);
   align-items: flex-start;
 }
 
 .customization-icon {
   display: inline-block;
-  width: 36px;
-  padding-right: 16px;
-  padding-top: 4px;
+  width: calc(36em / 16);
+  padding-right: calc(16em / 16);
+  padding-top: calc(4em / 16);
 }
 
 .customization-content {
-  width: 350px;
+  width: calc(350em / 16);
 }
 
 .customization-content p {
@@ -293,19 +293,19 @@ h2 {
 }
 
 #menu {
-  width: 250px;
+  width: calc(250em / 16);
 }
 
 .footer {
   position: absolute;
   width: 100vw;
-  height: 60px;
+  height: calc(60em / 16);
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: rgba(255, 255, 255, 0.05);
   color: rgba(255, 255, 255, 0.5);
-  font-size: 12px;
+  font-size: calc(12em / 16);
   font-weight: 300;
 }
 
