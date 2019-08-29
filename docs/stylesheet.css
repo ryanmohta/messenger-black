@@ -311,9 +311,9 @@ h2 {
 
 
 /* Portrait devices such as phones */
-@media (orientation: portrait) {
+/* @media (orientation: portrait) {
   body * {
     font-size: 200%;
   }
 
-}
+} */
