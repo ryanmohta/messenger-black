@@ -328,6 +328,10 @@ h2 {
     display: none;
   }
 
+  .description, .customization, .customization-content, #menu {
+    width: 80vw;
+  }
+
   #download-buttons {
     display: none;
   }
