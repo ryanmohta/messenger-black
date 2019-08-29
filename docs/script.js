@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var elemBottom = rect.bottom;
 
     if (mql.matches) {
-      if (elemTop <= window.innerHeight - 500) {
+      if (elemTop <= window.innerHeight - 800) {
         document.getElementById("description").classList.add("visible");
         setTimeout(function() {
           document.getElementById("download-buttons").classList.add("visible");
@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var elemBottom = rect.bottom;
 
     if (mql.matches) {
-      if (elemTop <= window.innerHeight - 500) {
+      if (elemTop <= window.innerHeight - 800) {
         document.getElementById("customization").classList.add("visible");
       }
     }
