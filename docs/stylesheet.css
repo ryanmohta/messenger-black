@@ -329,6 +329,14 @@ h2 {
     display: none;
   }
 
+  .customization {
+    margin-top: calc(100rem / 16);
+  }
+
+  .customization.visible {
+    margin-top: calc(90rem / 16);
+  }
+
   .customization-body {
     justify-content: center;
   }
