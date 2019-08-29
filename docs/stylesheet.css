@@ -259,6 +259,7 @@ h2 {
 .customization-icon {
   display: inline-block;
   width: calc(36rem / 16);
+  flex-basis: auto;
   padding-right: calc(16rem / 16);
   padding-top: calc(4rem / 16);
 }
