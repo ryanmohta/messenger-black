@@ -316,4 +316,16 @@ h2 {
     font-size: 32px;
   }
 
+  .navbar {
+    justify-content: center;
+  }
+
+  .navbar-download {
+    display: none;
+  }
+
+  #download-buttons {
+    display: none;
+  }
+
 }
