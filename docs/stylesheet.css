@@ -337,6 +337,10 @@ h2 {
     width: 80vw;
   }
 
+  .customization-icon {
+    width: auto;
+  }
+
   .customization-content {
     width: auto;
   }
