@@ -126,6 +126,7 @@ h3 {
 
 h1 {
   color: white;
+  text-align: center;
   display: inline;
   font-weight: 500;
   font-size: 84px;
@@ -238,6 +239,7 @@ h2 {
 
 .customization-body {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   width: inherit;
@@ -305,4 +307,13 @@ h2 {
   color: rgba(255, 255, 255, 0.5);
   font-size: 12px;
   font-weight: 300;
+}
+
+
+/* Portrait devices such as phones */
+@media (orientation: portrait) {
+  body * {
+    font-size: 200%;
+  }
+
 }
