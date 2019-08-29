@@ -320,6 +320,10 @@ h2 {
     justify-content: center;
   }
 
+  .navbar-title {
+    padding-left: 0;
+  }
+
   .navbar-download {
     display: none;
   }
