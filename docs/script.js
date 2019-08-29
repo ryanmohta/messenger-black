@@ -12,16 +12,28 @@ document.addEventListener("DOMContentLoaded", function() {
       document.getElementById("navbar").classList.remove("visible");
     }
 
+    var mql = window.matchMedia("(orientation: portrait)");
+
     title = document.getElementById("description")
     var rect = title.getBoundingClientRect();
     var elemTop = rect.top;
     var elemBottom = rect.bottom;
 
-    if (elemTop <= window.innerHeight - 200) {
-      document.getElementById("description").classList.add("visible");
-      setTimeout(function() {
-        document.getElementById("download-buttons").classList.add("visible");
-      }, 350);
+    if (mql.matches) {
+      if (elemTop <= window.innerHeight - 500) {
+        document.getElementById("description").classList.add("visible");
+        setTimeout(function() {
+          document.getElementById("download-buttons").classList.add("visible");
+        }, 350);
+      }
+    }
+    else {
+      if (elemTop <= window.innerHeight - 200) {
+        document.getElementById("description").classList.add("visible");
+        setTimeout(function() {
+          document.getElementById("download-buttons").classList.add("visible");
+        }, 350);
+      }
     }
 
     title = document.getElementById("customization")
@@ -29,9 +41,17 @@ document.addEventListener("DOMContentLoaded", function() {
     var elemTop = rect.top;
     var elemBottom = rect.bottom;
 
-    if (elemTop <= window.innerHeight - 200) {
-      document.getElementById("customization").classList.add("visible");
+    if (mql.matches) {
+      if (elemTop <= window.innerHeight - 500) {
+        document.getElementById("customization").classList.add("visible");
+      }
     }
+    else {
+      if (elemTop <= window.innerHeight - 200) {
+        document.getElementById("customization").classList.add("visible");
+      }
+    }
+
   };
 });
 
