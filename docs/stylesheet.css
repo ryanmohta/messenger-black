@@ -328,6 +328,10 @@ h2 {
     display: none;
   }
 
+  .customization-body {
+    justify-content: center;
+  }
+
   .description, .customization, .customization-content, #menu {
     width: 80vw;
   }
