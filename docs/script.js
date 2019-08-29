@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var elemBottom = rect.bottom;
 
     if (mql.matches) {
-      if (elemTop <= window.innerHeight * 0.6) {
+      if (elemTop <= window.innerHeight * 0.75) {
         document.getElementById("customization").classList.add("visible");
       }
     }
