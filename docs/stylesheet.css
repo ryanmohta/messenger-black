@@ -209,7 +209,7 @@ h1.loaded {
   align-items: flex-start;
   margin-top: calc(160rem / 16);
   margin-bottom: calc(100rem / 16);
-  width: calc(75rem / 16);
+  width: 75vw;
   opacity: 0;
   transition: margin-top 750ms, opacity 750ms;
 }
