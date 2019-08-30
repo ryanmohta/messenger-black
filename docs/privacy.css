@@ -1,15 +1,91 @@
 html {
-  font-size: 20px;
+  font-size: 16px;
 }
 
 body {
   background-color: black;
   color: rgba(255, 255, 255, 0.75);
   font-family: "SF Pro Text", Helvetica, sans-serif;
+  font-size: calc(20em / 16);
   font-weight: 300;
   width: 75vw;
   margin-left: auto;
   margin-right: auto;
+}
+
+.navbar {
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  height: calc(60rem / 16);
+
+  display: flex;
+  justify-content: space-between;
+
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.navbar-title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: calc(40rem / 16);
+}
+
+.navbar-logo {
+  display: inline-block;
+  width: calc(23rem / 16);
+  padding-right: calc(8rem / 16);
+  padding-top: calc(8rem / 16);
+}
+
+h4 {
+  font-family: "SF Pro Display", Helvetica, sans-serif;
+  color: white;
+  display: inline;
+  font-weight: 400;
+  font-size: calc(24rem / 16);
+}
+
+.navbar-download {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-right: calc(40rem / 16);
+}
+
+.navbar-browser {
+  display: inline-block;
+  width: calc(24rem / 16);
+  padding-left: calc(8rem / 16);
+  padding-top: calc(4rem / 16);
+}
+
+p#download {
+  font-weight: 200;
+  padding-right: calc(4rem / 16);
+  color: rgba(255, 255, 255, 0.7);
+}
+
+a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+  transition: color 0.2s;
+  -webkit-transition: color 0.2s;
+}
+
+.navbar-browser svg {
+  fill: currentColor;
+  transition: fill 0.2s;
+  -webkit-transition: fill 0.2s;
+}
+
+#link-safari:hover {
+  color: rgb(84, 174, 248);
+}
+
+#link-chrome:hover {
+  color: rgb(206, 92, 78);
 }
 
 h1 {
@@ -17,4 +93,17 @@ h1 {
   font-size: 3rem;
   font-weight: 500;
   color: white;
+}
+
+.footer {
+  position: absolute;
+  width: 100vw;
+  height: calc(60rem / 16);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.05);
+  color: rgba(255, 255, 255, 0.5);
+  font-size: calc(12rem / 16);
+  font-weight: 300;
 }
