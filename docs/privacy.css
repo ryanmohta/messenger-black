@@ -1,0 +1,19 @@
+html {
+  font-size: 20px;
+}
+
+body {
+  background-color: black;
+  color: rgba(255, 255, 255, 0.75);
+  font-family: "SF Pro Text", Helvetica, sans-serif;
+  font-weight: 300;
+  width: 75vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-family: "SF Pro Display", Helvetica, sans-serif;
+  font-size: calc(60rem / 16);
+  font-weight: 500;
+}
