@@ -8,9 +8,7 @@ body {
   font-family: "SF Pro Text", Helvetica, sans-serif;
   font-size: calc(20em / 16);
   font-weight: 300;
-  width: 75vw;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0;
 }
 
 .navbar {
@@ -86,6 +84,12 @@ a {
 
 #link-chrome:hover {
   color: rgb(206, 92, 78);
+}
+
+.outer-container {
+  width: 75vw;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1 {
