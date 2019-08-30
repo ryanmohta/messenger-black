@@ -1,4 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
+  document.title = "Messenger Black";
+
   document.body.onscroll = function() {
     var title = document.getElementById("tagline")
     var rect = title.getBoundingClientRect();
