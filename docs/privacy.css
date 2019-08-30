@@ -14,6 +14,7 @@ body {
 
 h1 {
   font-family: "SF Pro Display", Helvetica, sans-serif;
-  font-size: calc(60rem / 16);
+  font-size: 3rem;
   font-weight: 500;
+  color: white;
 }
