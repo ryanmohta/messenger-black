@@ -102,6 +102,7 @@ h1 {
 
 .footer {
   position: absolute;
+  bottom: 0;
   width: 100vw;
   height: calc(60rem / 16);
   margin-top: calc(100rem / 16);
