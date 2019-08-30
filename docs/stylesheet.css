@@ -80,11 +80,11 @@ a {
   -webkit-transition: fill 0.2s;
 }
 
-#navbar-safari:hover a {
+#link-safari:hover {
   color: rgb(84, 174, 248);
 }
 
-#navbar-chrome:hover a {
+#link-chrome:hover {
   color: rgb(206, 92, 78);
 }
 
