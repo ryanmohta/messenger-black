@@ -54,12 +54,6 @@ h1, h2, h3, h4, h5, h6 {
   padding-right: calc(40rem / 16);
 }
 
-a, a:hover {
-  text-decoration: none;
-  transition: 0.2s;
-  -webkit-transition: 0.2s;
-}
-
 .navbar-browser {
   display: inline-block;
   width: calc(24rem / 16);
@@ -73,18 +67,25 @@ p#download {
   color: rgba(255, 255, 255, 0.7);
 }
 
+a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+  transition: color 0.2s;
+  -webkit-transition: color 0.2s;
+}
+
 .navbar-browser svg {
-  fill: rgba(255, 255, 255, 0.7);
+  fill: currentColor;
   transition: fill 0.2s;
   -webkit-transition: fill 0.2s;
 }
 
-#navbar-safari:hover svg {
-  fill: rgb(84, 174, 248);
+#navbar-safari:hover a {
+  color: rgb(84, 174, 248);
 }
 
-#navbar-chrome:hover svg {
-  fill: rgb(206, 92, 78);
+#navbar-chrome:hover a {
+  color: rgb(206, 92, 78);
 }
 
 .outer-container {
