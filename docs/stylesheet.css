@@ -56,7 +56,8 @@ h1, h2, h3, h4, h5, h6 {
 
 a, a:hover {
   text-decoration: none;
-  color: inherit;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
 }
 
 .navbar-browser {
