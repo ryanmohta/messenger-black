@@ -114,3 +114,27 @@ h1 {
   font-size: calc(12rem / 16);
   font-weight: 300;
 }
+
+/* Portrait devices such as phones */
+@media (orientation: portrait) {
+  html {
+    font-size: 32px;
+  }
+
+  .navbar {
+    justify-content: center;
+  }
+
+  .navbar-title {
+    padding-left: 0;
+  }
+
+  .navbar-download {
+    display: none;
+  }
+
+  .outer-container {
+    width: 80vw;
+  }
+
+}
