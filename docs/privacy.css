@@ -11,6 +11,10 @@ body {
   margin: 0;
 }
 
+a {
+  color: rgb(84, 174, 248);
+}
+
 .navbar {
   position: relative;
   width: 100vw;
