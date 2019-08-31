@@ -12,8 +12,7 @@ body {
 }
 
 .navbar {
-  position: sticky;
-  position: -webkit-sticky;
+  position: relative;
   width: 100vw;
   top: 0;
   height: calc(60rem / 16);
