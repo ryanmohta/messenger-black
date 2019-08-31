@@ -62,6 +62,7 @@ h4 {
 
 p#download {
   font-weight: 200;
+  font-size: calc(16rem / 16);
   padding-right: calc(4rem / 16);
   color: rgba(255, 255, 255, 0.7);
 }
@@ -89,8 +90,7 @@ a {
 
 .outer-container {
   width: 75vw;
-  margin-left: auto;
-  margin-right: auto;
+  margin: calc(100rem / 16) auto;
 }
 
 h1 {
@@ -101,11 +101,10 @@ h1 {
 }
 
 .footer {
-  position: absolute;
+  position: relative;
   bottom: 0;
   width: 100vw;
   height: calc(60rem / 16);
-  margin-top: calc(100rem / 16);
   display: flex;
   justify-content: center;
   align-items: center;
