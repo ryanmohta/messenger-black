@@ -87,7 +87,7 @@ hr {
     -webkit-transition: -webkit-filter 0.5s, opacity 0.5s !important;
 }
 
-#js_6 + rect, path#Fill-1, path#Fill-2, path#Fill-8, path#Fill-19 path#Fill-23, path#Fill-24, ._80cm ._7oal path {
+#js_6 + rect, #js_1ke + rect, path#Fill-1, path#Fill-2, path#Fill-8, path#Fill-19 path#Fill-23, path#Fill-24, ._80cm ._7oal path {
     -webkit-transition: fill 0.5s !important;
 }
 
@@ -394,7 +394,7 @@ body.blackMode a._4ce_ {
     opacity: .7 !important;
 }
 
-body.blackMode #js_6 + rect {
+body.blackMode #js_6 + rect, body.blackMode #js_1ke + rect {
     fill: black !important;
 }
 
