@@ -19,7 +19,7 @@
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
-	<string>3</string>
+	<string>4</string>
 	<key>LSMinimumSystemVersion</key>
 	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
 	<key>NSExtension</key>
@@ -68,6 +68,10 @@
 	<string>Copyright © 2018-2019 Ryan Mohta. All rights reserved.</string>
 	<key>NSHumanReadableDescription</key>
 	<string>Scheduled Dark Mode for Facebook Messenger, now including Sunset to Sunrise controls.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Your location allows us to determine the exact sunrise and sunset times in your area.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Your location allows us to determine the exact sunrise and sunset times in your area.</string>
 	<key>NSLocationUsageDescription</key>
 	<string>Your location allows us to determine the exact sunrise and sunset times in your area.</string>
 </dict>
