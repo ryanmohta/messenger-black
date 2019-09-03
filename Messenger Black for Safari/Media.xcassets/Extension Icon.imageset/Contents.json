@@ -2,12 +2,12 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Messenger Black Icon black.pdf",
+      "filename" : "Icon-black.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "Messenger Black Icon.pdf",
+      "filename" : "Icon.png",
       "appearances" : [
         {
           "appearance" : "luminosity",

@@ -335,7 +335,7 @@ DQ
     <resources>
         <image name="Back button" width="2057" height="794"/>
         <image name="Continue button" width="3598" height="1024"/>
-        <image name="Icon" width="1024" height="1024"/>
+        <image name="Icon" width="512" height="512"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="wyL-G5-VyX"/>

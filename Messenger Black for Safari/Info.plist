@@ -68,6 +68,8 @@
 	<string>Copyright © 2018-2019 Ryan Mohta. All rights reserved.</string>
 	<key>NSHumanReadableDescription</key>
 	<string>Scheduled Dark Mode for Facebook Messenger, now including Sunset to Sunrise controls.</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.social-networking</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
 	<string>Your location allows us to determine the exact sunrise and sunset times in your area.</string>
 	<key>NSLocationAlwaysUsageDescription</key>
