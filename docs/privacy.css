@@ -36,6 +36,7 @@ a.navbar-title-link {
   justify-content: flex-start;
   align-items: center;
   padding-left: calc(40rem / 16);
+  height: calc(60rem / 16);
 }
 
 .navbar-logo {
