@@ -87,7 +87,7 @@ hr {
     -webkit-transition: -webkit-filter 0.5s, opacity 0.5s !important;
 }
 
-#js_6 + rect, #js_1ke + rect, path#Fill-1, path#Fill-2, path#Fill-8, path#Fill-19 path#Fill-23, path#Fill-24, ._80cm ._7oal path {
+mask + rect, path#Fill-1, path#Fill-2, path#Fill-8, path#Fill-19 path#Fill-23, path#Fill-24, ._80cm ._7oal path {
     -webkit-transition: fill 0.5s !important;
 }
 
@@ -141,6 +141,10 @@ hr {
 
 ._kmc._7kpg ._1p1t {
     -webkit-transition: color 0.5s !important;
+}
+
+._4_j4 .chatAttachmentShelf {
+    -webkit-transition: background-color 0.5s, border-top-color 0.5s !important;
 }
 
 
@@ -394,7 +398,7 @@ body.blackMode a._4ce_ {
     opacity: .7 !important;
 }
 
-body.blackMode #js_6 + rect, body.blackMode #js_1ke + rect {
+body.blackMode mask + rect {
     fill: black !important;
 }
 
@@ -507,4 +511,9 @@ body.blackMode ._ric, body.blackMode ._4mnq {
 body.blackMode ._kmc._7kpg ._1p1t {
     color: rgba(255, 255, 255, .5) !important;
     -webkit-text-fill-color: initial !important;
+}
+
+body.blackMode ._4_j4 .chatAttachmentShelf {
+    background-color: black !important;
+    border-top-color: #332f2a !important;
 }
