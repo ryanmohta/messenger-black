@@ -243,12 +243,12 @@ DQ
                                             </textFieldCell>
                                         </textField>
                                         <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ui8-zW-iVW">
-                                            <rect key="frame" x="165" y="212" width="370" height="57"/>
+                                            <rect key="frame" x="165" y="212" width="275" height="57"/>
                                             <constraints>
-                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="366" id="WLI-nl-HoH"/>
+                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="271" id="EiD-sH-3UU"/>
                                                 <constraint firstAttribute="height" constant="57" id="ipL-DA-45M"/>
                                             </constraints>
-                                            <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Check &quot;Messenger Black 1.0&quot; to enable the extension." id="twY-w3-12L">
+                                            <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Check &quot;Messenger Black&quot; to enable the extension." id="twY-w3-12L">
                                                 <font key="font" metaFont="systemLight" size="16"/>
                                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="0.85426476880000002" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -260,7 +260,7 @@ DQ
                                                 <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="366" id="9uy-rz-Ft8"/>
                                                 <constraint firstAttribute="height" constant="57" id="cZ8-yj-epS"/>
                                             </constraints>
-                                            <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="You're done! Visit messenger.com or facebook.com/messages to see this extension take action." id="M5B-Ym-gEr">
+                                            <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="You're done! Visit messenger.com or facebook.com/messages and refresh the page to see this extension take action." id="M5B-Ym-gEr">
                                                 <font key="font" metaFont="systemLight" size="16"/>
                                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="0.85426476880000002" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -313,13 +313,13 @@ DQ
                                         <constraint firstItem="ui8-zW-iVW" firstAttribute="top" secondItem="fCi-7t-qOP" secondAttribute="bottom" constant="50" id="eyO-Al-du3"/>
                                         <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="PGM-7q-dm5" secondAttribute="trailing" constant="107" id="fdF-kJ-8fI"/>
                                         <constraint firstAttribute="bottom" secondItem="YG2-fO-CMU" secondAttribute="bottom" constant="137" id="gXP-KH-RJD"/>
-                                        <constraint firstItem="ui8-zW-iVW" firstAttribute="leading" secondItem="8L3-Fn-hHq" secondAttribute="trailing" constant="32" id="gyO-QQ-7DM"/>
+                                        <constraint firstItem="ui8-zW-iVW" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8L3-Fn-hHq" secondAttribute="trailing" constant="32" id="gyO-QQ-7DM"/>
                                         <constraint firstItem="PGM-7q-dm5" firstAttribute="top" secondItem="ui8-zW-iVW" secondAttribute="bottom" constant="26" id="hWd-3X-gnw"/>
                                         <constraint firstItem="fCi-7t-qOP" firstAttribute="top" secondItem="b1b-Fd-ueB" secondAttribute="top" constant="140" id="i5l-5D-AYd"/>
                                         <constraint firstAttribute="trailing" secondItem="fCi-7t-qOP" secondAttribute="trailing" constant="297" id="lmz-BO-ecG"/>
                                         <constraint firstItem="fCi-7t-qOP" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Y00-uC-uhf" secondAttribute="trailing" constant="25" id="nWO-Qw-9s6"/>
+                                        <constraint firstAttribute="trailing" secondItem="ui8-zW-iVW" secondAttribute="trailing" constant="202" id="nph-GT-SRh"/>
                                         <constraint firstItem="8L3-Fn-hHq" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="b1b-Fd-ueB" secondAttribute="leading" constant="107" id="pue-g1-PVm"/>
-                                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ui8-zW-iVW" secondAttribute="trailing" constant="107" id="wnh-9e-ZLp"/>
                                     </constraints>
                                 </view>
                                 <color key="fillColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
