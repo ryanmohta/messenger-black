@@ -71,10 +71,26 @@ function scheduledTimer(startTimeHour, startTimeMinute, endTimeHour, endTimeMinu
     var currentHour = currentDate.getHours();
     var currentMinute = currentDate.getMinutes();
     
-    if(currentHour < endTimeHour || (currentHour <= endTimeHour && currentMinute < endTimeMinute) || (currentHour >= startTimeHour && currentMinute >= startTimeMinute) || currentHour > startTimeHour) {
-        document.body.classList.add("blackMode");
+    if(endTimeHour < startTimeHour || (endTimeHour == startTimeHour && endTimeMinute < startTimeMinute)) {
+        
+        if(currentHour < endTimeHour || (currentHour == endTimeHour && currentMinute < endTimeMinute) || (currentHour == startTimeHour && currentMinute >= startTimeMinute) || currentHour > startTimeHour) {
+            document.body.classList.add("blackMode");
+        }
+        else {
+            document.body.classList.remove("blackMode");
+        }
+        
     }
     else {
-        document.body.classList.remove("blackMode");
+        
+        if((currentHour > startTimeHour || (currentHour == startTimeHour && currentMinute >= startTimeMinute)) && ((currentHour == endTimeHour && currentMinute < endTimeMinute) || currentHour < endTimeHour)) {
+            document.body.classList.add("blackMode");
+        }
+        else {
+            document.body.classList.remove("blackMode");
+        }
+        
     }
+    
+    
 }

@@ -313,10 +313,7 @@ else window.SunCalc = SunCalc;
 },{}],2:[function(require,module,exports){
 var SunCalc = require('suncalc');
 
-var body = document.getElementsByTagName("BODY")[0];
 var timerVariable;
-
-//document.addEventListener("DOMContentLoaded", myTimer);
 
 document.addEventListener("DOMContentLoaded", initialized);
 
@@ -342,10 +339,10 @@ function handleMessage(event) {
 function manualChanged(event) {
     
     if(event.message["State"] === "On") {
-        document.getElementsByTagName("BODY")[0].classList.add("blackMode");
+        document.body.classList.add("blackMode");
     }
     else {
-        document.getElementsByTagName("BODY")[0].classList.remove("blackMode");
+        document.body.classList.remove("blackMode");
     }
     
     clearInterval(timerVariable);
@@ -387,12 +384,28 @@ function scheduledTimer(startTimeHour, startTimeMinute, endTimeHour, endTimeMinu
     var currentHour = currentDate.getHours();
     var currentMinute = currentDate.getMinutes();
     
-    if(currentHour < endTimeHour || (currentHour <= endTimeHour && currentMinute < endTimeMinute) || (currentHour >= startTimeHour && currentMinute >= startTimeMinute) || currentHour > startTimeHour) {
-        document.getElementsByTagName("BODY")[0].classList.add("blackMode");
+    if(endTimeHour < startTimeHour || (endTimeHour == startTimeHour && endTimeMinute < startTimeMinute)) {
+        
+        if(currentHour < endTimeHour || (currentHour == endTimeHour && currentMinute < endTimeMinute) || (currentHour == startTimeHour && currentMinute >= startTimeMinute) || currentHour > startTimeHour) {
+            document.body.classList.add("blackMode");
+        }
+        else {
+            document.body.classList.remove("blackMode");
+        }
+        
     }
     else {
-        document.getElementsByTagName("BODY")[0].classList.remove("blackMode");
+        
+        if((currentHour > startTimeHour || (currentHour == startTimeHour && currentMinute >= startTimeMinute)) && ((currentHour == endTimeHour && currentMinute < endTimeMinute) || currentHour < endTimeHour)) {
+            document.body.classList.add("blackMode");
+        }
+        else {
+            document.body.classList.remove("blackMode");
+        }
+        
     }
+    
+    
 }
 
 },{"suncalc":1}]},{},[2]);
