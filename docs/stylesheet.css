@@ -216,6 +216,9 @@ h1.loaded {
   transition: margin-top 750ms, opacity 750ms;
   text-align: center;
   display: none;
+  width: 70vw;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 25px;
 }
 
 #mobile-download-message.visible {
@@ -224,8 +227,14 @@ h1.loaded {
 }
 
 #mobile-download-message p {
-  font-size: calc(12rem / 16);
+  font-size: calc(18rem / 16);
   font-weight: 300;
+  color: rgba(255, 255, 255, 0.5);
+  margin: 1em;
+}
+
+span.desktop-app {
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .customization {
