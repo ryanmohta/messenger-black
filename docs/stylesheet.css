@@ -217,7 +217,7 @@ h1.loaded {
   text-align: center;
   display: none;
   width: 70vw;
-  border: 2px solid rgba(255, 255, 255, 0.5);
+  border: 3px solid rgba(255, 255, 255, 0.3);
   border-radius: 25px;
 }
 
