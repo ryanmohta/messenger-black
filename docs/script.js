@@ -34,6 +34,7 @@ document.addEventListener("DOMContentLoaded", function() {
         document.getElementById("description").classList.add("visible");
         setTimeout(function() {
           document.getElementById("download-buttons").classList.add("visible");
+          document.getElementById("mobile-download-message").classList.add("visible");
         }, 350);
       }
     }

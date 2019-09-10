@@ -210,6 +210,24 @@ h1.loaded {
   background: linear-gradient(rgb(206, 92, 78), rgb(206, 52, 58));
 }
 
+#mobile-download-message {
+  margin-top: calc(10rem / 16);
+  opacity: 0;
+  transition: margin-top 750ms, opacity 750ms;
+  text-align: center;
+  display: none;
+}
+
+#mobile-download-message.visible {
+  margin-top: 0;
+  opacity: 1;
+}
+
+#mobile-download-message p {
+  font-size: calc(12rem / 16);
+  font-weight: 300;
+}
+
 .customization {
   display: flex;
   flex-direction: column;
@@ -362,6 +380,10 @@ h2 {
 
   #download-buttons {
     display: none;
+  }
+
+  #mobile-download-message {
+    display: block;
   }
 
 }
