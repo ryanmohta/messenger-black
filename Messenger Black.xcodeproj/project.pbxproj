@@ -443,12 +443,14 @@
 				CODE_SIGN_ENTITLEMENTS = "Messenger Black/Messenger Black.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 9;
 				DEVELOPMENT_TEAM = XX2UC95MTQ;
 				INFOPLIST_FILE = "Messenger Black/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MARKETING_VERSION = 1.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ryanmohta.Messenger-Black";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -463,12 +465,14 @@
 				CODE_SIGN_ENTITLEMENTS = "Messenger Black/Messenger Black.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 9;
 				DEVELOPMENT_TEAM = XX2UC95MTQ;
 				INFOPLIST_FILE = "Messenger Black/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MARKETING_VERSION = 1.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ryanmohta.Messenger-Black";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -480,6 +484,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Messenger Black for Safari/Messenger Black for Safari.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 9;
 				DEVELOPMENT_TEAM = XX2UC95MTQ;
 				INFOPLIST_FILE = "Messenger Black for Safari/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -487,6 +492,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
+				MARKETING_VERSION = 1.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ryanmohta.Messenger-Black.Messenger-Black-for-Safari";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -499,6 +505,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Messenger Black for Safari/Messenger Black for Safari.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 9;
 				DEVELOPMENT_TEAM = XX2UC95MTQ;
 				INFOPLIST_FILE = "Messenger Black for Safari/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -506,6 +513,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
+				MARKETING_VERSION = 1.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ryanmohta.Messenger-Black.Messenger-Black-for-Safari";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

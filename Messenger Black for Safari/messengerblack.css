@@ -1,5 +1,5 @@
 /** Transitions **/
-._4sp8, ._4eby, ._59s7, ._3s-4, ._2y8_, ._1sk6, ._4gd0, ._5pw9, ._58ahm, ._4x7m, ._80cm, ._80co, ._8i1 {
+._4sp8, ._4eby, ._59s7, ._3s-4, ._2y8_, ._1sk6, ._4gd0, ._5pw9, ._58ahm, ._4x7m, ._80cm, ._80co, ._8i1, ._3egs, ._5r8a._5r8b {
     -webkit-transition: background 0.5s !important;
 }
 
@@ -39,7 +39,7 @@ body {
     -webkit-transition: border-left 0.5s !important;
 }
 
-h1, h2, h3, h4, h5, h6, textarea, keygen, select, ._2v6o, ._5eu7, ._3eus, ._5uh, ._3x6v, ._5rh4, ._5qsj, ._497p, ._5i_d .__6m, ._1r3o, ._374c, ._3q35, ._2y8z, ._2mjl, ._1n-e, ._4dx5, ._38wl, ._4x7m, ._4x79, ._4x7b, body, ._3szq, ._4rph ._4rpj, ._364g, ._2jnv, ._2jnx, ._2jnz, ._2jnx ._30e7 ._5j5f, ._5i_d .__6k, ._5i_d .__6l, ._3wa-, ._3wb0, ._2c9i ._19jt, ._4ng2, ._3q34, ._36zg, input, ._hh7 a:not(_ih-), ._3eur._6ybk a, label, ._618l, ._618n, ._6cs7, ._koh li:not(.selected), ._517h, ._1suj, ._1suk, .uiInputLabel .__rm+.uiInputLabelLabel, ._7492, ._5iwm ._58al::-webkit-input-placeholder, ._5pwa, ._5pw6, ._58al, ._74ku, ._7q1q, ._7ht_, ._6ct8._6y58, ._6zkf, .__6k, .__6l, .__6m, ._3b4u, ._1mr_, ._1mq-, ._2f5n ._29ey, ._67tw, ._4lh7, ._3z53, ._50f9, ._1jx6, ._1jw- {
+h1, h2, h3, h4, h5, h6, textarea, keygen, select, ._2v6o, ._5eu7, ._3eus, ._5uh, ._3x6v, ._5rh4, ._5qsj, ._497p, ._5i_d .__6m, ._1r3o, ._374c, ._3q35, ._2y8z, ._2mjl, ._1n-e, ._4dx5, ._38wl, ._4x7m, ._4x79, ._4x7b, body, ._3szq, ._4rph ._4rpj, ._364g, ._2jnv, ._2jnx, ._2jnz, ._2jnx ._30e7 ._5j5f, ._5i_d .__6k, ._5i_d .__6l, ._3wa-, ._3wb0, ._2c9i ._19jt, ._4ng2, ._3q34, ._36zg, ._hh7 a:not(_ih-), ._3eur._6ybk a, label, ._618l, ._618n, ._6cs7, ._koh li:not(.selected), ._517h, ._1suj, ._1suk, .uiInputLabel .__rm+.uiInputLabelLabel, ._7492, ._5iwm ._58al::-webkit-input-placeholder, ._5pwa, ._5pw6, ._58al, ._74ku, ._7q1q, ._7ht_, ._6ct8._6y58, ._6zkf, .__6k, .__6l, .__6m, ._3b4u, ._1mr_, ._1mq-, ._2f5n ._29ey, ._67tw, ._4lh7, ._3z53, ._50f9, ._1jx6, ._1jw-, ._50cx:not(._50cy), ._51l0 ._1-sv, ._217a ._t5c ._5jdu, ._217a ._t5c ._5jdu._42fr {
     -webkit-transition: color 0.5s !important;
 }
 
@@ -47,7 +47,7 @@ h1, h2, h3, h4, h5, h6, textarea, keygen, select, ._2v6o, ._5eu7, ._3eus, ._5uh,
     -webkit-transition: color 0.0s !important;
 }
 
-._225b, ._jf4 ._jf3 {
+._225b, ._jf4 ._jf3, ._o46:not(._nd_) ._454y ._1mj0 {
     -webkit-transition: background-color 0.5s, color 0.5s !important;
 }
 
@@ -59,7 +59,7 @@ hr {
     -webkit-transition: background-color 0.5s, border-bottom 0.5s !important;
 }
 
-._2615, ._1ht1._1ht2, ._1hbw ._5pd7, ._4-hy ._3ixn, ._7jxv, ._5iwm ._58al, ._6ymu, ._6-xp, ._6ybv, ._6y56, ._6ybz:not(._7ipg), ._7hu0, ._7hty, ._7-_v, ._1ht1._1ht2 ._6zkc, ._7hu1, ._5irm._7mkm, ._7kpk, ._3b4h, ._3rh0, ._3z54 {
+._2615, ._1ht1._1ht2, ._1hbw ._5pd7, ._4-hy ._3ixn, ._7jxv, ._5iwm ._58al, ._6ymu, ._6-xp, ._6ybv, ._6y56, ._6ybz:not(._7ipg), ._7hu0, ._7hty, ._7-_v, ._1ht1._1ht2 ._6zkc, ._7hu1, ._5irm._7mkm, ._7kpk, ._3b4h, ._3rh0, ._3z54, ._49no {
     -webkit-transition: background-color 0.5s !important;
 }
 
@@ -107,7 +107,7 @@ mask + rect, path#Fill-1, path#Fill-2, path#Fill-8, path#Fill-19, path#Fill-23, 
     -webkit-transition: border-top-color 0.5s !important;
 }
 
-._41ud div:not(._nd_) ._hh7:not(._2f5r):not(._7301) {
+._41ud ._o46:not(._nd_) ._hh7:not(._2f5r):not(._7301), ._29_7 ._3czg ._2e-7 ._2e-1, ._29_7 ._3czg ._2e-7 ._2e-2, input:not(._5eay):not(._1frb):not(._58al) {
     -webkit-transition: background-color 0.5s, color 0.5s !important;
 }
 
@@ -151,7 +151,7 @@ mask + rect, path#Fill-1, path#Fill-2, path#Fill-8, path#Fill-19, path#Fill-23, 
     -webkit-transition: background-color 0.5s, border-top-color 0.5s !important;
 }
 
-._56jc, ._4coo {
+._56jc, ._4coo, ._o46:not(._nd_) ._454y ._1mj1, ._1pka ._49no, ._1pka ._2abm, ._1pka ._5exl  {
     -webkit-transition: border-bottom-color 0.5s !important;
 }
 
@@ -163,7 +163,7 @@ mask + rect, path#Fill-1, path#Fill-2, path#Fill-8, path#Fill-19, path#Fill-23, 
 
 /* --------------------------------------------------------------------------- */
 
-body.blackMode, body.blackMode ._4sp8, body.blackMode ._4eby, body.blackMode ._59s7, body.blackMode ._3s-4, body.blackMode ._2y8_, body.blackMode ._53ij, body.blackMode ._1sk6, body.blackMode ._4gd0, body.blackMode ._5pw9, body.blackMode ._58ahm, body.blackMode ._80cm {
+body.blackMode, body.blackMode ._4sp8, body.blackMode ._4eby, body.blackMode ._59s7, body.blackMode ._3s-4, body.blackMode ._2y8_, body.blackMode ._53ij, body.blackMode ._1sk6, body.blackMode ._4gd0, body.blackMode ._5pw9, body.blackMode ._58ahm, body.blackMode ._80cm, body.blackMode ._3egs {
     background: black !important;
 }
 
@@ -206,12 +206,17 @@ body.blackMode textarea, body.blackMode keygen, body.blackMode select {
     color: #bfc3c8 !important;
 }
 
-body.blackMode ._2v6o, body.blackMode ._5eu7, body.blackMode ._3eus, body.blackMode ._5uh, body.blackMode ._3x6v, body.blackMode ._5rh4, body.blackMode ._5qsj, body.blackMode ._497p, body.blackMode ._5i_d .__6m, body.blackMode ._1r3o, body.blackMode ._374c, body.blackMode ._3q35, body.blackMode ._2y8z, body.blackMode ._2mjl, body.blackMode ._1n-e, body.blackMode ._4dx5, body.blackMode ._38wl, body.blackMode ._4x7m, body.blackMode ._4x79, body.blackMode ._4x7b, body.blackMode ._7ht_, body.blackMode ._6zkf, body.blackMode ._1mr_, body.blackMode ._1mq-, body.blackMode ._1jw- {
+body.blackMode ._2v6o, body.blackMode ._5eu7, body.blackMode ._3eus, body.blackMode ._5uh, body.blackMode ._3x6v, body.blackMode ._5rh4, body.blackMode ._5qsj, body.blackMode ._497p, body.blackMode ._5i_d .__6m, body.blackMode ._1r3o, body.blackMode ._374c, body.blackMode ._3q35, body.blackMode ._2y8z, body.blackMode ._2mjl, body.blackMode ._1n-e, body.blackMode ._4dx5, body.blackMode ._38wl, body.blackMode ._4x7m, body.blackMode ._4x79, body.blackMode ._4x7b, body.blackMode ._7ht_, body.blackMode ._6zkf, body.blackMode ._1mr_, body.blackMode ._1mq-, body.blackMode ._1jw-, body.blackMode ._51l0 ._1-sv {
     color: rgba(255, 255, 255, .40) !important;
 }
 
-body.blackMode, body.blackMode ._3szq, body.blackMode ._4rph ._4rpj, body.blackMode ._364g, body.blackMode ._2jnv, body.blackMode ._2jnx, body.blackMode ._2jnz, body.blackMode ._2jnx ._30e7 ._5j5f, body.blackMode ._5i_d .__6k, body.blackMode ._5i_d .__6l, body.blackMode ._3wa-, body.blackMode ._3wb0, body.blackMode ._2c9i ._19jt, body.blackMode ._4ng2, body.blackMode ._3q34, body.blackMode ._36zg, body.blackMode input, body.blackMode ._hh7 a:not(._ih-), body.blackMode ._3eur._6ybk a, body.blackMode ._7q1q, body.blackMode ._6ct8._6y58, body.blackMode ._1jx6 {
+body.blackMode, body.blackMode ._3szq, body.blackMode ._4rph ._4rpj, body.blackMode ._364g, body.blackMode ._2jnv, body.blackMode ._2jnx, body.blackMode ._2jnz, body.blackMode ._2jnx ._30e7 ._5j5f, body.blackMode ._5i_d .__6k, body.blackMode ._5i_d .__6l, body.blackMode ._3wa-, body.blackMode ._3wb0, body.blackMode ._2c9i ._19jt, body.blackMode ._4ng2, body.blackMode ._3q34, body.blackMode ._36zg, body.blackMode ._hh7 a:not(._ih-), body.blackMode ._3eur._6ybk a, body.blackMode ._7q1q, body.blackMode ._6ct8._6y58, body.blackMode ._1jx6, body.blackMode ._217a ._t5c ._5jdu, body.blackMode ._217a ._t5c ._5jdu._42fr {
     color: white !important;
+}
+
+body.blackMode input:not(._5eay):not(._1frb):not(._58al) {
+    background-color: black !important;
+    color: #e3e1de !important;
 }
 
 /* --------------------------------------------------------------------------- */
@@ -444,7 +449,7 @@ body.blackMode ._7q0v, body.blackMode ._7q1i, body.blackMode ._7q1l, body.blackM
     border-color: black !important;
 }
 
-body.blackMode ._41ud div:not(._nd_) ._hh7:not(._2f5r):not(._7301) {
+body.blackMode ._41ud ._o46:not(._nd_) ._hh7:not(._2f5r):not(._7301) {
     background-color: rgb(50, 51, 52) !important;
     color: white !important;
 }
@@ -486,11 +491,11 @@ body.blackMode ._2f5n {
     border-color: rgba(255, 255, 255, .1) !important;
 }
 
-body.blackMode .__6m, body.blackMode ._50f8 {
+body.blackMode .__6m, body.blackMode ._50f8, body.blackMode ._50cx:not(._50cy) {
     color: #6f6b63 !important;
 }
 
-body.blackMode ._5irm._7mkm, body.blackMode ._7mki {
+body.blackMode ._5irm._7mkm, body.blackMode ._7mki, body.blackMode ._49no {
     background-color: black !important;
 }
 
@@ -558,4 +563,31 @@ body.blackMode ._4coo {
 
 body.blackMode ._1jw_:first-child ._1jx4 {
     border-top-color: rgba(255, 255, 255, 0) !important;
+}
+
+body.blackMode ._o46:not(._nd_) ._454y ._1mj0 {
+    background-color: rgba(153, 153, 153) !important;
+    color: black !important;
+}
+
+body.blackMode ._o46:not(._nd_) ._454y ._1mj1 {
+    border-bottom-color: rgba(153, 153, 153) !important;
+}
+
+body.blackMode ._29_7 ._3czg ._2e-7 ._2e-1, body.blackMode ._29_7 ._3czg ._2e-7 ._2e-2 {
+    background-color: rgba(72, 72, 72) !important;
+    color: black !important;
+}
+
+body.blackMode ._1pka ._49no, body.blackMode ._1pka ._2abm, body.blackMode ._1pka ._5exl {
+    border-bottom-color: #111111 !important;
+}
+
+body.blackMode ._2pgc {
+    background-color: #14120f !important;
+    color: #e3e1de !important;
+}
+
+body.blackMode ._5r8a._5r8b {
+    background: #14120f !important;
 }
