@@ -59,7 +59,7 @@ hr {
     -webkit-transition: background-color 0.5s, border-bottom 0.5s !important;
 }
 
-._2615, ._1ht1._1ht2, ._1hbw ._5pd7, ._4-hy ._3ixn, ._7jxv, ._5iwm ._58al, ._6ymu, ._6-xp, ._6ybv, ._6y56, ._6ybz:not(._7ipg), ._7hu0, ._7hty, ._7-_v, ._1ht1._1ht2 ._6zkc, ._7hu1, ._5irm._7mkm, ._7kpk, ._3b4h, ._3rh0, ._3z54, ._49no, ._558b ._54ng {
+._2615, ._1ht1._1ht2, ._1hbw ._5pd7, ._4-hy ._3ixn, ._7jxv, ._5iwm ._58al, ._6ymu, ._6-xp, ._6ybv, ._6y56, ._6ybz:not(._7ipg), ._7hu0, ._7hty, ._7-_v, ._1ht1._1ht2 ._6zkc, ._7hu1, ._5irm._7mkm, ._7kpk, ._3b4h, ._3rh0, ._3z54, ._49no, ._558b ._54ng, ._4jgp ._4jgu {
     -webkit-transition: background-color 0.5s !important;
 }
 
@@ -159,6 +159,10 @@ mask + rect, path#Fill-1, path#Fill-2, path#Fill-8, path#Fill-19, path#Fill-23, 
     -webkit-transition: color 0.0s !important;
 }
 
+._nd_ ._3058._s1-._6e6n, ._3erg ._4k7c, ._3erg ._2saq {
+    -webkit-transition: border-color 0.5s, color 0.5s !important;
+}
+
 
 
 
@@ -218,7 +222,7 @@ body.blackMode ._2v6o, body.blackMode ._5eu7, body.blackMode ._3eus, body.blackM
     color: rgba(255, 255, 255, .40) !important;
 }
 
-body.blackMode, body.blackMode ._3szq, body.blackMode ._4rph ._4rpj, body.blackMode ._364g, body.blackMode ._2jnv, body.blackMode ._2jnx, body.blackMode ._2jnz, body.blackMode ._2jnx ._30e7 ._5j5f, body.blackMode ._5i_d .__6k, body.blackMode ._5i_d .__6l, body.blackMode ._3wa-, body.blackMode ._3wb0, body.blackMode ._2c9i ._19jt, body.blackMode ._4ng2, body.blackMode ._3q34, body.blackMode ._36zg, body.blackMode ._hh7 a:not(._ih-), body.blackMode ._3eur._6ybk a, body.blackMode ._7q1q, body.blackMode ._6ct8._6y58, body.blackMode ._1jx6, body.blackMode ._217a ._t5c ._5jdu, body.blackMode ._217a ._t5c ._5jdu._42fr, body.blackMode ._2i-c ._54nf ._54nh {
+body.blackMode, body.blackMode ._3szq, body.blackMode ._4rph ._4rpj, body.blackMode ._364g, body.blackMode ._2jnv, body.blackMode ._2jnx, body.blackMode ._2jnz, body.blackMode ._2jnx ._30e7 ._5j5f, body.blackMode ._5i_d .__6k, body.blackMode ._5i_d .__6l, body.blackMode ._3wa-, body.blackMode ._3wb0, body.blackMode ._2c9i ._19jt, body.blackMode ._4ng2, body.blackMode ._3q34, body.blackMode ._36zg, body.blackMode ._hh7 a:not(._ih-), body.blackMode ._3eur._6ybk a, body.blackMode ._7q1q, body.blackMode ._6ct8._6y58, body.blackMode ._1jx6, body.blackMode ._217a ._t5c ._5jdu, body.blackMode ._217a ._t5c ._5jdu._42fr, body.blackMode ._2i-c ._54nf ._54nh, body.blackMode ._8slc {
     color: white !important;
 }
 
@@ -503,7 +507,7 @@ body.blackMode .__6m, body.blackMode ._50f8, body.blackMode ._50cx:not(._50cy) {
     color: #6f6b63 !important;
 }
 
-body.blackMode ._5irm._7mkm, body.blackMode ._7mki, body.blackMode ._49no, body.blackMode ._558b ._54ng {
+body.blackMode ._5irm._7mkm, body.blackMode ._7mki, body.blackMode ._49no, body.blackMode ._558b ._54ng, body.blackMode ._4jgp ._4jgu {
     background-color: black !important;
 }
 
@@ -623,4 +627,9 @@ body.blackMode ._1uwz {
 
 body.blackMode ._5r8h:hover, body.blackMode ._2_gk:hover, body.blackMode ._1gy-:hover {
     background-color: #2c2921 !important;
+}
+
+body.blackMode ._nd_ ._3058._s1-._6e6n, body.blackMode ._3erg ._4k7c, body.blackMode ._3erg ._2saq {
+    border-color: black !important;
+    color: black !important;
 }
