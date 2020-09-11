@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14490.70"/>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="16097.3"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -332,12 +333,12 @@ DQ
             <point key="canvasLocation" x="746" y="813"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="cq2-FE-JQM"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="Back button" width="2057" height="794"/>
         <image name="Continue button" width="3598" height="1024"/>
         <image name="Icon" width="512" height="512"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="wyL-G5-VyX"/>
-    </inferredMetricsTieBreakers>
 </document>
