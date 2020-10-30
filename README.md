@@ -8,6 +8,8 @@ Embrace your dark side with Messenger Black, a dramatic new look for Facebook Me
 [Download for Chrome][chrome]<br>
 [Visit Website][website]
 
+_Join over 40,000 others who have downloaded Messenger Black across Safari and Chrome._
+
 [safari]: https://apps.apple.com/us/app/messenger-black/id1478185564?mt=12
 [chrome]: https://chrome.google.com/webstore/detail/messenger-black/aakklflhdgofndhdkjgalldlnbgpgbob
 [website]: https://messengerblack.com
