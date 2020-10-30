@@ -4,9 +4,14 @@
 
 Embrace your dark side with Messenger Black, a dramatic new look for Facebook Messenger. Flip the switch and watch the background dim and your messages take center stage, becoming more vivid and easy on the eyes. And now with Scheduled and Sunset to Sunrise modes, you can tune your messaging experience to the sun's natural rhythm.
 
-### [Download for Safari](https://apps.apple.com/us/app/messenger-black/id1478185564?mt=12)
-[Download for Chrome](https://chrome.google.com/webstore/detail/messenger-black/aakklflhdgofndhdkjgalldlnbgpgbob)<br>
-[Visit Website](https://messengerblack.com)
+### [Download for Safari][safari]
+[Download for Chrome][chrome]<br>
+[Visit Website][website]
+
+[safari]: https://apps.apple.com/us/app/messenger-black/id1478185564?mt=12
+[chrome]: https://chrome.google.com/webstore/detail/messenger-black/aakklflhdgofndhdkjgalldlnbgpgbob
+[website]: https://messengerblack.com
+
 
 ## Scheduling: Customizable to your schedule. Or the Sun's.
 Messenger Black features three modes designed to help you get the most out of Dark Mode, whatever your uses might be.
@@ -20,3 +25,10 @@ Messenger Black features three modes designed to help you get the most out of Da
 Each of these features can be enabled or disabled from a convenient control panel in the Safari toolbar.
 
 ![Image displaying Messenger Black's Scheduling functionality](/readme-images/scheduling.png)
+
+## Technology Stack
+- **Languages:** Swift, CSS, JavaScript
+- **APIs:** [Apple's CoreLocation API][corelocation], [@mourner's SunCalc API][suncalc]
+
+[corelocation]: https://developer.apple.com/documentation/corelocation
+[suncalc]: https://github.com/mourner/suncalc
