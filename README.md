@@ -5,7 +5,8 @@
 Embrace your dark side with Messenger Black, a dramatic new look for Facebook Messenger. Flip the switch and watch the background dim and your messages take center stage, becoming more vivid and easy on the eyes. And now with Scheduled and Sunset to Sunrise modes, you can tune your messaging experience to the sun's natural rhythm.
 
 ### Download for Safari
-(or download for Chrome)
+Download for Chrome<br>
+Visit Website
 
 ## Scheduling: Customizable to your schedule. Or the Sun's.
 Messenger Black features three modes designed to help you get the most out of Dark Mode, whatever your uses might be.
