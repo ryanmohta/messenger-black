@@ -34,3 +34,6 @@ Each of these features can be enabled or disabled from a convenient control pane
 
 [corelocation]: https://developer.apple.com/documentation/corelocation
 [suncalc]: https://github.com/mourner/suncalc
+
+
+**Improvements, suggestions, or just general feedback? Submit a pull request or issue!**
