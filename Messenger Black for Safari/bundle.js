@@ -339,10 +339,10 @@ function handleMessage(event) {
 function manualChanged(event) {
     
     if(event.message["State"] === "On") {
-        document.body.classList.add("blackMode");
+        document.documentElement.classList.add("__fb-dark-mode");
     }
     else {
-        document.body.classList.remove("blackMode");
+        document.documentElement.classList.remove("__fb-dark-mode");
     }
     
     clearInterval(timerVariable);
@@ -387,20 +387,20 @@ function scheduledTimer(startTimeHour, startTimeMinute, endTimeHour, endTimeMinu
     if(endTimeHour < startTimeHour || (endTimeHour == startTimeHour && endTimeMinute < startTimeMinute)) {
         
         if(currentHour < endTimeHour || (currentHour == endTimeHour && currentMinute < endTimeMinute) || (currentHour == startTimeHour && currentMinute >= startTimeMinute) || currentHour > startTimeHour) {
-            document.body.classList.add("blackMode");
+            document.documentElement.classList.add("__fb-dark-mode");
         }
         else {
-            document.body.classList.remove("blackMode");
+            document.documentElement.classList.remove("__fb-dark-mode");
         }
         
     }
     else {
         
         if((currentHour > startTimeHour || (currentHour == startTimeHour && currentMinute >= startTimeMinute)) && ((currentHour == endTimeHour && currentMinute < endTimeMinute) || currentHour < endTimeHour)) {
-            document.body.classList.add("blackMode");
+            document.documentElement.classList.add("__fb-dark-mode");
         }
         else {
-            document.body.classList.remove("blackMode");
+            document.documentElement.classList.remove("__fb-dark-mode");
         }
         
     }
