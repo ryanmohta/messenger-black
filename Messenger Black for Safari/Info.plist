@@ -41,7 +41,7 @@
 		<array>
 			<dict>
 				<key>Style Sheet</key>
-				<string>messengerblack.css</string>
+				<string>styles.css</string>
 			</dict>
 		</array>
 		<key>SFSafariToolbarItem</key>
