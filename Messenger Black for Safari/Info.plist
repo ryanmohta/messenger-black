@@ -40,21 +40,21 @@
 		<key>SFSafariStyleSheet</key>
 		<array>
 			<dict>
-				<key>Style Sheet</key>
-				<string>base.css</string>
 				<key>Allowed URL Patterns</key>
 				<array>
 					<string>https://*.messenger.com/*</string>
 					<string>https://*.facebook.com/*</string>
 				</array>
+				<key>Style Sheet</key>
+				<string>base.css</string>
 			</dict>
 			<dict>
-				<key>Style Sheet</key>
-				<string>svg.css</string>
 				<key>Allowed URL Patterns</key>
 				<array>
 					<string>https://*.messenger.com/*</string>
 				</array>
+				<key>Style Sheet</key>
+				<string>svg.css</string>
 			</dict>
 		</array>
 		<key>SFSafariToolbarItem</key>
