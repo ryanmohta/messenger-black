@@ -3,15 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		111FD8E72592D7BA00A4941F /* base.css in Resources */ = {isa = PBXBuildFile; fileRef = 111FD8E52592D7B900A4941F /* base.css */; };
+		111FD8E82592D7BA00A4941F /* svg.css in Resources */ = {isa = PBXBuildFile; fileRef = 111FD8E62592D7B900A4941F /* svg.css */; };
 		1178A6F7218AEB0C004936DA /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1178A6F6218AEB0C004936DA /* SafariExtensionViewController.xib */; };
 		11A0A6FB218D6A4B00E79DAF /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11A0A6FA218D6A4B00E79DAF /* Media.xcassets */; };
-		11C01D5A22FF9C0800E72B4F /* package.json in Resources */ = {isa = PBXBuildFile; fileRef = 11C01D5922FF9C0800E72B4F /* package.json */; };
-		11C01D5C22FF9C9500E72B4F /* node_modules in Resources */ = {isa = PBXBuildFile; fileRef = 11C01D5B22FF9C9400E72B4F /* node_modules */; };
-		11C01D5E22FF9CF200E72B4F /* package-lock.json in Resources */ = {isa = PBXBuildFile; fileRef = 11C01D5D22FF9CF200E72B4F /* package-lock.json */; };
+		11BE3FEB25909272002D8E50 /* styles.css in Resources */ = {isa = PBXBuildFile; fileRef = 11BE3FEA25909272002D8E50 /* styles.css */; };
 		11C01D60230011AE00E72B4F /* bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = 11C01D5F230011AE00E72B4F /* bundle.js */; };
 		11C46632210E7971003D3CA2 /* MyCustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C46631210E7971003D3CA2 /* MyCustomSegue.swift */; };
 		11C46634210E7A7F003D3CA2 /* MyCustomAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C46633210E7A7F003D3CA2 /* MyCustomAnimator.swift */; };
@@ -53,11 +53,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		111FD8E52592D7B900A4941F /* base.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = base.css; path = "node_modules/@messengerblack/messengerblack-css/base.css"; sourceTree = "<group>"; };
+		111FD8E62592D7B900A4941F /* svg.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = svg.css; path = "node_modules/@messengerblack/messengerblack-css/svg.css"; sourceTree = "<group>"; };
 		1178A6F6218AEB0C004936DA /* SafariExtensionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SafariExtensionViewController.xib; sourceTree = "<group>"; };
 		11A0A6FA218D6A4B00E79DAF /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
-		11C01D5922FF9C0800E72B4F /* package.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = package.json; sourceTree = "<group>"; };
-		11C01D5B22FF9C9400E72B4F /* node_modules */ = {isa = PBXFileReference; lastKnownFileType = folder; path = node_modules; sourceTree = "<group>"; };
-		11C01D5D22FF9CF200E72B4F /* package-lock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "package-lock.json"; sourceTree = "<group>"; };
+		11BE3FEA25909272002D8E50 /* styles.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = styles.css; path = "node_modules/@messengerblack/messengerblack-css/styles.css"; sourceTree = "<group>"; };
 		11C01D5F230011AE00E72B4F /* bundle.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = bundle.js; sourceTree = "<group>"; };
 		11C46631210E7971003D3CA2 /* MyCustomSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomSegue.swift; sourceTree = "<group>"; };
 		11C46633210E7A7F003D3CA2 /* MyCustomAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomAnimator.swift; sourceTree = "<group>"; };
@@ -143,7 +143,6 @@
 		11C63A312106E7860020D4A3 /* Messenger Black for Safari */ = {
 			isa = PBXGroup;
 			children = (
-				11C01D5B22FF9C9400E72B4F /* node_modules */,
 				11C01D5F230011AE00E72B4F /* bundle.js */,
 				11FF9CC022FEB760007F9879 /* Messenger Black for Safari.entitlements */,
 				11C63A452106E8060020D4A3 /* messengerblack.css */,
@@ -152,9 +151,10 @@
 				1178A6F6218AEB0C004936DA /* SafariExtensionViewController.xib */,
 				11CDC30C254015CB00196EA6 /* ToolbarItemIcon.pdf */,
 				11C63A392106E7860020D4A3 /* Info.plist */,
+				11BE3FEA25909272002D8E50 /* styles.css */,
+				111FD8E52592D7B900A4941F /* base.css */,
+				111FD8E62592D7B900A4941F /* svg.css */,
 				11C63A3A2106E7860020D4A3 /* script.js */,
-				11C01D5922FF9C0800E72B4F /* package.json */,
-				11C01D5D22FF9CF200E72B4F /* package-lock.json */,
 				11A0A6FA218D6A4B00E79DAF /* Media.xcassets */,
 			);
 			path = "Messenger Black for Safari";
@@ -233,7 +233,7 @@
 				};
 			};
 			buildConfigurationList = 11C639BC20F5FE3C0020D4A3 /* Build configuration list for PBXProject "Messenger Black" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -265,15 +265,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				111FD8E82592D7BA00A4941F /* svg.css in Resources */,
 				11A0A6FB218D6A4B00E79DAF /* Media.xcassets in Resources */,
 				11C63A3B2106E7860020D4A3 /* script.js in Resources */,
+				111FD8E72592D7BA00A4941F /* base.css in Resources */,
 				11C01D60230011AE00E72B4F /* bundle.js in Resources */,
 				11CDC30D254015CB00196EA6 /* ToolbarItemIcon.pdf in Resources */,
-				11C01D5A22FF9C0800E72B4F /* package.json in Resources */,
-				11C01D5E22FF9CF200E72B4F /* package-lock.json in Resources */,
-				11C01D5C22FF9C9500E72B4F /* node_modules in Resources */,
 				11C63A462106E8060020D4A3 /* messengerblack.css in Resources */,
 				1178A6F7218AEB0C004936DA /* SafariExtensionViewController.xib in Resources */,
+				11BE3FEB25909272002D8E50 /* styles.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,14 +443,14 @@
 				CODE_SIGN_ENTITLEMENTS = "Messenger Black/Messenger Black.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 11;
+				CURRENT_PROJECT_VERSION = 12;
 				DEVELOPMENT_TEAM = XX2UC95MTQ;
 				INFOPLIST_FILE = "Messenger Black/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ryanmohta.Messenger-Black";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -465,14 +465,14 @@
 				CODE_SIGN_ENTITLEMENTS = "Messenger Black/Messenger Black.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 11;
+				CURRENT_PROJECT_VERSION = 12;
 				DEVELOPMENT_TEAM = XX2UC95MTQ;
 				INFOPLIST_FILE = "Messenger Black/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ryanmohta.Messenger-Black";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -484,7 +484,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Messenger Black for Safari/Messenger Black for Safari.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 11;
+				CURRENT_PROJECT_VERSION = 12;
 				DEVELOPMENT_TEAM = XX2UC95MTQ;
 				INFOPLIST_FILE = "Messenger Black for Safari/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -492,7 +492,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ryanmohta.Messenger-Black.Messenger-Black-for-Safari";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -505,7 +505,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Messenger Black for Safari/Messenger Black for Safari.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 11;
+				CURRENT_PROJECT_VERSION = 12;
 				DEVELOPMENT_TEAM = XX2UC95MTQ;
 				INFOPLIST_FILE = "Messenger Black for Safari/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -513,7 +513,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ryanmohta.Messenger-Black.Messenger-Black-for-Safari";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
