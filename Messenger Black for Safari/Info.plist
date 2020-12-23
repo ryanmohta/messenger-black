@@ -45,7 +45,7 @@
 				<key>Allowed URL Patterns</key>
 				<array>
 					<string>https://*.messenger.com/*</string>
-					<string>https://*.facebook.com/messages/*</string>
+					<string>https://*.facebook.com/*</string>
 				</array>
 			</dict>
 			<dict>
