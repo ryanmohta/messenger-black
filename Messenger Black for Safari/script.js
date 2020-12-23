@@ -5,7 +5,7 @@ var timerVariable;
 document.addEventListener("DOMContentLoaded", initialized);
 
 function initialized() {
-    safari.extension.dispatchMessage("Initialized");
+    setTimeout(function(){ safari.extension.dispatchMessage("Initialized"); }, 1000);
 }
 
 
