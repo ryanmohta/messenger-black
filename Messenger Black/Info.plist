@@ -27,7 +27,7 @@
 	<key>LSMinimumSystemVersion</key>
 	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2018-2019 Ryan Mohta. All rights reserved.</string>
+	<string>Copyright © 2018-2020 Ryan Mohta. All rights reserved.</string>
 	<key>NSLocationUsageDescription</key>
 	<string>Your location allows us to determine the exact sunrise and sunset times in your area.</string>
 	<key>NSMainStoryboardFile</key>

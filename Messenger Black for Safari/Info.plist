@@ -34,7 +34,7 @@
 		<array>
 			<dict>
 				<key>Script</key>
-				<string>bundle.js</string>
+				<string>script.js</string>
 			</dict>
 		</array>
 		<key>SFSafariStyleSheet</key>
@@ -54,7 +54,7 @@
 					<string>https://*.messenger.com/*</string>
 				</array>
 				<key>Style Sheet</key>
-				<string>svg.css</string>
+				<string>messengersite.css</string>
 			</dict>
 		</array>
 		<key>SFSafariToolbarItem</key>
@@ -80,7 +80,7 @@
 		</dict>
 	</dict>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2018-2019 Ryan Mohta. All rights reserved.</string>
+	<string>Copyright © 2018-2020 Ryan Mohta. All rights reserved.</string>
 	<key>NSHumanReadableDescription</key>
 	<string>Scheduled Dark Mode for Facebook Messenger, now including Sunset to Sunrise controls.</string>
 </dict>
