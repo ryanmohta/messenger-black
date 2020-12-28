@@ -54,7 +54,7 @@
 					<string>https://*.messenger.com/*</string>
 				</array>
 				<key>Style Sheet</key>
-				<string>svg.css</string>
+				<string>messengersite.css</string>
 			</dict>
 		</array>
 		<key>SFSafariToolbarItem</key>
