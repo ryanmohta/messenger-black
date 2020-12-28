@@ -23,7 +23,6 @@
 		11C63A352106E7860020D4A3 /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C63A342106E7860020D4A3 /* SafariExtensionViewController.swift */; };
 		11C63A3B2106E7860020D4A3 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 11C63A3A2106E7860020D4A3 /* script.js */; };
 		11C63A412106E7860020D4A3 /* Messenger Black for Safari.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 11C63A2F2106E7860020D4A3 /* Messenger Black for Safari.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		11C63A462106E8060020D4A3 /* messengerblack.css in Resources */ = {isa = PBXBuildFile; fileRef = 11C63A452106E8060020D4A3 /* messengerblack.css */; };
 		11CDC30D254015CB00196EA6 /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 11CDC30C254015CB00196EA6 /* ToolbarItemIcon.pdf */; };
 /* End PBXBuildFile section */
 
@@ -71,7 +70,6 @@
 		11C63A342106E7860020D4A3 /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
 		11C63A392106E7860020D4A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11C63A3A2106E7860020D4A3 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
-		11C63A452106E8060020D4A3 /* messengerblack.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = messengerblack.css; sourceTree = "<group>"; };
 		11CDC30C254015CB00196EA6 /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
 		11FF9CBF22FEB4D1007F9879 /* Messenger Black.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Messenger Black.entitlements"; sourceTree = "<group>"; };
 		11FF9CC022FEB760007F9879 /* Messenger Black for Safari.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Messenger Black for Safari.entitlements"; sourceTree = "<group>"; };
@@ -143,7 +141,6 @@
 			children = (
 				11C01D5F230011AE00E72B4F /* bundle.js */,
 				11FF9CC022FEB760007F9879 /* Messenger Black for Safari.entitlements */,
-				11C63A452106E8060020D4A3 /* messengerblack.css */,
 				11C63A322106E7860020D4A3 /* SafariExtensionHandler.swift */,
 				11C63A342106E7860020D4A3 /* SafariExtensionViewController.swift */,
 				1178A6F6218AEB0C004936DA /* SafariExtensionViewController.xib */,
@@ -267,7 +264,6 @@
 				111FD8E72592D7BA00A4941F /* base.css in Resources */,
 				11C01D60230011AE00E72B4F /* bundle.js in Resources */,
 				11CDC30D254015CB00196EA6 /* ToolbarItemIcon.pdf in Resources */,
-				11C63A462106E8060020D4A3 /* messengerblack.css in Resources */,
 				11690ED62599C1C100BAEE4E /* messengersite.css in Resources */,
 				1178A6F7218AEB0C004936DA /* SafariExtensionViewController.xib in Resources */,
 			);
