@@ -11,7 +11,6 @@
 		11690ED62599C1C100BAEE4E /* messengersite.css in Resources */ = {isa = PBXBuildFile; fileRef = 11690ED52599C1C100BAEE4E /* messengersite.css */; };
 		1178A6F7218AEB0C004936DA /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1178A6F6218AEB0C004936DA /* SafariExtensionViewController.xib */; };
 		11A0A6FB218D6A4B00E79DAF /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11A0A6FA218D6A4B00E79DAF /* Media.xcassets */; };
-		11C01D60230011AE00E72B4F /* bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = 11C01D5F230011AE00E72B4F /* bundle.js */; };
 		11C46632210E7971003D3CA2 /* MyCustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C46631210E7971003D3CA2 /* MyCustomSegue.swift */; };
 		11C46634210E7A7F003D3CA2 /* MyCustomAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C46633210E7A7F003D3CA2 /* MyCustomAnimator.swift */; };
 		11C639C520F5FE3C0020D4A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C639C420F5FE3C0020D4A3 /* AppDelegate.swift */; };
@@ -21,7 +20,6 @@
 		11C63A302106E7860020D4A3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C639DA20F5FF4F0020D4A3 /* Cocoa.framework */; };
 		11C63A332106E7860020D4A3 /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C63A322106E7860020D4A3 /* SafariExtensionHandler.swift */; };
 		11C63A352106E7860020D4A3 /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C63A342106E7860020D4A3 /* SafariExtensionViewController.swift */; };
-		11C63A3B2106E7860020D4A3 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 11C63A3A2106E7860020D4A3 /* script.js */; };
 		11C63A412106E7860020D4A3 /* Messenger Black for Safari.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 11C63A2F2106E7860020D4A3 /* Messenger Black for Safari.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		11CDC30D254015CB00196EA6 /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 11CDC30C254015CB00196EA6 /* ToolbarItemIcon.pdf */; };
 /* End PBXBuildFile section */
@@ -55,7 +53,6 @@
 		11690ED52599C1C100BAEE4E /* messengersite.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = messengersite.css; path = "node_modules/@messengerblack/messengerblack-css/messengersite.css"; sourceTree = "<group>"; };
 		1178A6F6218AEB0C004936DA /* SafariExtensionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SafariExtensionViewController.xib; sourceTree = "<group>"; };
 		11A0A6FA218D6A4B00E79DAF /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
-		11C01D5F230011AE00E72B4F /* bundle.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = bundle.js; sourceTree = "<group>"; };
 		11C46631210E7971003D3CA2 /* MyCustomSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomSegue.swift; sourceTree = "<group>"; };
 		11C46633210E7A7F003D3CA2 /* MyCustomAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomAnimator.swift; sourceTree = "<group>"; };
 		11C639C120F5FE3C0020D4A3 /* Messenger Black.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Messenger Black.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,7 +66,6 @@
 		11C63A322106E7860020D4A3 /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
 		11C63A342106E7860020D4A3 /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
 		11C63A392106E7860020D4A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		11C63A3A2106E7860020D4A3 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
 		11CDC30C254015CB00196EA6 /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
 		11FF9CBF22FEB4D1007F9879 /* Messenger Black.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Messenger Black.entitlements"; sourceTree = "<group>"; };
 		11FF9CC022FEB760007F9879 /* Messenger Black for Safari.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Messenger Black for Safari.entitlements"; sourceTree = "<group>"; };
@@ -139,7 +135,6 @@
 		11C63A312106E7860020D4A3 /* Messenger Black for Safari */ = {
 			isa = PBXGroup;
 			children = (
-				11C01D5F230011AE00E72B4F /* bundle.js */,
 				11FF9CC022FEB760007F9879 /* Messenger Black for Safari.entitlements */,
 				11C63A322106E7860020D4A3 /* SafariExtensionHandler.swift */,
 				11C63A342106E7860020D4A3 /* SafariExtensionViewController.swift */,
@@ -148,7 +143,6 @@
 				11C63A392106E7860020D4A3 /* Info.plist */,
 				111FD8E52592D7B900A4941F /* base.css */,
 				11690ED52599C1C100BAEE4E /* messengersite.css */,
-				11C63A3A2106E7860020D4A3 /* script.js */,
 				11A0A6FA218D6A4B00E79DAF /* Media.xcassets */,
 			);
 			path = "Messenger Black for Safari";
@@ -260,9 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11A0A6FB218D6A4B00E79DAF /* Media.xcassets in Resources */,
-				11C63A3B2106E7860020D4A3 /* script.js in Resources */,
 				111FD8E72592D7BA00A4941F /* base.css in Resources */,
-				11C01D60230011AE00E72B4F /* bundle.js in Resources */,
 				11CDC30D254015CB00196EA6 /* ToolbarItemIcon.pdf in Resources */,
 				11690ED62599C1C100BAEE4E /* messengersite.css in Resources */,
 				1178A6F7218AEB0C004936DA /* SafariExtensionViewController.xib in Resources */,
