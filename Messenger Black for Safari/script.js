@@ -94,15 +94,9 @@ function scheduledTimer(startTimeHour, startTimeMinute, endTimeHour, endTimeMinu
 }
 
 function enableDarkMode() {
-  replaceAllClassInstances("__fb-light-mode", "__fb-dark-mode");
+  document.documentElement.classList.add("__fb-dark-mode");
 }
 
 function disableDarkMode() {
-  replaceAllClassInstances("__fb-dark-mode", "__fb-light-mode");
-}
-
-function replaceAllClassInstances(currentClass, newClass) {
-  let elements = document.getElementsByClassName(currentClass);
-  [...elements].forEach(x => x.classList.add(newClass));
-  [...elements].forEach(x => x.classList.remove(currentClass));
+  document.documentElement.classList.remove("__fb-dark-mode");
 }
