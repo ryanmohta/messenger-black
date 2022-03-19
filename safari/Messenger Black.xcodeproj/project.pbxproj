@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		111FD8E72592D7BA00A4941F /* base.css in Resources */ = {isa = PBXBuildFile; fileRef = 111FD8E52592D7B900A4941F /* base.css */; };
-		11690ED62599C1C100BAEE4E /* messengersite.css in Resources */ = {isa = PBXBuildFile; fileRef = 11690ED52599C1C100BAEE4E /* messengersite.css */; };
 		11690EDE2599C70100BAEE4E /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 11690EDD2599C70100BAEE4E /* script.js */; };
 		1178A6F7218AEB0C004936DA /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1178A6F6218AEB0C004936DA /* SafariExtensionViewController.xib */; };
+		118C0FA427E5E0F3003ACCB9 /* messengersite.css in Resources */ = {isa = PBXBuildFile; fileRef = 118C0FA227E5E0F3003ACCB9 /* messengersite.css */; };
+		118C0FA527E5E0F3003ACCB9 /* base.css in Resources */ = {isa = PBXBuildFile; fileRef = 118C0FA327E5E0F3003ACCB9 /* base.css */; };
 		11A0A6FB218D6A4B00E79DAF /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11A0A6FA218D6A4B00E79DAF /* Media.xcassets */; };
 		11C46632210E7971003D3CA2 /* MyCustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C46631210E7971003D3CA2 /* MyCustomSegue.swift */; };
 		11C46634210E7A7F003D3CA2 /* MyCustomAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C46633210E7A7F003D3CA2 /* MyCustomAnimator.swift */; };
@@ -50,10 +50,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		111FD8E52592D7B900A4941F /* base.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = base.css; path = "node_modules/@messengerblack/messengerblack-css/base.css"; sourceTree = "<group>"; };
-		11690ED52599C1C100BAEE4E /* messengersite.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = messengersite.css; path = "node_modules/@messengerblack/messengerblack-css/messengersite.css"; sourceTree = "<group>"; };
 		11690EDD2599C70100BAEE4E /* script.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = script.js; path = dist/script.js; sourceTree = "<group>"; };
 		1178A6F6218AEB0C004936DA /* SafariExtensionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SafariExtensionViewController.xib; sourceTree = "<group>"; };
+		118C0FA227E5E0F3003ACCB9 /* messengersite.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = messengersite.css; sourceTree = "<group>"; };
+		118C0FA327E5E0F3003ACCB9 /* base.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = base.css; sourceTree = "<group>"; };
 		11A0A6FA218D6A4B00E79DAF /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		11C46631210E7971003D3CA2 /* MyCustomSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomSegue.swift; sourceTree = "<group>"; };
 		11C46633210E7A7F003D3CA2 /* MyCustomAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomAnimator.swift; sourceTree = "<group>"; };
@@ -92,6 +92,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		118C0FA127E5E0F3003ACCB9 /* styles */ = {
+			isa = PBXGroup;
+			children = (
+				118C0FA227E5E0F3003ACCB9 /* messengersite.css */,
+				118C0FA327E5E0F3003ACCB9 /* base.css */,
+			);
+			name = styles;
+			path = ../../styles;
+			sourceTree = "<group>";
+		};
 		11C639B820F5FE3C0020D4A3 = {
 			isa = PBXGroup;
 			children = (
@@ -142,9 +152,8 @@
 				11C63A342106E7860020D4A3 /* SafariExtensionViewController.swift */,
 				1178A6F6218AEB0C004936DA /* SafariExtensionViewController.xib */,
 				11CDC30C254015CB00196EA6 /* ToolbarItemIcon.pdf */,
+				118C0FA127E5E0F3003ACCB9 /* styles */,
 				11C63A392106E7860020D4A3 /* Info.plist */,
-				111FD8E52592D7B900A4941F /* base.css */,
-				11690ED52599C1C100BAEE4E /* messengersite.css */,
 				11690EDD2599C70100BAEE4E /* script.js */,
 				11A0A6FA218D6A4B00E79DAF /* Media.xcassets */,
 			);
@@ -258,9 +267,9 @@
 			files = (
 				11A0A6FB218D6A4B00E79DAF /* Media.xcassets in Resources */,
 				11690EDE2599C70100BAEE4E /* script.js in Resources */,
-				111FD8E72592D7BA00A4941F /* base.css in Resources */,
+				118C0FA527E5E0F3003ACCB9 /* base.css in Resources */,
+				118C0FA427E5E0F3003ACCB9 /* messengersite.css in Resources */,
 				11CDC30D254015CB00196EA6 /* ToolbarItemIcon.pdf in Resources */,
-				11690ED62599C1C100BAEE4E /* messengersite.css in Resources */,
 				1178A6F7218AEB0C004936DA /* SafariExtensionViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,12 +437,12 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Messenger Black/Messenger Black.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "app/Messenger Black.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 15;
 				DEVELOPMENT_TEAM = XX2UC95MTQ;
-				INFOPLIST_FILE = "Messenger Black/Info.plist";
+				INFOPLIST_FILE = app/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -450,12 +459,12 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Messenger Black/Messenger Black.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "app/Messenger Black.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 15;
 				DEVELOPMENT_TEAM = XX2UC95MTQ;
-				INFOPLIST_FILE = "Messenger Black/Info.plist";
+				INFOPLIST_FILE = app/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -470,11 +479,11 @@
 		11C63A422106E7870020D4A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "Messenger Black for Safari/Messenger Black for Safari.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "extension/Messenger Black for Safari.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 15;
 				DEVELOPMENT_TEAM = XX2UC95MTQ;
-				INFOPLIST_FILE = "Messenger Black for Safari/Info.plist";
+				INFOPLIST_FILE = extension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -491,11 +500,11 @@
 		11C63A432106E7870020D4A3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "Messenger Black for Safari/Messenger Black for Safari.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "extension/Messenger Black for Safari.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 15;
 				DEVELOPMENT_TEAM = XX2UC95MTQ;
-				INFOPLIST_FILE = "Messenger Black for Safari/Info.plist";
+				INFOPLIST_FILE = extension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
