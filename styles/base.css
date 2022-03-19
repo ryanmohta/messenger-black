@@ -1,0 +1,12 @@
+html.__fb-dark-mode .hop1g133 .hybvsw6c, html.__fb-dark-mode .nred35xi {
+  --surface-background: #18191A !important;
+  --messenger-card-background: #18191A !important;
+}
+
+html.__fb-dark-mode .oo9gr5id {
+  --primary-text: #E4E6EB !important;
+}
+
+html:not(.__fb-dark-mode) .oo9gr5id {
+  --primary-text: #050505 !important;
+}
