@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.21",
+    "axios": "^0.26",
     "dotenv-webpack": "^7.0",
     "suncalc": "^1.8",
     "webpack": "^5.51",
