@@ -1,0 +1,191 @@
+html {
+  width: 240px;
+  height: 240px;
+}
+
+body {
+  margin: 0px;
+  width: 240px;
+  height: 240px;
+  background-color: rgba(0, 0, 0, 0.85);
+  color: rgba(255, 255, 255, 0.85);
+  font-family: "SF Pro Text", Helvetica, sans-serif;
+  font-size: 13px;
+  letter-spacing: -0.006em;
+}
+
+.fixed {
+  position: fixed;
+  padding: 0px;
+  margin: 0px;
+}
+
+.absolute {
+  position: absolute;
+  padding: 0px;
+  margin: 0px;
+}
+
+h1 {
+  color: white;
+  font-family: "SF Pro Display", Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.019em;
+}
+
+h6 {
+  margin: 0px;
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 0.012em;
+  color: gray;
+}
+
+#logo {
+  left: 26px;
+  top: 22px;
+  width: 22px;
+}
+
+#title {
+  right: 26px;
+  top: 18px;
+}
+
+.radio-div {
+  left: 18px;
+}
+
+.radio-button {
+  margin: 0px 7px 0px 0px;
+}
+
+.radio-text {
+  position: relative;
+  top: 1px;
+}
+
+#manual-div {
+  top: 63px;
+}
+
+.switch {
+  position: absolute;
+  width: 39px;
+  height: 24px;
+  left: 162px;
+  top: -2px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.2);
+  transition: .2s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  transition: .2s;
+}
+
+input:checked + .slider {
+  background-color: rgb(75, 204, 31);
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  transform: translateX(15px);
+}
+
+input:disabled + .slider {
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor: not-allowed;
+}
+
+input:disabled + .slider:before {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.slider.round {
+  border-radius: 24px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+#scheduled-div {
+  top: 91px;
+}
+
+.scheduled-div {
+  position: absolute;
+  left: 21px;
+  transition: .2s;
+}
+
+.scheduled-div.disabled, .time-picker:disabled {
+  color: rgba(255, 255, 255, 0.3);
+  cursor: not-allowed;
+}
+
+#startTime-div {
+  top: 25px;
+}
+
+#endTime-div {
+  top: 50px;
+}
+
+.time-picker {
+  position: absolute;
+  left: 42px;
+  top: -1px;
+
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: rgba(255, 255, 255, 0.85);
+  font-family: "SF Pro Text", Helvetica, sans-serif;
+  font-size: 13px;
+  letter-spacing: -0.006em;
+  transition: .2s;
+}
+
+.time-picker::-webkit-clear-button {
+  -webkit-appearance: none;
+}
+
+#sunsetToSunrise-div {
+  bottom: 49px;
+}
+
+#copyright {
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+body.preload *, body.preload .slider:before {
+  transition: none;
+}
