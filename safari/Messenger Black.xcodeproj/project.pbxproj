@@ -95,8 +95,8 @@
 		11C639B820F5FE3C0020D4A3 = {
 			isa = PBXGroup;
 			children = (
-				11C639C320F5FE3C0020D4A3 /* Messenger Black */,
-				11C63A312106E7860020D4A3 /* Messenger Black for Safari */,
+				11C639C320F5FE3C0020D4A3 /* app */,
+				11C63A312106E7860020D4A3 /* extension */,
 				11C639D920F5FF4F0020D4A3 /* Frameworks */,
 				11C639C220F5FE3C0020D4A3 /* Products */,
 			);
@@ -111,7 +111,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		11C639C320F5FE3C0020D4A3 /* Messenger Black */ = {
+		11C639C320F5FE3C0020D4A3 /* app */ = {
 			isa = PBXGroup;
 			children = (
 				11FF9CBF22FEB4D1007F9879 /* Messenger Black.entitlements */,
@@ -123,7 +123,7 @@
 				11C46631210E7971003D3CA2 /* MyCustomSegue.swift */,
 				11C46633210E7A7F003D3CA2 /* MyCustomAnimator.swift */,
 			);
-			path = "Messenger Black";
+			path = app;
 			sourceTree = "<group>";
 		};
 		11C639D920F5FF4F0020D4A3 /* Frameworks */ = {
@@ -134,7 +134,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		11C63A312106E7860020D4A3 /* Messenger Black for Safari */ = {
+		11C63A312106E7860020D4A3 /* extension */ = {
 			isa = PBXGroup;
 			children = (
 				11FF9CC022FEB760007F9879 /* Messenger Black for Safari.entitlements */,
@@ -148,7 +148,7 @@
 				11690EDD2599C70100BAEE4E /* script.js */,
 				11A0A6FA218D6A4B00E79DAF /* Media.xcassets */,
 			);
-			path = "Messenger Black for Safari";
+			path = extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
