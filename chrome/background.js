@@ -26,15 +26,15 @@ chrome.extension.onMessage.addListener(
         // Check if extension is run on facebook.com
         if (url.includes('facebook.com')) {
           chrome.tabs.insertCSS(tabs[0].id, {
-            file: "node_modules/@messengerblack/messengerblack-css/base.css"
+            file: "/dist/styles/base.css"
           });
         } // Check if extension is run on messenger.com
         else if (url.includes('messenger.com')) {
           chrome.tabs.insertCSS(tabs[0].id, {
-            file: "node_modules/@messengerblack/messengerblack-css/base.css"
+            file: "/dist/styles/base.css"
           });
           chrome.tabs.insertCSS(tabs[0].id, {
-            file: "node_modules/@messengerblack/messengerblack-css/messengersite.css"
+            file: "/dist/styles/messengersite.css"
           });
         }
       });

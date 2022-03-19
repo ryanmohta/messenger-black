@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.26",
+    "copy-webpack-plugin": "^10.2.4",
     "dotenv-webpack": "^7.0",
     "suncalc": "^1.8",
     "webpack": "^5.51",
