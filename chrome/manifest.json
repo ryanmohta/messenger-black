@@ -3,7 +3,7 @@
     "short_name": "Messenger Black",
     "version": "1.4",
     "description": "Scheduled Dark Mode for Facebook Messenger, now including Sunset to Sunrise controls.",
-    "permissions": ["storage", "tabs", "https://*.messenger.com/*", "https://*.facebook.com/*"],
+    "permissions": ["storage", "tabs", "https://*.messenger.com/*"],
 
     "background": {
       "scripts": ["dist/background.js"]
@@ -11,7 +11,8 @@
 
     "content_scripts": [{
       "js": ["dist/script.js"],
-      "matches": ["https://*.messenger.com/*", "https://*.facebook.com/*"],
+      "css": ["dist/styles.css"],
+      "matches": ["https://*.messenger.com/*"],
       "run_at": "document_start"
     }],
 

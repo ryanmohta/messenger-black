@@ -19,25 +19,6 @@ chrome.extension.onMessage.addListener(
   function(request, sender, sendResponse) {
     if (request.message === "activate_icon") {
       chrome.pageAction.show(sender.tab.id);
-
-      chrome.tabs.query({active: true, lastFocusedWindow: true}, tabs => {
-        let url = tabs[0].url;
-
-        // Check if extension is run on facebook.com
-        if (url.includes('facebook.com')) {
-          chrome.tabs.insertCSS(tabs[0].id, {
-            file: "/dist/styles/base.css"
-          });
-        } // Check if extension is run on messenger.com
-        else if (url.includes('messenger.com')) {
-          chrome.tabs.insertCSS(tabs[0].id, {
-            file: "/dist/styles/base.css"
-          });
-          chrome.tabs.insertCSS(tabs[0].id, {
-            file: "/dist/styles/messengersite.css"
-          });
-        }
-      });
     }
   }
 );
