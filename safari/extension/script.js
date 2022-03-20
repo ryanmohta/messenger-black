@@ -95,8 +95,10 @@ function scheduledTimer(startTimeHour, startTimeMinute, endTimeHour, endTimeMinu
 
 function enableDarkMode() {
   document.documentElement.classList.add("__fb-dark-mode");
+  document.documentElement.classList.remove("__fb-light-mode");
 }
 
 function disableDarkMode() {
   document.documentElement.classList.remove("__fb-dark-mode");
+  document.documentElement.classList.add("__fb-light-mode");
 }
