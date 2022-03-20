@@ -10,3 +10,11 @@ html.__fb-dark-mode .oo9gr5id {
 html:not(.__fb-dark-mode) .oo9gr5id {
   --primary-text: #050505 !important;
 }
+
+.__fb-dark-mode {
+  --header-height: 0px !important;
+}
+
+.__fb-dark-mode svg.hwsy1cff, .__fb-dark-mode svg.a8c37x1j {
+  fill: white !important;
+}
