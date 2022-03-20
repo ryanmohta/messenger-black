@@ -43,18 +43,9 @@
 				<key>Allowed URL Patterns</key>
 				<array>
 					<string>https://*.messenger.com/*</string>
-					<string>https://*.facebook.com/*</string>
 				</array>
 				<key>Style Sheet</key>
-				<string>base.css</string>
-			</dict>
-			<dict>
-				<key>Allowed URL Patterns</key>
-				<array>
-					<string>https://*.messenger.com/*</string>
-				</array>
-				<key>Style Sheet</key>
-				<string>messengersite.css</string>
+				<string>styles.css</string>
 			</dict>
 		</array>
 		<key>SFSafariToolbarItem</key>
@@ -73,7 +64,6 @@
 			<key>Allowed Domains</key>
 			<array>
 				<string>*.messenger.com</string>
-				<string>*.facebook.com</string>
 			</array>
 			<key>Level</key>
 			<string>Some</string>
