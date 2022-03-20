@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		11690EDE2599C70100BAEE4E /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 11690EDD2599C70100BAEE4E /* script.js */; };
 		1178A6F7218AEB0C004936DA /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1178A6F6218AEB0C004936DA /* SafariExtensionViewController.xib */; };
-		118C0FA427E5E0F3003ACCB9 /* messengersite.css in Resources */ = {isa = PBXBuildFile; fileRef = 118C0FA227E5E0F3003ACCB9 /* messengersite.css */; };
-		118C0FA527E5E0F3003ACCB9 /* base.css in Resources */ = {isa = PBXBuildFile; fileRef = 118C0FA327E5E0F3003ACCB9 /* base.css */; };
 		11A0A6FB218D6A4B00E79DAF /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11A0A6FA218D6A4B00E79DAF /* Media.xcassets */; };
 		11C46632210E7971003D3CA2 /* MyCustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C46631210E7971003D3CA2 /* MyCustomSegue.swift */; };
 		11C46634210E7A7F003D3CA2 /* MyCustomAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C46633210E7A7F003D3CA2 /* MyCustomAnimator.swift */; };
@@ -52,8 +50,6 @@
 /* Begin PBXFileReference section */
 		11690EDD2599C70100BAEE4E /* script.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = script.js; path = dist/script.js; sourceTree = "<group>"; };
 		1178A6F6218AEB0C004936DA /* SafariExtensionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SafariExtensionViewController.xib; sourceTree = "<group>"; };
-		118C0FA227E5E0F3003ACCB9 /* messengersite.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = messengersite.css; sourceTree = "<group>"; };
-		118C0FA327E5E0F3003ACCB9 /* base.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = base.css; sourceTree = "<group>"; };
 		11A0A6FA218D6A4B00E79DAF /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		11C46631210E7971003D3CA2 /* MyCustomSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomSegue.swift; sourceTree = "<group>"; };
 		11C46633210E7A7F003D3CA2 /* MyCustomAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomAnimator.swift; sourceTree = "<group>"; };
@@ -92,16 +88,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		118C0FA127E5E0F3003ACCB9 /* styles */ = {
-			isa = PBXGroup;
-			children = (
-				118C0FA227E5E0F3003ACCB9 /* messengersite.css */,
-				118C0FA327E5E0F3003ACCB9 /* base.css */,
-			);
-			name = styles;
-			path = ../../styles;
-			sourceTree = "<group>";
-		};
 		11C639B820F5FE3C0020D4A3 = {
 			isa = PBXGroup;
 			children = (
@@ -152,7 +138,6 @@
 				11C63A342106E7860020D4A3 /* SafariExtensionViewController.swift */,
 				1178A6F6218AEB0C004936DA /* SafariExtensionViewController.xib */,
 				11CDC30C254015CB00196EA6 /* ToolbarItemIcon.pdf */,
-				118C0FA127E5E0F3003ACCB9 /* styles */,
 				11C63A392106E7860020D4A3 /* Info.plist */,
 				11690EDD2599C70100BAEE4E /* script.js */,
 				11A0A6FA218D6A4B00E79DAF /* Media.xcassets */,
@@ -267,8 +252,6 @@
 			files = (
 				11A0A6FB218D6A4B00E79DAF /* Media.xcassets in Resources */,
 				11690EDE2599C70100BAEE4E /* script.js in Resources */,
-				118C0FA527E5E0F3003ACCB9 /* base.css in Resources */,
-				118C0FA427E5E0F3003ACCB9 /* messengersite.css in Resources */,
 				11CDC30D254015CB00196EA6 /* ToolbarItemIcon.pdf in Resources */,
 				1178A6F7218AEB0C004936DA /* SafariExtensionViewController.xib in Resources */,
 			);
