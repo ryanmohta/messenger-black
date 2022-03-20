@@ -1,6 +1,6 @@
 # Dim the lights.
 
-![Hero image displaying Messenger Black running on a MacBook Pro](/readme-images/hero.png)
+![hero](https://user-images.githubusercontent.com/19882060/159149694-c0455a83-2627-4a3e-846a-b877480b177d.png)
 
 Embrace your dark side with Messenger Black, a dramatic new look for Facebook Messenger. Flip the switch and watch the background dim and your messages take center stage, becoming more vivid and easy on the eyes. And now with Scheduled and Sunset to Sunrise modes, you can tune your messaging experience to the sun's natural rhythm.
 
@@ -26,7 +26,7 @@ Messenger Black features three modes designed to help you get the most out of Da
 
 Each of these features can be enabled or disabled from a convenient control panel in the Safari toolbar.
 
-![Image displaying Messenger Black's Scheduling functionality](/readme-images/scheduling.png)
+![scheduling](https://user-images.githubusercontent.com/19882060/159149701-aa66f936-e20e-47e1-abb1-30971f20d20b.png)
 
 ## Technology Stack
 - **Languages:** Swift, CSS, JavaScript
