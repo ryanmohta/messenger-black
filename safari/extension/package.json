@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "suncalc": "^1.8",
-    "webpack": "^5.51",
-    "webpack-cli": "^4.8"
+    "webpack": "^5.74",
+    "webpack-cli": "^4.10"
   }
 }

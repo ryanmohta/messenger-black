@@ -9,12 +9,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.26",
+    "axios": "^0.27",
     "css-loader": "^6.7.1",
-    "dotenv-webpack": "^7.0",
-    "mini-css-extract-plugin": "^2.6.0",
+    "dotenv-webpack": "^8.0",
+    "mini-css-extract-plugin": "^2.6",
     "suncalc": "^1.8",
-    "webpack": "^5.51",
-    "webpack-cli": "^4.8"
+    "webpack": "^5.74",
+    "webpack-cli": "^4.10"
   }
 }
